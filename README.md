@@ -94,9 +94,10 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 492 | Senior Design Project II |
 | STAT 330 | Probablity and Statistics for Computer Science |
 
+
 <details>
-<summary><b>LONG READ</b></summary>
-### Classes Included
+<summary><b>Classes Included</b></summary>
+
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | CPRE 281 | Digital Logic |
