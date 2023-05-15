@@ -1,0 +1,123 @@
+Index: gitlab-ci.yml
+===================================================================
+diff --git a/gitlab-ci.yml b/gitlab-ci.yml
+deleted file mode 100644
+--- a/gitlab-ci.yml	
++++ /dev/null	
+@@ -1,116 +0,0 @@
+-application: reline
+-version: 0.0.1-alpha
+-runtime:
+-api_version: 1
+-threadsafe: yes
+-
+-variables:
+-  MAVEN_OPTS: "-Dhttps.protocols=TLSv1.2 -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true"
+-
+-  MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true"
+-
+-image: maven:3.3.9-jdk-8
+-
+-cache:
+-  paths:
+-    - .m2/repository
+-
+-.verify: &verify
+-  stage: test
+-  script:
+-    - 'mvn $MAVEN_CLI_OPTS verify'
+-  except:
+-    variables:
+-      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+-
+-verify:jdk8:
+-  <<: *verify
+-
+-deploy:jdk8:
+-  stage: deploy
+-  script:
+-    - if [ ! -f ci_settings.xml ];
+-      then echo "CI settings missing\! If deploying to GitLab Maven Repository, please see https://docs.gitlab.com/ee/user/packages/maven_repository/index.html#create-maven-packages-with-gitlab-cicd for instructions.";
+-      fi
+-    - 'mvn $MAVEN_CLI_OPTS deploy -s ci_settings.xml'
+-  only:
+-    variables:
+-      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+-
+-  package:
+-    script:
+-      - 'mvn --no-transfer-progress -f /Backend/reline/pom.xml package'
+-      - 'mvn -s ci_settings.xml package'
+-
+-  stages:
+-    - mavenBuild
+-    - mavenTest
+-    - test
+-    - deploy
+-    - mavenDeploy
+-
+-  maven-build:  #Job
+-    stage: mavenBuild
+-    tags:
+-      - first-springboot_tag
+-    script:
+-      - cd /springboot/3_sc_1/Backend/reline/target
+-      - mvn package -B
+-      - echo "building project..."
+-
+-  maven-test:   #Job
+-    stage: mavenTest
+-    tags:
+-       - first-springboot_tag
+-    script:
+-       - cd /springboot/3_sc_1/Backend/reline/target
+-       - mvn test
+-       - echo "running test stage"
+-    artifacts:
+-      paths:
+-        - Backend/reline/target/*.
+-
+-  autoDeploy:   #Job
+-    stage: mavenDeploy  #do make a stage with same name!
+-    tags:
+-      - first_springboot_tag
+-    script:
+-      - cd /springboot/3_sc_1/Backend/reline/target
+-      - mvn package
+-      - sudo mv target/*.jar /target/reline-0.0.1-SNAPSHOT.jar
+-      - sudo systemctl stop reline-0.0.1-SNAPSHOT #system-web-demo
+-      - sudo systemctl start reline-0.0.1-SNAPSHOT #system-web-demo
+-      - echo "The Deployment is Complete"
+-
+-  #deploy:
+-  #image: maven:3.6-jdk-11
+-  #script:
+-  #  - 'mvn deploy -s ci_settings.xml'
+-  #only:
+-  #  - main
+-
+-
+-# Example  .gitlab-ci.yml file
+-#stages:
+-#  - maventry
+-#  - androidtry
+-
+-#maven-build:   #this is a JOB
+-#  stage: maventry
+-#  tags:
+-#    - springboot_tag  # this is LINK to the shell runner on the remote-server
+-#  script:
+-#    - cd Backend
+-#    - mvn package
+-
+-#android-build: #this is another job
+-#  image: javiersantos/android-ci:latest      # this is a directive to DOCKER
+-#  stage: androidtry
+-#  tags:
+-#    - android_tag         #this is LINK to the docker runner on the remote-server
+-#  before_script:
+-#    - export GRADLE_USER_HOME=`pwd`/.gradle
+-#    - chmod +x ./Frontend/gradlew
+-#  script:
+-#    - cd Frontend
+-#    - ./gradlew assemble

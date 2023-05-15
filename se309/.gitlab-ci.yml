@@ -1,0 +1,134 @@
+#application: reline
+#version: 0.0.1-alpha
+#runtime:
+#api_version: 1
+#threadsafe: yes
+
+stages:
+  - mavenBuild
+  #- androidBuild
+  - mavenTest
+  #- androidTest
+  #    - test
+  #    - deploy
+  - mavenDeploy
+  #- android-build
+  #- androidTest
+
+maven-build:  #Job
+  stage: mavenBuild
+  tags:
+    - first-springboot_tag
+  script:
+    - cd /springboot/3_sc_1/Backend/reline/
+    - sudo mvn package
+    - echo "building project..."
+
+#android-build: #this is another job
+#  image: javiersantos/android-ci:latest      # this is a directive to DOCKER
+#  stage: androidBuild
+#  tags:
+#    - first-android_tag         #this is LINK to the docker runner on the remote-server
+#  before_script:
+#    - export GRADLE_USER_HOME=`pwd`/.gradle
+#    - chmod +x ./Frontend/demo2/gradlew
+#  script:
+#    - cd Frontend/demo2
+#    - ./gradlew build
+#  artifacts:
+#    paths:
+#      - app/build/outputs/ #Android_test/app/build/outputs/
+
+maven-test:   #Job
+  stage: mavenTest
+  tags:
+    - first-springboot_tag
+  script:
+    - cd /springboot/3_sc_1/Backend/reline/
+    - sudo mvn test
+    - echo "running test stage"
+  artifacts:
+    paths:
+      - Backend/reline/target/*.
+
+#android-test:
+#  image: javiersantos/android-ci:latest
+#  stage: androidTest
+#  before_script:
+#    - export GRADLE_USER_HOME=`pwd`/.gradle
+#    - chmod +x ./springboot/3_sc_1/Frontend/demo2/gradlew
+#  tags:
+#    - first-android_tag
+#  script:
+#    - cd /springboot/3_sc_1/Frontend/demo2/
+#    - ./gradlew test
+
+autoDeploy:   #Job
+  stage: mavenDeploy  #do make a stage with same name!
+  tags:
+    - first-springboot_tag
+  script:
+    - cd /springboot/3_sc_1/Backend/reline/
+    - sudo mvn clean
+    - sudo mvn package
+    - sudo systemctl stop system-web-demo #system-web-demo
+    - sudo systemctl start system-web-demo #system-web-demo
+    - sudo mv target/*.jar /target/web-demo.jar
+    #- nohup java -jar reline-0.0.1-SNAPSHOT.jar &
+    - echo "The Deployment is Complete"
+
+
+# android-build:
+#     image: gjandres/android-ci:latest
+#     stage: android-build
+#     before_script:
+#         - export GRADLE_USER_HOME='pwd'/.gradle
+#     tags:
+#         - first-android_tag
+#     script:
+#         - pwd
+#         - cd /
+#         - pwd
+#         - cd springboot/
+#         - pwd
+#         - chmod +x ./gradlew
+#         - ./gradlew build
+#     artifacts:
+#         paths:
+#         - Frontend/demo2/app/build/outputs/
+#     only:
+#         refs:
+#         - main
+
+#deploy:
+#image: maven:3.6-jdk-11
+#script:
+#  - 'mvn deploy -s ci_settings.xml'
+#only:
+#  - main
+
+
+# Example  .gitlab-ci.yml file
+#stages:
+#  - maventry
+#  - androidtry
+
+#maven-build:   #this is a JOB
+#  stage: maventry
+#  tags:
+#    - springboot_tag  # this is LINK to the shell runner on the remote-server
+#  script:
+#    - cd Backend
+#    - mvn package
+
+#android-build: #this is another job
+#  image: javiersantos/android-ci:latest      # this is a directive to DOCKER
+#  stage: androidtry
+#  tags:
+#    - android_tag         #this is LINK to the docker runner on the remote-server
+#  before_script:
+#    - export GRADLE_USER_HOME=`pwd`/.gradle
+#    - chmod +x ./Frontend/gradlew
+#  script:
+#    - cd Frontend
+#    - ./gradlew assemble

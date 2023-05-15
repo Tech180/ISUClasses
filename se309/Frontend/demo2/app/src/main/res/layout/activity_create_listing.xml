@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    layout_width="match_parent"
+    layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateListing">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat3"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:translationX="20sp"
+        android:translationY="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15sp"
+            android:text="Title:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/listingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Title" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat2"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:translationX="20sp"
+        android:translationY="140sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat3"
+        app:layout_constraintVertical_bias="0.032">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15sp"
+            android:text="Price:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/listingPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:text="0.0" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="20sp"
+        android:translationY="200sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat2"
+        app:layout_constraintVertical_bias="0.04">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15sp"
+            android:text="Description:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/listingDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:ems="20"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:minHeight="100dp"
+            android:scrollbars="vertical"
+            android:text="Description" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <Button
+        android:id="@+id/postListingButton"
+        android:layout_width="115dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="148dp"
+        android:text="POST"
+        android:textSize="20dp"
+        android:translationX="150sp"
+        android:translationY="250sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/bottom_nav_menu"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent"
+            app:elevation="0dp">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_add_listing"
+        app:layout_anchor="@id/bottomAppBar"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

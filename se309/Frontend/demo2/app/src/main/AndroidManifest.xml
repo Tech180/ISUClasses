@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Reline"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Trade"
+            android:exported="true" />
+        <activity
+            android:name=".Transactions"
+            android:exported="true" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true"
+            android:label="@string/title_activity_search"
+            android:theme="@style/Theme.Reline.NoActionBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileViewMode"
+            android:exported="true" />
+        <activity
+            android:name=".ViewListingEMode"
+            android:exported="true" />
+        <activity
+            android:name=".ViewListingVMode"
+            android:exported="true" />
+        <activity
+            android:name=".CreateListing"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Reline.NoActionBar" />
+        <activity
+            android:name=".Balance"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Success"
+            android:exported="true" />
+        <!--
+<activity
+            android:name=".activity_login_page"
+            android:exported="true"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/Theme.Reline.NoActionBar" />
+        -->
+        <activity
+            android:name=".list_row"
+            android:exported="true" />
+        <activity
+            android:name=".activity_json"
+            android:exported="true" />
+        <activity
+            android:name=".activity_image"
+            android:exported="true" />
+        <activity
+            android:name=".activity_string"
+            android:exported="true" />
+        <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

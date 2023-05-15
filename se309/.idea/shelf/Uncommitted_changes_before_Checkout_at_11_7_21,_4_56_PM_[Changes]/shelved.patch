@@ -1,0 +1,277 @@
+Index: Backend/reline/src/test/java/reline/UserServiceTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reline;\n\nimport org.aspectj.lang.annotation.Before;\n//import org.junit.Before;\n//import org.junit.Test;\nimport org.mockito.ArgumentCaptor;\nimport org.mockito.InOrder;\nimport org.mockito.Mock;\nimport org.testng.annotations.Test;\nimport reline.users.PasswordEncoder;\nimport reline.users.User;\nimport reline.users.UserRepository;\nimport reline.users.UserService;\n\n//import static org.junit.Assert.*;\nimport static org.junit.jupiter.api.Assertions.*;\nimport static org.mockito.ArgumentMatchers.anyString;\nimport static org.mockito.Mockito.*;\n/*\n    public class UserServiceTest {\n\n        private static final String PASSWORD = \"password\";\n\n        //private static final String BALANCE = \"balance\";\n        //private static final User ENABLED_USER = new User(\"user id\", \"hash\", true);\n        private static final User ENABLED_USER = new User(\"username\", \"name\", \"email\", \"password\");\n        //private static final User DISABLED_USER = new User(\"disabled user id\", \"disabled user password hash\", false);\n        private static final User DISABLED_USER = new User(\"disabled username\", \"disabled name\", \"disabled email\", \"disabled user password\");\n\n        @Mock\n        private UserRepository userRepository;\n\n        @Mock\n        private PasswordEncoder passwordEncoder;\n\n        @Mock\n        private UserService userService;\n\n        //@Before //(\"\")\n        public void setup() {\n            userRepository = createUserRepository();\n            passwordEncoder = createPasswordEncoder();\n            userService = new UserService(userRepository, passwordEncoder);\n        }\n\n        @Test\n        public void shouldBeValidForValidCredentials() {\n            boolean userIsValid = userService.isValidUser(Integer.toString(ENABLED_USER.getId()), PASSWORD);\n            assertTrue(userIsValid);\n\n            //id=\"user id\"\n            verify(userRepository).findById(ENABLED_USER.getId());\n\n            verify(passwordEncoder).encode(PASSWORD);\n        }\n\n        @Test\n        public void shouldBeInvalidForInvalidId() {\n            boolean userIsValid = userService.isValidUser(\"invalid id\", PASSWORD);\n            assertFalse(userIsValid);\n\n            InOrder inOrder = inOrder(userRepository, passwordEncoder);\n            inOrder.verify(userRepository).findById(Integer.valueOf(\"invalid id\"));\n            inOrder.verify(passwordEncoder, never()).encode(anyString());\n        }\n\n        @Test\n        public void shouldBeInvalidForInvalidPassword() {\n            boolean userIsValid = userService.isValidUser(Integer.toString(ENABLED_USER.getId()), \"invalid\");\n            assertFalse(userIsValid);\n\n            ArgumentCaptor<String> passwordCaptor = ArgumentCaptor.forClass(String.class);\n            verify(passwordEncoder).encode(passwordCaptor.capture());\n            assertEquals(\"invalid\", passwordCaptor.getValue());\n        }\n\n\n        @Test\n        public void shouldBeInvalidForDisabledUser() {\n            boolean userIsValid = userService.isValidUser(Integer.toString(DISABLED_USER.getId()), PASSWORD);\n            assertFalse(userIsValid);\n\n            verify(userRepository).findById(DISABLED_USER.getId());\n            //verifyZeroInteractions(passwordEncoder);\n        }\n\n\n        /*\n        public void shouldBeValidForValidBalance() {\n            boolean balanceIsValid = userService.isValidBalance(Integer.toString(ENABLED_USER.getId()), \"invalid\");\n            assertFalse(balanceIsValid);\n\n            ArgumentCaptor<String> balanceCaptor = ArgumentCaptor.forClass(String.class);\n            //verify(passwordEncoder).encode(passwordCaptor.capture());\n            assertEquals(\"invalid\", balanceCaptor.getValue());\n        }\n         */\n/*\n        private PasswordEncoder createPasswordEncoder() {\n            PasswordEncoder mock = mock(PasswordEncoder.class);\n            when(mock.encode(anyString())).thenReturn(\"any password hash\");\n            when(mock.encode(PASSWORD)).thenReturn(ENABLED_USER.getPassword());\n            return mock;\n        }\n\n        private UserRepository createUserRepository() {\n            UserRepository mock = mock(UserRepository.class);\n            when(mock.findById(ENABLED_USER.getId())).thenReturn(java.util.Optional.of(ENABLED_USER));\n            when(mock.findById(DISABLED_USER.getId())).thenReturn(java.util.Optional.of(DISABLED_USER));\n            return mock;\n        }\n}\n*/\n
+===================================================================
+diff --git a/Backend/reline/src/test/java/reline/UserServiceTest.java b/Backend/reline/src/test/java/reline/UserServiceTest.java
+--- a/Backend/reline/src/test/java/reline/UserServiceTest.java	
++++ b/Backend/reline/src/test/java/reline/UserServiceTest.java	
+@@ -16,7 +16,7 @@
+ import static org.junit.jupiter.api.Assertions.*;
+ import static org.mockito.ArgumentMatchers.anyString;
+ import static org.mockito.Mockito.*;
+-/*
++
+     public class UserServiceTest {
+ 
+         private static final String PASSWORD = "password";
+@@ -95,7 +95,7 @@
+             assertEquals("invalid", balanceCaptor.getValue());
+         }
+          */
+-/*
++
+         private PasswordEncoder createPasswordEncoder() {
+             PasswordEncoder mock = mock(PasswordEncoder.class);
+             when(mock.encode(anyString())).thenReturn("any password hash");
+@@ -110,4 +110,4 @@
+             return mock;
+         }
+ }
+-*/
++
+Index: .gitlab-ci.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#application: reline\n#version: 0.0.1-alpha\n#runtime:\n#api_version: 1\n#threadsafe: yes\n\n#variables:\n#  MAVEN_OPTS: \"-Dhttps.protocols=TLSv1.2 -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.#maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true\"\n\n#  MAVEN_CLI_OPTS: \"--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true\"\n\n#image: maven:3.3.9-jdk-8\n\n#cache:\n#  paths:\n#    - .m2/repository\n\n#.verify: &verify\n#  stage: test\n#  script:\n#    - 'mvn $MAVEN_CLI_OPTS verify'\n#  except:\n#    variables:\n#      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n\n#verify:jdk8:\n#  <<: *verify\n\n#deploy:jdk8:\n#  stage: deploy\n#  script:\n#    - if [ ! -f ci_settings.xml ];\n#      then echo \"CI settings missing\\! If deploying to GitLab Maven Repository, please see https://docs.gitlab.com/ee/user/packages/maven_repository/index.html#create-maven-packages-with-gitlab-cicd for instructions.\";\n#      fi\n#    - 'mvn $MAVEN_CLI_OPTS deploy -s ci_settings.xml'\n#  only:\n#    variables:\n#      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n\n#  package:\n#    script:\n#      - 'mvn --no-transfer-progress -f /Backend/reline/pom.xml package'\n#      - 'mvn -s ci_settings.xml package'\n\n  stages:\n    - mavenBuild\n    - mavenTest\n#    - test\n#    - deploy\n    - mavenDeploy\n\n  maven-build:  #Job\n    stage: mavenBuild\n    tags:\n      - first-springboot_tag\n    script:\n      - cd /springboot/3_sc_1/Backend/reline/\n      - mvn clean\n      - mvn package\n      - echo \"building project...\"\n\n  maven-test:   #Job\n    stage: mavenTest\n    tags:\n       - first-springboot_tag\n    script:\n       - cd /springboot/3_sc_1/Backend/reline/\n       - mvn test\n       - echo \"running test stage\"\n    artifacts:\n      paths:\n        - Backend/reline/target/*.\n\n  autoDeploy:   #Job\n    stage: mavenDeploy  #do make a stage with same name!\n    tags:\n      - first_springboot_tag\n    script:\n      - cd /springboot/3_sc_1/Backend/reline\n      - mvn package\n      - sudo mv target/*.jar /target/reline-0.0.1-SNAPSHOT.jar\n      - sudo systemctl stop reline-0.0.1-SNAPSHOT.jar\n      - sudo systemctl start reline-0.0.1-SNAPSHOT.jar\n\n\n  #deploy:\n  #image: maven:3.6-jdk-11\n  #script:\n  #  - 'mvn deploy -s ci_settings.xml'\n  #only:\n  #  - main\n\n\n# Example  .gitlab-ci.yml file\n#stages:\n#  - maventry\n#  - androidtry\n\n#maven-build:   #this is a JOB\n#  stage: maventry\n#  tags:\n#    - springboot_tag  # this is LINK to the shell runner on the remote-server\n#  script:\n#    - cd Backend\n#    - mvn package\n\n#android-build: #this is another job\n#  image: javiersantos/android-ci:latest      # this is a directive to DOCKER\n#  stage: androidtry\n#  tags:\n#    - android_tag         #this is LINK to the docker runner on the remote-server\n#  before_script:\n#    - export GRADLE_USER_HOME=`pwd`/.gradle\n#    - chmod +x ./Frontend/gradlew\n#  script:\n#    - cd Frontend\n#    - ./gradlew assemble\n
+===================================================================
+diff --git a/.gitlab-ci.yml b/.gitlab-ci.yml
+--- a/.gitlab-ci.yml	
++++ b/.gitlab-ci.yml	
+@@ -42,53 +42,83 @@
+ #      - 'mvn --no-transfer-progress -f /Backend/reline/pom.xml package'
+ #      - 'mvn -s ci_settings.xml package'
+ 
+-  stages:
+-    - mavenBuild
+-    - mavenTest
+-#    - test
+-#    - deploy
+-    - mavenDeploy
++stages:
++  - mavenBuild
++  - androidBuild
++  - mavenTest
++  #    - test
++  #    - deploy
++  - mavenDeploy
+ 
+-  maven-build:  #Job
+-    stage: mavenBuild
+-    tags:
+-      - first-springboot_tag
+-    script:
+-      - cd /springboot/3_sc_1/Backend/reline/
+-      - mvn clean
+-      - mvn package
+-      - echo "building project..."
++maven-build:  #Job
++  stage: mavenBuild
++  tags:
++    - first-springboot_tag
++  script:
++    - cd /springboot/3_sc_1/Backend/reline/
++    - mvn package
++    - echo "building project..."
+ 
+-  maven-test:   #Job
+-    stage: mavenTest
+-    tags:
+-       - first-springboot_tag
+-    script:
+-       - cd /springboot/3_sc_1/Backend/reline/
+-       - mvn test
+-       - echo "running test stage"
+-    artifacts:
+-      paths:
+-        - Backend/reline/target/*.
++android-build: #this is another job
++  image: javiersantos/android-ci:latest      # this is a directive to DOCKER
++  stage: androidBuild
++  tags:
++    - first-android_tag         #this is LINK to the docker runner on the remote-server
++  before_script:
++    - export GRADLE_USER_HOME=`pwd`/.gradle
++    - chmod +x ./springboot/3_sc_1/Frontend/demo2/gradlew
++  script:
++    - cd /springboot/3_sc_1/Frontend/demo2/
++    - ./gradlew assemble
++  artifacts:
++    paths:
++      - app/build/outputs/ #Android_test/app/build/outputs/
++
++maven-test:   #Job
++  stage: mavenTest
++  tags:
++    - first-springboot_tag
++  script:
++    - cd /springboot/3_sc_1/Backend/reline/
++    - mvn test
++    - echo "running test stage"
++  artifacts:
++    paths:
++      - Backend/reline/target/*.
+ 
+-  autoDeploy:   #Job
+-    stage: mavenDeploy  #do make a stage with same name!
+-    tags:
+-      - first_springboot_tag
+-    script:
+-      - cd /springboot/3_sc_1/Backend/reline
+-      - mvn package
+-      - sudo mv target/*.jar /target/reline-0.0.1-SNAPSHOT.jar
+-      - sudo systemctl stop reline-0.0.1-SNAPSHOT.jar
+-      - sudo systemctl start reline-0.0.1-SNAPSHOT.jar
+-
++android-test:
++  image: javiersantos/android-ci:latest
++  stage: androidTest
++  before_script:
++    - export GRADLE_USER_HOME=`pwd`/.gradle
++    - chmod +x ./springboot/3_sc_1/Frontend/demo2/gradlew
++  tags:
++    - first-android_tag
++  script:
++    - cd /springboot/3_sc_1/Frontend/demo2/
++    - ./gradlew test
++
++
++autoDeploy:   #Job
++  stage: mavenDeploy  #do make a stage with same name!
++  tags:
++    - first-springboot_tag
++  script:
++    - cd /springboot/3_sc_1/Backend/reline/target
++    #- mvn clean
++    #- mvn package
++    #- sudo mv target/*.jar /target/reline-0.0.1-SNAPSHOT.jar
++    #- sudo systemctl stop reline-0.0.1-SNAPSHOT #system-web-demo
++    #- sudo systemctl start reline-0.0.1-SNAPSHOT #system-web-demo
++    - nohup java -jar reline-0.0.1-SNAPSHOT.jar &
++    - echo "The Deployment is Complete"
+ 
+-  #deploy:
+-  #image: maven:3.6-jdk-11
+-  #script:
+-  #  - 'mvn deploy -s ci_settings.xml'
+-  #only:
+-  #  - main
++#deploy:
++#image: maven:3.6-jdk-11
++#script:
++#  - 'mvn deploy -s ci_settings.xml'
++#only:
++#  - main
+ 
+ 
+ # Example  .gitlab-ci.yml file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1146f46b-f1c2-4edc-be75-8340cf156ea5\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/Listings.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/Listings.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/ListingsController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/ListingsController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/gitlab-ci.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/gitlab-ci.yml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"UML Sequence\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"JpbToolWindowState\">\n    <option name=\"myId2FirstActivated\">\n      <map>\n        <entry key=\"JPA Inspector\" value=\"true\" />\n        <entry key=\"JPA Palette\" value=\"true\" />\n        <entry key=\"JPA Structure\" value=\"true\" />\n      </map>\n    </option>\n    <option name=\"myId2Visible\">\n      <map>\n        <entry key=\"JPA Inspector\" value=\"false\" />\n        <entry key=\"JPA Palette\" value=\"false\" />\n        <entry key=\"JPA Structure\" value=\"false\" />\n      </map>\n    </option>\n  </component>\n  <component name=\"MacroExpansionManager\">\n    <option name=\"directoryName\" value=\"keg6tbxe\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1zmillVBbHGCLE0pB1oQ10zDBMb\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultPlantUmlFileTemplate\" value=\"UML Sequence\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/reline.yaml\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settings.project.maven.repository.indices\" />\n    <property name=\"show.migrate.to.gradle.popup\" value=\"false\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1146f46b-f1c2-4edc-be75-8340cf156ea5\" name=\"Changes\" comment=\"\" />\n      <created>1634759821843</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1634759821843</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,10 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1146f46b-f1c2-4edc-be75-8340cf156ea5" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/Listings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/Listings.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/ListingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/reline/src/main/java/reline/listings/ListingsController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-ci.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Backend/reline/src/test/java/reline/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/reline/src/test/java/reline/UserServiceTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/gitlab-ci.yml" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -60,6 +61,66 @@
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/reline.yaml" />
+     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+     <property name="show.migrate.to.gradle.popup" value="false" />
++  </component>
++  <component name="RunManager" selected="TestNG.UserServiceTest">
++    <configuration name="PasswordEncoderMockTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="reline" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="reline.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="reline" />
++      <option name="MAIN_CLASS_NAME" value="reline.PasswordEncoderMockTest" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="reline" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="reline.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="reline" />
++      <option name="MAIN_CLASS_NAME" value="reline.TestPasswordTest" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="UserServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="reline" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="reline.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="reline" />
++      <option name="MAIN_CLASS_NAME" value="reline.UserServiceTest" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="TestNG.UserServiceTest" />
++        <item itemvalue="TestNG.PasswordEncoderMockTest" />
++        <item itemvalue="TestNG.TestPasswordTest" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"RemoteRepositoriesConfiguration\">\n    <remote-repository>\n      <option name=\"id\" value=\"central\" />\n      <option name=\"name\" value=\"Central Repository\" />\n      <option name=\"url\" value=\"https://repo.maven.apache.org/maven2\" />\n    </remote-repository>\n    <remote-repository>\n      <option name=\"id\" value=\"central\" />\n      <option name=\"name\" value=\"Maven Central repository\" />\n      <option name=\"url\" value=\"https://repo1.maven.org/maven2\" />\n    </remote-repository>\n    <remote-repository>\n      <option name=\"id\" value=\"jboss.community\" />\n      <option name=\"name\" value=\"JBoss Community repository\" />\n      <option name=\"url\" value=\"https://repository.jboss.org/nexus/content/repositories/public/\" />\n    </remote-repository>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+--- a/.idea/jarRepositories.xml	
++++ b/.idea/jarRepositories.xml	
+@@ -7,6 +7,11 @@
+       <option name="url" value="https://repo.maven.apache.org/maven2" />
+     </remote-repository>
+     <remote-repository>
++      <option name="id" value="gitlab-maven" />
++      <option name="name" value="gitlab-maven" />
++      <option name="url" value="${env.CI_API_V4_URL}/projects/${env.CI_PROJECT_ID}/packages/maven" />
++    </remote-repository>
++    <remote-repository>
+       <option name="id" value="central" />
+       <option name="name" value="Maven Central repository" />
+       <option name="url" value="https://repo1.maven.org/maven2" />
