@@ -29,7 +29,8 @@ Here is a repository full of classes that have been taken over the years from re
 
 </details>
 
-## Sophomore Year
+<details>
+<summary><b>Sophomore Year</b></summary>
 
 ### Fall 2020
 | Course Number | Course Title |
@@ -47,7 +48,10 @@ Here is a repository full of classes that have been taken over the years from re
 | CPRE 288 | Embedded Systems I |
 | SE 319 | Software Construction and User Interfaces |
 
-## Junior Year
+</details>
+
+<details>
+<summary><b>Junior Year</b></summary>
 
 ### Fall 2021
 | Course Number | Course Title |
@@ -66,7 +70,10 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 339 | Software Architecturea and Design |
 | ENGL 314 | Technical Communications |
 
-## Senior Year
+</details>
+
+<details>
+<summary><b>Senior Year</b></summary>
 
 ### Fall 2022
 | Course Number | Course Title |
@@ -86,7 +93,10 @@ Here is a repository full of classes that have been taken over the years from re
 
 *Note: For S E 491/492, see [this](https://sdmay24-10.sd.ece.iastate.edu/) link.
 
-## 5th Year
+</details>
+
+<details>
+<summary><b>5th Year</b></summary>
 
 ### Fall 2023
 | Course Number | Course Title |
@@ -95,6 +105,8 @@ Here is a repository full of classes that have been taken over the years from re
 | CPRE 388 | Embedded Systems II: Mobile Platforms |
 | SE 492 | Senior Design Project II |
 | STAT 330 | Probablity and Statistics for Computer Science |
+
+</details>
 
 # Classes Github
 <details>
