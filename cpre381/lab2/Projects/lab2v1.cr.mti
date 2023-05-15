@@ -1,0 +1,345 @@
+/home/rjlawson/Downloads/cpre381/lab2/fullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/fullAdder.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture structural of fullAdder
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/register_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/register_file.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture structural of register_file
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/andg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/andg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/decoder5to32_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/decoder5to32_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder5to32
+-- Compiling architecture dataflow of decoder5to32
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/extension16to32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/extension16to32.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity extension16to32
+-- Compiling architecture dataflow of extension16to32
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/invg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_mips
+-- Compiling architecture behavioral of tb_mips
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(72): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(95): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(95): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(96): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(96): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(97): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(97): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(110): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(110): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(111): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(111): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(112): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(112): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(124): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(124): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(125): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(125): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(126): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(126): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(137): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(137): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(138): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(138): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(139): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(139): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(150): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(150): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(151): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(151): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(152): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(152): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(163): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(163): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(164): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(164): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(165): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(165): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(176): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(176): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(177): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(177): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(178): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(178): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(189): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(189): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(190): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(190): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(191): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(191): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(202): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(202): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(203): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(203): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(204): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(204): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(215): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(215): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(216): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(216): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(217): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(217): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(228): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(228): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(229): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(229): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(230): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(230): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(241): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(241): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(242): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(242): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(243): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(243): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(254): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(254): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(255): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(255): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(256): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(256): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(267): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(267): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(268): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(268): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(269): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(269): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(280): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(280): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(281): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(281): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(282): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(282): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(293): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(293): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(294): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(294): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(295): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(295): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(306): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(306): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(307): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(307): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(308): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(308): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(319): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(319): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(320): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(320): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(321): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(321): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(332): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(332): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(333): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(333): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(334): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(334): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(345): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(345): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(346): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(346): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(347): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(347): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(358): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(358): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(359): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(359): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(360): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(360): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(371): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(371): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(372): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(372): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(373): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(373): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(384): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(384): (vcom-1136) Unknown identifier "s_wr".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(385): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(385): (vcom-1136) Unknown identifier "op".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(386): Illegal target for signal assignment.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(386): (vcom-1136) Unknown identifier "s_ALUSrc".
+** Note: /home/rjlawson/Downloads/cpre381/lab2/tb_memory_mips.vhd(397): VHDL Compiler exiting
+
+} {8.0 147.0} {}} /home/rjlawson/Downloads/cpre381/lab2/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mux2t1_N.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mem.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_decoder5to32.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_decoder5to32.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_decoder5to32.vhd(19): near "ibrary": syntax error
+** Note: /home/rjlawson/Downloads/cpre381/lab2/tb_decoder5to32.vhd(19): VHDL Compiler exiting
+
+} {4.0 5.0} {}} /home/rjlawson/Downloads/cpre381/lab2/fullAdderMap.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/fullAdderMap.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdderMap
+-- Compiling architecture structural of fullAdderMap
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_register_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_register_file.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_regFile
+-- Compiling architecture behavior of tb_regFile
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_extension16to32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_extension16to32.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_extension16to32
+-- Compiling architecture behavioral of tb_extension16to32
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd(19): near "EOF": syntax error
+
+} {7.0 8.0} {}} /home/rjlawson/Downloads/cpre381/lab2/OnesComp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/OnesComp.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OnesComp
+-- Compiling architecture structural of OnesComp
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_dffg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_dffg
+-- Compiling architecture behavior of tb_dffg
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32_data
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd(56): (vcom-1294) Declaration with designator "i_S" already exists in this region.
+** =====> Prior declaration of "i_S" is at /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd(42).
+** Note: /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd(58): VHDL Compiler exiting
+
+} {7.0 8.0} {}} /home/rjlawson/Downloads/cpre381/lab2/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/dffg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_dmem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_dmem.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_dmem
+-- Compiling architecture behavioral of tb_dmem
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mux2t1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mux2t1.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1
+-- Compiling architecture structural of mux2t1
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mips_memory
+-- Compiling architecture structural of mips_memory
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(44): (vcom-1136) Unknown identifier "N".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(44): (vcom-1591) Bad expression in left bound of range expression.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(44): Type error in range expression.
+** Error (suppressible): /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(86): (vcom-1141) Identifier "reg_file" does not identify a component declaration.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(100): Signal "s_ext_imm" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(109): Signal "s_ext_imm" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(113): (vcom-1136) Unknown identifier "s_m0".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(122): (vcom-1136) Unknown identifier "s_m0".
+** Error: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(104): (vcom-1035) Formal port "i_Sel" has OPEN or no actual associated with it.
+** Note: /home/rjlawson/Downloads/cpre381/lab2/mips_memory.vhd(124): VHDL Compiler exiting
+
+} {8.0 11.0 12.0 17.0} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_dffg_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_dffg_N.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_dffg_N
+-- Compiling architecture mixed of tb_dffg_N
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/org2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}}

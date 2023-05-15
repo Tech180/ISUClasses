@@ -1,0 +1,4 @@
+#!/bin/bash
+export PATH=$PATH:/usr/local/mentor/questasim/bin
+export LM_LICENSE_FILE=$LM_LICENSE_FILE:27008@io.ece.iastate.edu:1717@io.ece.iastate.edu
+/usr/local/mentor/questasim/bin/vsim $@

@@ -1,0 +1,91 @@
+/home/rjlawson/Downloads/cpre381/lab2/fullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/fullAdder.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture structural of fullAdder
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/andg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/andg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/invg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mem.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/AdderSubtractor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/AdderSubtractor.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity fullAdder
+-- Compiling entity AdderSubtracter
+-- Compiling architecture structural of AdderSubtracter
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/fullAdderMap.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/fullAdderMap.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdderMap
+-- Compiling architecture structural of fullAdderMap
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: /home/rjlawson/Downloads/cpre381/lab2/tb_mux_32bit.vhd(19): near "EOF": syntax error
+
+} {7.0 8.0} {}} /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mux_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32_data
+-- Compiling architecture dataflow of mux32_data
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/dffg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/mux2t1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/mux2t1.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1
+-- Compiling architecture structural of mux2t1
+
+} {} {}} /home/rjlawson/Downloads/cpre381/lab2/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/cpre381/lab2/org2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}}

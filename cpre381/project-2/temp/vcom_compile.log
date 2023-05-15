@@ -1,0 +1,97 @@
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 23:33:04 on Dec 10,2021
+vcom -2008 -work internal/ModelSimContainer/work src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity Fulladder
+-- Compiling architecture pizza of Fulladder
+-- Compiling entity addsub
+-- Compiling architecture behavior of addsub
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder5to32
+-- Compiling architecture dataflow of decoder5to32
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+-- Compiling entity OnesComp
+-- Compiling architecture structural of OnesComp
+-- Compiling entity control_hazard_dataflow
+-- Compiling architecture dataflow of control_hazard_dataflow
+-- Compiling entity register_EXMEM
+-- Compiling architecture structural of register_EXMEM
+-- Compiling entity register_IDEX
+-- Compiling architecture structural of register_IDEX
+-- Compiling entity nand_32bit_data
+-- Compiling architecture dataflow of nand_32bit_data
+-- Loading package reg_array_type
+-- Compiling entity Register_File
+-- Compiling architecture structural of Register_File
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity register_IFID
+-- Compiling architecture structural of register_IFID
+-- Compiling entity register_MEMWB
+-- Compiling architecture structural of register_MEMWB
+-- Compiling entity or_32bit_data
+-- Compiling architecture dataflow of or_32bit_data
+-- Compiling entity fetch
+-- Compiling architecture behavorial of fetch
+-- Compiling entity xor_32bit_data
+-- Compiling architecture dataflow of xor_32bit_data
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity decoder5t32
+-- Compiling architecture dataflow of decoder5t32
+-- Compiling entity Register32bit
+-- Compiling architecture bigboy of Register32bit
+-- Compiling entity programCounter
+-- Compiling architecture behavorial of programCounter
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity barrel_shifter
+-- Compiling architecture bsh of barrel_shifter
+-- Compiling entity ALU_32bit
+-- Compiling architecture structural of ALU_32bit
+-- Compiling entity controlUnit_tb
+-- Compiling architecture behavior of controlUnit_tb
+-- Compiling entity mux4to1
+-- Compiling architecture structural of mux4to1
+-- Compiling package reg_array_type
+-- Compiling entity mux_32bit_dataflow
+-- Compiling architecture dataflow of mux_32bit_dataflow
+-- Loading package MATH_REAL
+-- Compiling entity MemForwardingUnit
+-- Compiling architecture behavorial of MemForwardingUnit
+-- Loading package reg_array_type
+-- Compiling entity mux32t1_array
+-- Compiling architecture dataflow of mux32t1_array
+-- Compiling entity Reg_N
+-- Compiling architecture abc of Reg_N
+-- Compiling entity nor_32bit_data
+-- Compiling architecture dataflow of nor_32bit_data
+-- Compiling entity forwarding_dataflow
+-- Compiling architecture behavioral of forwarding_dataflow
+-- Compiling entity Fulladder_N
+-- Compiling architecture pizza_N of Fulladder_N
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity extender_N
+-- Compiling architecture behavior of extender_N
+-- Compiling entity mux8to1_32bit_data
+-- Compiling architecture dataflow of mux8to1_32bit_data
+-- Compiling entity and_32bit_data
+-- Compiling architecture dataflow of and_32bit_data
+-- Compiling entity tb_pipeline
+-- Compiling architecture mixed of tb_pipeline
+-- Compiling entity controlUnit
+-- Compiling architecture behavioral of controlUnit
+End time: 23:33:04 on Dec 10,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

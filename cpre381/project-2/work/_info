@@ -1,0 +1,1848 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rjlawson/Downloads/project-1
+T_opt
+!s110 1639199486
+V4LFNbk;U3fL0nS_z2AL9F2
+Z2 04 14 9 work mips_processor structure 1
+=1-0050569bcbbe-61b432fe-64fc7-68a9
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+T_opt1
+!s110 1639182563
+V0Oai]J[]Y42PITf12RjVX3
+04 17 10 work memforwardingunit behavorial 1
+=1-0050569b3f2e-61b3f0e2-d209c-74e7
+R3
+o-quiet -auto_acc_if_foreign -work work
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1639182733
+V@ej1_9]]6B6ZAAjA50bNL0
+R2
+=1-0050569b3f2e-61b3f18c-c3323-7743
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+Eaddsub
+Z7 w1639198990
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 531
+Z10 d/home/rjlawson/Downloads/project-2
+Z11 8/home/rjlawson/Downloads/project-2/src/addsub.vhd
+Z12 F/home/rjlawson/Downloads/project-2/src/addsub.vhd
+l0
+Z13 L21 1
+ViSQ>=;D;QbINoW3zZ7YHY0
+!s100 T8GJZgkJ9STB:kUdnh7bn2
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1639199400
+!i10b 1
+Z16 !s108 1639199400.000000
+Z17 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/addsub.vhd|
+Z18 !s107 /home/rjlawson/Downloads/project-2/src/addsub.vhd|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Abehavior
+R8
+R9
+DEx4 work 6 addsub 0 22 iSQ>=;D;QbINoW3zZ7YHY0
+!i122 531
+l57
+L31 48
+VNnfca0I4zK2<:F_YbH]2j2
+!s100 `13IYSC2F`Zn527L1VIHU0
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Ealu_32bit
+Z21 w1639197735
+R8
+R9
+!i122 532
+R10
+Z22 8/home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+Z23 F/home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+l0
+Z24 L20 1
+V@6CKlSX1NJSk2[nA7E[d_1
+!s100 E9Il0NK<_dgaJDA;z]F243
+R14
+32
+Z25 !s110 1639199401
+!i10b 1
+R16
+Z26 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd|
+Z27 !s107 /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 9 alu_32bit 0 22 @6CKlSX1NJSk2[nA7E[d_1
+!i122 532
+l101
+L31 169
+VY9=F^m[WZ>=WOVYAaA7d01
+!s100 k=R4^jo5B9>1eWb<n`D5O3
+R14
+32
+R25
+!i10b 1
+R16
+R26
+R27
+!i113 0
+R19
+R20
+Eand_32bit_data
+Z28 w1639199374
+R8
+R9
+!i122 533
+R10
+Z29 8/home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd
+Z30 F/home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd
+l0
+R24
+V^eMnmHaA3b`aRInj=dzcd1
+!s100 hSd3[OF;>EPKz1di6^?dF3
+R14
+32
+R25
+!i10b 1
+Z31 !s108 1639199401.000000
+Z32 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd|
+Z33 !s107 /home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 14 and_32bit_data 0 22 ^eMnmHaA3b`aRInj=dzcd1
+!i122 533
+l27
+Z34 L26 8
+VP:lOGidS`NA?oWKo_69S_3
+!s100 K21:GIWW87K]F_gW8QX951
+R14
+32
+R25
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R19
+R20
+Eandg2
+Z35 w1639001852
+R8
+R9
+!i122 534
+R10
+Z36 8/home/rjlawson/Downloads/project-2/src/andg2.vhd
+Z37 F/home/rjlawson/Downloads/project-2/src/andg2.vhd
+l0
+Z38 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R14
+32
+R25
+!i10b 1
+R31
+Z39 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/andg2.vhd|
+Z40 !s107 /home/rjlawson/Downloads/project-2/src/andg2.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 534
+l32
+Z41 L31 6
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R14
+32
+R25
+!i10b 1
+R31
+R39
+R40
+!i113 0
+R19
+R20
+Ebarrel_shifter
+Z42 w1639167845
+Z43 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R8
+R9
+!i122 535
+R10
+Z44 8/home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd
+Z45 F/home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd
+l0
+L5 1
+VPko3F1f][QJM]n]A64U1j3
+!s100 m[49kc:5<=H`lNLN^VK^<0
+R14
+32
+R25
+!i10b 1
+R31
+Z46 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd|
+Z47 !s107 /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd|
+!i113 0
+R19
+R20
+Absh
+R43
+R8
+R9
+DEx4 work 14 barrel_shifter 0 22 Pko3F1f][QJM]n]A64U1j3
+!i122 535
+l16
+L14 22
+Vb]TW_`aB=DaImYlPInZ9^0
+!s100 ff7n`R76cIbQ4PAE0Lm<`3
+R14
+32
+R25
+!i10b 1
+R31
+R46
+R47
+!i113 0
+R19
+R20
+Econtrol_hazard_dataflow
+R35
+R8
+R9
+!i122 536
+R10
+Z48 8/home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd
+Z49 F/home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd
+l0
+L4 1
+V6=iUmcdFC0UCi3JVffNXZ1
+!s100 >M>]^7oY3IA_6Hi;7eS3G3
+R14
+32
+R25
+!i10b 1
+R31
+Z50 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd|
+Z51 !s107 /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 23 control_hazard_dataflow 0 22 6=iUmcdFC0UCi3JVffNXZ1
+!i122 536
+l34
+L32 25
+V]ec=n?J=[Q2lIlCIagLBK2
+!s100 g@gkhgekHVoXiOW=f79>A0
+R14
+32
+R25
+!i10b 1
+R31
+R50
+R51
+!i113 0
+R19
+R20
+Econtrolunit
+Z52 w1639174722
+R8
+R9
+!i122 537
+R10
+Z53 8/home/rjlawson/Downloads/project-2/src/controlUnit.vhd
+Z54 F/home/rjlawson/Downloads/project-2/src/controlUnit.vhd
+l0
+R24
+V@[52bogeConZ=?gfk`c961
+!s100 M>@`kd26^T4oEXfiX82?j1
+R14
+32
+R25
+!i10b 1
+R31
+Z55 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/controlUnit.vhd|
+Z56 !s107 /home/rjlawson/Downloads/project-2/src/controlUnit.vhd|
+!i113 0
+R19
+R20
+Abehavioral
+R8
+R9
+DEx4 work 11 controlunit 0 22 @[52bogeConZ=?gfk`c961
+!i122 537
+l49
+L42 570
+VAc`NQzZfTPfmi8@YoXc`H3
+!s100 CoO9PF9BiXPb_?bImQDK:3
+R14
+32
+R25
+!i10b 1
+R31
+R55
+R56
+!i113 0
+R19
+R20
+Econtrolunit_tb
+R35
+R8
+R9
+!i122 538
+R10
+Z57 8/home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd
+Z58 F/home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd
+l0
+R24
+V>bL;;Og8Y=;KAb[lPV<:M0
+!s100 f>bidZIWc3Md?US2IWMd:3
+R14
+32
+R25
+!i10b 1
+R31
+Z59 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd|
+Z60 !s107 /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd|
+!i113 0
+R19
+R20
+Abehavior
+R8
+R9
+DEx4 work 14 controlunit_tb 0 22 >bL;;Og8Y=;KAb[lPV<:M0
+!i122 538
+l60
+L23 230
+VnkR9:9BE:[PAmSnCEN>Yn0
+!s100 fz8Sl9onHcOQ9A2YGQBX[1
+R14
+32
+R25
+!i10b 1
+R31
+R59
+R60
+!i113 0
+R19
+R20
+Edecoder5t32
+R21
+R8
+R9
+!i122 539
+R10
+Z61 8/home/rjlawson/Downloads/project-2/src/decoder5t32.vhd
+Z62 F/home/rjlawson/Downloads/project-2/src/decoder5t32.vhd
+l0
+R38
+VC3>NMaGB=4n[cA]GTRo_z3
+!s100 1N?DMH[2PMllSPF>b3[ej2
+R14
+32
+R25
+!i10b 1
+R31
+Z63 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/decoder5t32.vhd|
+Z64 !s107 /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 11 decoder5t32 0 22 C3>NMaGB=4n[cA]GTRo_z3
+!i122 539
+l32
+L29 41
+VD5V>Lc@HGAK<KMSY`HF0Z1
+!s100 >MBZj4QeCYkKh=CA>4fcL2
+R14
+32
+R25
+!i10b 1
+R31
+R63
+R64
+!i113 0
+R19
+R20
+Edecoder5to32
+Z65 w1636842308
+R43
+R8
+R9
+!i122 540
+R10
+Z66 8/home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd
+Z67 F/home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd
+l0
+L11 1
+V7DQ4JRYX_?0BC96TYQU;53
+!s100 Mk>I>5KK1XgPg?hE[`FlJ3
+R14
+32
+R25
+!i10b 1
+R31
+Z68 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd|
+Z69 !s107 /home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R43
+R8
+R9
+DEx4 work 12 decoder5to32 0 22 7DQ4JRYX_?0BC96TYQU;53
+!i122 540
+l22
+L18 9
+VhdPGT>fJP<8fi_`dzN6Qf2
+!s100 2MY_HzD?LRLLgDdcDaN@?3
+R14
+32
+R25
+!i10b 1
+R31
+R68
+R69
+!i113 0
+R19
+R20
+Edffg
+R35
+R8
+R9
+!i122 541
+R10
+Z70 8/home/rjlawson/Downloads/project-2/src/dffg.vhd
+Z71 F/home/rjlawson/Downloads/project-2/src/dffg.vhd
+l0
+R38
+V<]b9Vm3e`GAN;Cnj:57L>2
+!s100 T4gcXQGMCgKJbn8XhBM;b0
+R14
+32
+Z72 !s110 1639199402
+!i10b 1
+R31
+Z73 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/dffg.vhd|
+Z74 !s107 /home/rjlawson/Downloads/project-2/src/dffg.vhd|
+!i113 0
+R19
+R20
+Amixed
+R8
+R9
+DEx4 work 4 dffg 0 22 <]b9Vm3e`GAN;Cnj:57L>2
+!i122 541
+l37
+L33 29
+V`CHXPZKVEek`3gFWL_zFm2
+!s100 iOdlTUid@@]UimFK_53^C1
+R14
+32
+R72
+!i10b 1
+R31
+R73
+R74
+!i113 0
+R19
+R20
+Eextender_n
+R35
+R43
+R8
+R9
+!i122 542
+R10
+Z75 8/home/rjlawson/Downloads/project-2/src/bitxtend.vhd
+Z76 F/home/rjlawson/Downloads/project-2/src/bitxtend.vhd
+l0
+L5 1
+V9[j9gU;Vld^`6f=YRhioF2
+!s100 _CIUX=I[jo>VcKiNcAc7T3
+R14
+32
+R72
+!i10b 1
+Z77 !s108 1639199402.000000
+Z78 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/bitxtend.vhd|
+Z79 !s107 /home/rjlawson/Downloads/project-2/src/bitxtend.vhd|
+!i113 0
+R19
+R20
+Abehavior
+R43
+R8
+R9
+DEx4 work 10 extender_n 0 22 9[j9gU;Vld^`6f=YRhioF2
+!i122 542
+l18
+L16 8
+VOlgdzDM^1PzSPmHX5AgZh3
+!s100 c8ejeQ?gM=Rf]MlYID@9>2
+R14
+32
+R72
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R19
+R20
+Efetch
+R35
+R8
+R9
+!i122 543
+R10
+Z80 8/home/rjlawson/Downloads/project-2/src/fetch.vhd
+Z81 F/home/rjlawson/Downloads/project-2/src/fetch.vhd
+l0
+L17 1
+Vc[@A?b^AP[om7lFZLe^7@0
+!s100 b0LMHcz382@_kXZzF2RIg2
+R14
+32
+R72
+!i10b 1
+R77
+Z82 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/fetch.vhd|
+Z83 !s107 /home/rjlawson/Downloads/project-2/src/fetch.vhd|
+!i113 0
+R19
+R20
+Abehavorial
+R8
+R9
+DEx4 work 5 fetch 0 22 c[@A?b^AP[om7lFZLe^7@0
+!i122 543
+l28
+L26 12
+VAj;3mEEEPeb;Ao9]WT_^C1
+!s100 BGha=?3K^4hzm8Ao9E_DU2
+R14
+32
+R72
+!i10b 1
+R77
+R82
+R83
+!i113 0
+R19
+R20
+Eforwarding_dataflow
+Z84 w1639035386
+R8
+R9
+!i122 544
+R10
+Z85 8/home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd
+Z86 F/home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd
+l0
+L4 1
+VOzDA8YzGo>i[^YR:9cYlQ1
+!s100 LV4S_^TaL^JFOWNhillDk3
+R14
+32
+R72
+!i10b 1
+R77
+Z87 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd|
+Z88 !s107 /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd|
+!i113 0
+R19
+R20
+Abehavioral
+R8
+R9
+DEx4 work 19 forwarding_dataflow 0 22 OzDA8YzGo>i[^YR:9cYlQ1
+!i122 544
+l30
+L28 70
+V;B^bnVGJKG11IhEHVLPS32
+!s100 2CfDDB<]PTcS9E5jcGQ9K0
+R14
+32
+R72
+!i10b 1
+R77
+R87
+R88
+!i113 0
+R19
+R20
+Efulladder
+R35
+R8
+R9
+!i122 545
+R10
+Z89 8/home/rjlawson/Downloads/project-2/src/Fulladder.vhd
+Z90 F/home/rjlawson/Downloads/project-2/src/Fulladder.vhd
+l0
+R13
+V[BgXo<4R>Kk>2;93NC1l[3
+!s100 M_Kb>RZZgiV06<YThXV;Q0
+R14
+32
+R72
+!i10b 1
+R77
+Z91 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/Fulladder.vhd|/home/rjlawson/Downloads/project-1/src/fullAdder.vhd|
+Z92 !s107 /home/rjlawson/Downloads/project-1/src/fullAdder.vhd|/home/rjlawson/Downloads/project-2/src/Fulladder.vhd|
+!i113 0
+R19
+R20
+Apizza
+R8
+R9
+DEx4 work 9 fulladder 0 22 [BgXo<4R>Kk>2;93NC1l[3
+!i122 545
+l60
+L30 59
+Vd^f2MlHe2=a4>?nk@1Efo1
+!s100 ULW_38DKl32A9Wi?QRMl93
+R14
+32
+R72
+!i10b 1
+R77
+R91
+R92
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 9 fulladder 0 22 OlNcLTHAfMLlS3KcKzH0R3
+!i122 144
+l34
+L22 28
+VC7;o49;BFM3LHJG[^bRd>0
+!s100 glb[T351aH3cXAgPYiDM_1
+R14
+32
+Z93 !s110 1636695201
+!i10b 1
+Z94 !s108 1636695201.000000
+!s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-1/src/fullAdder.vhd|
+!s107 /home/rjlawson/Downloads/project-1/src/fullAdder.vhd|
+!i113 0
+R19
+R20
+R1
+F/home/rjlawson/Downloads/project-1/src/fullAdder.vhd
+w1636177249
+8/home/rjlawson/Downloads/project-1/src/fullAdder.vhd
+Efulladder_32bit
+Z95 w1636496113
+R8
+R9
+!i122 145
+R1
+Z96 8/home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd
+Z97 F/home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd
+l0
+L10 1
+V0oIXh3BASYAeEU^e99i6J0
+!s100 ;6j6NjUN`7N2Wl]S@=UZ03
+R14
+32
+R93
+!i10b 1
+R94
+Z98 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd|
+Z99 !s107 /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 15 fulladder_32bit 0 22 0oIXh3BASYAeEU^e99i6J0
+!i122 145
+l35
+L23 26
+VdeSXBgPnZ0[CeF^E_c0e13
+!s100 RNLgAYKa;CA=IAdAo35N40
+R14
+32
+R93
+!i10b 1
+R94
+R98
+R99
+!i113 0
+R19
+R20
+Efulladder_n
+R35
+R8
+R9
+!i122 546
+R10
+Z100 8/home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd
+Z101 F/home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd
+l0
+R13
+VOHlF@]TZS8VPMzf^IE1jP0
+!s100 Yd<:VBDeez]VG=oTUagQ>1
+R14
+32
+R72
+!i10b 1
+R77
+Z102 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd|
+Z103 !s107 /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd|
+!i113 0
+R19
+R20
+Apizza_n
+R8
+R9
+DEx4 work 11 fulladder_n 0 22 OHlF@]TZS8VPMzf^IE1jP0
+!i122 546
+l44
+L31 34
+Vbi?fd<G`g8`8zc;NAf@XS1
+!s100 aI3aTG5z8M2FUOd@=P8431
+R14
+32
+R72
+!i10b 1
+R77
+R102
+R103
+!i113 0
+R19
+R20
+Einvg
+Z104 w1636267020
+R8
+R9
+!i122 547
+R10
+Z105 8/home/rjlawson/Downloads/project-2/src/invg.vhd
+Z106 F/home/rjlawson/Downloads/project-2/src/invg.vhd
+l0
+R38
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R14
+32
+R72
+!i10b 1
+R77
+Z107 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/invg.vhd|
+Z108 !s107 /home/rjlawson/Downloads/project-2/src/invg.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 547
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R14
+32
+R72
+!i10b 1
+R77
+R107
+R108
+!i113 0
+R19
+R20
+Emem
+R35
+R43
+R8
+R9
+!i122 548
+R10
+Z109 8/home/rjlawson/Downloads/project-2/src/mem.vhd
+Z110 F/home/rjlawson/Downloads/project-2/src/mem.vhd
+l0
+L8 1
+Vl8<PCiN;cU;BN3M[A<;IE3
+!s100 fRlcaiTJZJ1H;nZh;8=LI3
+R14
+32
+R72
+!i10b 1
+R77
+Z111 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/mem.vhd|
+Z112 !s107 /home/rjlawson/Downloads/project-2/src/mem.vhd|
+!i113 0
+R19
+R20
+Artl
+R43
+R8
+R9
+DEx4 work 3 mem 0 22 l8<PCiN;cU;BN3M[A<;IE3
+!i122 548
+l37
+L27 24
+V`6^NbPhKNmSBg:`:Un8;g3
+!s100 OI8_3><BhDkT3l3n8`OXd3
+R14
+32
+R72
+!i10b 1
+R77
+R111
+R112
+!i113 0
+R19
+R20
+Ememforwardingunit
+R42
+Z113 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R43
+R8
+R9
+!i122 549
+R10
+Z114 8/home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd
+Z115 F/home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd
+l0
+L22 1
+V6zRNRKKPG06Ci?ZFdll_I3
+!s100 Bh[i9]HXSXZa^e:z63A]O1
+R14
+32
+Z116 !s110 1639199403
+!i10b 1
+R77
+Z117 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd|
+Z118 !s107 /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd|
+!i113 0
+R19
+R20
+Abehavorial
+R113
+R43
+R8
+R9
+DEx4 work 17 memforwardingunit 0 22 6zRNRKKPG06Ci?ZFdll_I3
+!i122 549
+l32
+L30 14
+VUeMaOmhTjPF6XBO_FVB872
+!s100 :Lzf]<cOm[LF:Q:Gfkga53
+R14
+32
+R116
+!i10b 1
+R77
+R117
+R118
+!i113 0
+R19
+R20
+Emips_processor
+Z119 w1639197745
+R8
+R9
+!i122 574
+R10
+Z120 8/home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+Z121 F/home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+l0
+R24
+V:o>C8KMfc[QmXhUL_3eIH3
+!s100 ^i1^b5_W1>L_al]g]Ha6H1
+R14
+32
+Z122 !s110 1639199485
+!i10b 1
+Z123 !s108 1639199485.000000
+Z124 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd|
+Z125 !s107 /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd|
+!i113 0
+R19
+R20
+Astructure
+R8
+R9
+DEx4 work 14 mips_processor 0 22 :o>C8KMfc[QmXhUL_3eIH3
+!i122 574
+l517
+L32 1038
+VXKKVUC7TDWiWK1l>=8LEz3
+!s100 U9[T39MCi?VdKZXMAIi8D0
+R14
+32
+R122
+!i10b 1
+R123
+R124
+R125
+!i113 0
+R19
+R20
+Emux32t1_array
+R35
+Z126 DPx4 work 14 reg_array_type 0 22 g[ghLoeY3i[OTc`V8IEEW0
+R43
+R8
+R9
+!i122 551
+R10
+Z127 8/home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd
+Z128 F/home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd
+l0
+R38
+V<E8b<WlTJ2^PoQzBQI42h1
+!s100 zX;b<5KYY<DX;meod9<1X1
+R14
+32
+R116
+!i10b 1
+Z129 !s108 1639199403.000000
+Z130 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd|
+Z131 !s107 /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R126
+R43
+R8
+R9
+DEx4 work 13 mux32t1_array 0 22 <E8b<WlTJ2^PoQzBQI42h1
+!i122 551
+l32
+L30 7
+Vh4lmc>QYh>o5XHJ:ZM:l81
+!s100 `WZM_F<b04;R0lm0d]HKD1
+R14
+32
+R116
+!i10b 1
+R129
+R130
+R131
+!i113 0
+R19
+R20
+Emux4to1
+R42
+R8
+R9
+!i122 552
+R10
+Z132 8/home/rjlawson/Downloads/project-2/src/mux4to1.vhd
+Z133 F/home/rjlawson/Downloads/project-2/src/mux4to1.vhd
+l0
+L4 1
+VT1^6DPX026AleCGIK[iLl3
+!s100 Ozd:KL`1X=b^eK7O6fjf22
+R14
+32
+R116
+!i10b 1
+R129
+Z134 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/mux4to1.vhd|
+Z135 !s107 /home/rjlawson/Downloads/project-2/src/mux4to1.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 7 mux4to1 0 22 T1^6DPX026AleCGIK[iLl3
+!i122 552
+l19
+L14 25
+VonQaXK8CZTI=hPL:5E6ji2
+!s100 nP:B9e8RQPQgH@665i`oL3
+R14
+32
+R116
+!i10b 1
+R129
+R134
+R135
+!i113 0
+R19
+R20
+Emux8to1_32bit_data
+R35
+R8
+R9
+!i122 553
+R10
+Z136 8/home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd
+Z137 F/home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd
+l0
+R24
+Vj;>k?CCSla>aS14FXK<D73
+!s100 9o@jND@bj;LUlH1MQF6J_2
+R14
+32
+R116
+!i10b 1
+R129
+Z138 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd|
+Z139 !s107 /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 18 mux8to1_32bit_data 0 22 j;>k?CCSla>aS14FXK<D73
+!i122 553
+l35
+L33 16
+VjmE2bD]:h`E=Snjb@JleR1
+!s100 Yf_ZW:Z;HKe3YljH=?n@_3
+R14
+32
+R116
+!i10b 1
+R129
+R138
+R139
+!i113 0
+R19
+R20
+Emux_32bit_dataflow
+R35
+R8
+R9
+!i122 554
+R10
+Z140 8/home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd
+Z141 F/home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd
+l0
+R13
+Vb@dS<Lb5YcoKOUm?azX1b2
+!s100 VZ`=L:]:;Bz[lOaBRT?Ed0
+R14
+32
+R116
+!i10b 1
+R129
+Z142 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd|
+Z143 !s107 /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 18 mux_32bit_dataflow 0 22 b@dS<Lb5YcoKOUm?azX1b2
+!i122 554
+l38
+L30 20
+V6>3j^2_SK4;3[>KmbK2jk3
+!s100 ;B[o5gjY7of:z_ZHKbR7:0
+R14
+32
+R116
+!i10b 1
+R129
+R142
+R143
+!i113 0
+R19
+R20
+Enand_32bit_data
+R35
+R8
+R9
+!i122 555
+R10
+Z144 8/home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd
+Z145 F/home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd
+l0
+R24
+VngLnIHiRE91`4G]NS_[M[1
+!s100 7bioe;zlLF6QkcfZYnNW01
+R14
+32
+R116
+!i10b 1
+R129
+Z146 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd|
+Z147 !s107 /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 15 nand_32bit_data 0 22 ngLnIHiRE91`4G]NS_[M[1
+!i122 555
+l27
+R34
+VME_UTk@]V;]P6nS`9MagE2
+!s100 ?5<VR9TjZm68Bl`P>4UbR0
+R14
+32
+R116
+!i10b 1
+R129
+R146
+R147
+!i113 0
+R19
+R20
+Enor_32bit_data
+R35
+R8
+R9
+!i122 556
+R10
+Z148 8/home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd
+Z149 F/home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd
+l0
+R24
+V=k9cFVYTmhVjYFfHjJV>m3
+!s100 HhnC02OVJz@I<d8>[[0Z<2
+R14
+32
+R116
+!i10b 1
+R129
+Z150 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd|
+Z151 !s107 /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 14 nor_32bit_data 0 22 =k9cFVYTmhVjYFfHjJV>m3
+!i122 556
+l27
+R34
+V9bc^jkA0XVHfAIHQ>9@BG3
+!s100 W;mg:[QgB[AXn_mFM?gAD0
+R14
+32
+R116
+!i10b 1
+R129
+R150
+R151
+!i113 0
+R19
+R20
+Eonescomp
+Z152 w1639199471
+R8
+R9
+!i122 573
+R10
+Z153 8/home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+Z154 F/home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+l0
+L9 1
+V6cD6eSCGaAdc>0IlcNJe:2
+!s100 W]f5lh0MKdSLK5RPIdj`l1
+R14
+32
+Z155 !s110 1639199479
+!i10b 1
+Z156 !s108 1639199479.000000
+Z157 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/OnesComp.vhd|
+Z158 !s107 /home/rjlawson/Downloads/project-2/src/OnesComp.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 8 onescomp 0 22 6cD6eSCGaAdc>0IlcNJe:2
+!i122 573
+l23
+L16 15
+Vb5b7J1BPjo`>4NYHJ?11b3
+!s100 DPD_c6XD@1SE5a__aR6Dn1
+R14
+32
+R155
+!i10b 1
+R156
+R157
+R158
+!i113 0
+R19
+R20
+Eor_32bit_data
+R35
+R8
+R9
+!i122 558
+R10
+Z159 8/home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd
+Z160 F/home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd
+l0
+R24
+VM0[iW2d7U:J^1U;IRAkf<1
+!s100 UhLSU:J=maHWB]G@GFMXb1
+R14
+32
+Z161 !s110 1639199404
+!i10b 1
+R129
+Z162 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd|
+Z163 !s107 /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 13 or_32bit_data 0 22 M0[iW2d7U:J^1U;IRAkf<1
+!i122 558
+l27
+R34
+VjK0dkMBLXF[[CXKoa2@0c1
+!s100 S@J^?]HbgY^z5c3Zb[I@Y3
+R14
+32
+R161
+!i10b 1
+R129
+R162
+R163
+!i113 0
+R19
+R20
+Eorg2
+R35
+R8
+R9
+!i122 559
+R10
+Z164 8/home/rjlawson/Downloads/project-2/src/org2.vhd
+Z165 F/home/rjlawson/Downloads/project-2/src/org2.vhd
+l0
+R38
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R14
+32
+R161
+!i10b 1
+Z166 !s108 1639199404.000000
+Z167 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/org2.vhd|
+Z168 !s107 /home/rjlawson/Downloads/project-2/src/org2.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 559
+l32
+R41
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R14
+32
+R161
+!i10b 1
+R166
+R167
+R168
+!i113 0
+R19
+R20
+Eprogramcounter
+R35
+R8
+R9
+!i122 560
+R10
+Z169 8/home/rjlawson/Downloads/project-2/src/programCounter.vhd
+Z170 F/home/rjlawson/Downloads/project-2/src/programCounter.vhd
+l0
+L4 1
+V448F[Pg8`hSXnKYdkf34e0
+!s100 UC9U5FYjPLE2T`<R?mBbM2
+R14
+32
+R161
+!i10b 1
+R166
+Z171 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/programCounter.vhd|
+Z172 !s107 /home/rjlawson/Downloads/project-2/src/programCounter.vhd|
+!i113 0
+R19
+R20
+Abehavorial
+R8
+R9
+DEx4 work 14 programcounter 0 22 448F[Pg8`hSXnKYdkf34e0
+!i122 560
+l13
+L12 17
+V8?bQm6Sm<8IMATjKSQQAU0
+!s100 >mz<jhKTEnXVaY>>D`?GC1
+R14
+32
+R161
+!i10b 1
+R166
+R171
+R172
+!i113 0
+R19
+R20
+Preg_array_type
+R8
+R9
+!i122 561
+R35
+R10
+8/home/rjlawson/Downloads/project-2/src/reg_array_type.vhd
+F/home/rjlawson/Downloads/project-2/src/reg_array_type.vhd
+l0
+R13
+Vg[ghLoeY3i[OTc`V8IEEW0
+!s100 O?5gcFYVi?R]d]M^nSUi41
+R14
+32
+R161
+!i10b 1
+R166
+!s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/reg_array_type.vhd|
+!s107 /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd|
+!i113 0
+R19
+R20
+Ereg_n
+R35
+R8
+R9
+!i122 562
+R10
+Z173 8/home/rjlawson/Downloads/project-2/src/Reg_N.vhd
+Z174 F/home/rjlawson/Downloads/project-2/src/Reg_N.vhd
+l0
+Z175 L18 1
+VE1gi>R>A6SS2f3B<4mmCF2
+!s100 8o:EE;_O@lFIT]Qg1WcTA2
+R14
+32
+R161
+!i10b 1
+R166
+Z176 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/Reg_N.vhd|
+Z177 !s107 /home/rjlawson/Downloads/project-2/src/Reg_N.vhd|
+!i113 0
+R19
+R20
+Aabc
+R8
+R9
+DEx4 work 5 reg_n 0 22 E1gi>R>A6SS2f3B<4mmCF2
+!i122 562
+l39
+L28 22
+V:M6^X9dL>JIILSMO^okL83
+!s100 gRYHII2zYjB58ST=PKKbB1
+R14
+32
+R161
+!i10b 1
+R166
+R176
+R177
+!i113 0
+R19
+R20
+Eregister32bit
+Z178 w1639182354
+R43
+R8
+R9
+!i122 563
+R10
+Z179 8/home/rjlawson/Downloads/project-2/src/register32bit.vhd
+Z180 F/home/rjlawson/Downloads/project-2/src/register32bit.vhd
+l0
+R175
+VONC?k[Z<BdLf:L_Fabm;=2
+!s100 eI4f@BXKl;2e]WFUWjF[S3
+R14
+32
+R161
+!i10b 1
+R166
+Z181 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/register32bit.vhd|
+Z182 !s107 /home/rjlawson/Downloads/project-2/src/register32bit.vhd|
+!i113 0
+R19
+R20
+Abigboy
+R43
+R8
+R9
+DEx4 work 13 register32bit 0 22 ONC?k[Z<BdLf:L_Fabm;=2
+!i122 563
+l34
+L32 17
+VQB2RS1g>4LNc:hG2WVb5M2
+!s100 @=T`[RX_lddeKW;]7<=M13
+R14
+32
+R161
+!i10b 1
+R166
+R181
+R182
+!i113 0
+R19
+R20
+Astructural
+R126
+R43
+R8
+R9
+DEx4 work 13 register32bit 0 22 AdoU`ADLkR57eJ:Q5<KW73
+!i122 287
+l39
+L29 20
+Vg[Zh7VXKeA1BcIDk]]h8k0
+!s100 oPYWM=WlA]=JoFQ0FXdid3
+R14
+32
+!s110 1639006115
+!i10b 1
+!s108 1639006115.000000
+R181
+R182
+!i113 0
+R19
+R20
+w1639006110
+Eregister_exmem
+Z183 w1639005526
+R8
+R9
+!i122 564
+R10
+Z184 8/home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd
+Z185 F/home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd
+l0
+L4 1
+VOY7PG>kQI1Vj^E@geU3E31
+!s100 O3WUT2dVL7KCJng77?<eX0
+R14
+32
+R161
+!i10b 1
+R166
+Z186 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd|
+Z187 !s107 /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 14 register_exmem 0 22 OY7PG>kQI1Vj^E@geU3E31
+!i122 564
+l60
+L41 128
+VE`I=lO>cE2aHZ<Y`^?]zR3
+!s100 Z;BfoD`KY<`bE9lb5_^EQ0
+R14
+32
+R161
+!i10b 1
+R166
+R186
+R187
+!i113 0
+R19
+R20
+Eregister_file
+R42
+R126
+R43
+R8
+R9
+!i122 565
+R10
+Z188 8/home/rjlawson/Downloads/project-2/src/Register_File.vhd
+Z189 F/home/rjlawson/Downloads/project-2/src/Register_File.vhd
+l0
+R24
+VVgg]U8V:dA:[SBiX`>3Y;3
+!s100 P9S@PLPICSD=5_9Y6j:?51
+R14
+32
+R161
+!i10b 1
+R166
+Z190 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/Register_File.vhd|
+Z191 !s107 /home/rjlawson/Downloads/project-2/src/Register_File.vhd|
+!i113 0
+R19
+R20
+Astructural
+R126
+R43
+R8
+R9
+DEx4 work 13 register_file 0 22 Vgg]U8V:dA:[SBiX`>3Y;3
+!i122 565
+l64
+L33 68
+VXGj:ZkW[J3G:OG5kX877;0
+!s100 IbK7zOCU0hFO6BI>^_JiH0
+R14
+32
+R161
+!i10b 1
+R166
+R190
+R191
+!i113 0
+R19
+R20
+Eregister_idex
+Z192 w1639182725
+R8
+R9
+!i122 566
+R10
+Z193 8/home/rjlawson/Downloads/project-2/src/register_IDEX.vhd
+Z194 F/home/rjlawson/Downloads/project-2/src/register_IDEX.vhd
+l0
+L4 1
+V8KJ6KCQYZ6;SY?BA0?ca^3
+!s100 U>W_WJ:O4PJ7?6l<=BY@S3
+R14
+32
+R161
+!i10b 1
+R166
+Z195 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/register_IDEX.vhd|
+Z196 !s107 /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 13 register_idex 0 22 8KJ6KCQYZ6;SY?BA0?ca^3
+!i122 566
+l81
+L62 207
+VWGf^BYgCzmzb1hZle=VRo0
+!s100 b[GQbV;ST^SV=aoH=EP4<0
+R14
+32
+R161
+!i10b 1
+R166
+R195
+R196
+!i113 0
+R19
+R20
+Eregister_ifid
+Z197 w1639003926
+R8
+R9
+!i122 567
+R10
+Z198 8/home/rjlawson/Downloads/project-2/src/register_IFID.vhd
+Z199 F/home/rjlawson/Downloads/project-2/src/register_IFID.vhd
+l0
+L4 1
+V`38;70_=>A7fbI;zfaFdR1
+!s100 ?KAAKK2VIW2j0zCfBR`TS3
+R14
+32
+Z200 !s110 1639199405
+!i10b 1
+R166
+Z201 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/register_IFID.vhd|
+Z202 !s107 /home/rjlawson/Downloads/project-2/src/register_IFID.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 13 register_ifid 0 22 `38;70_=>A7fbI;zfaFdR1
+!i122 567
+l30
+L17 32
+VaHE;UBU`z2FQLeQO@<>OT0
+!s100 T3:R=FH6<@kULPoH4>Fc22
+R14
+32
+R200
+!i10b 1
+R166
+R201
+R202
+!i113 0
+R19
+R20
+Eregister_memwb
+Z203 w1639006042
+R8
+R9
+!i122 568
+R10
+Z204 8/home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd
+Z205 F/home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd
+l0
+L4 1
+VXR1QM6PX@_@Uf0Td3Z3kf2
+!s100 B9KXnTnR8?1RB<KlEPAJG2
+R14
+32
+R200
+!i10b 1
+Z206 !s108 1639199405.000000
+Z207 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd|
+Z208 !s107 /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd|
+!i113 0
+R19
+R20
+Astructural
+R8
+R9
+DEx4 work 14 register_memwb 0 22 XR1QM6PX@_@Uf0Td3Z3kf2
+!i122 568
+l55
+L36 121
+VUUVAKEN]ZKNbdY_9zT?j60
+!s100 aY7a<249fQ;c5VNNROnDL3
+R14
+32
+R200
+!i10b 1
+R206
+R207
+R208
+!i113 0
+R19
+R20
+Etb
+R35
+DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R8
+R9
+!i122 569
+R10
+8/home/rjlawson/Downloads/project-2/src/tb.vhd
+F/home/rjlawson/Downloads/project-2/src/tb.vhd
+l0
+L25 1
+VZUWDl6Q0PlBe]_c?6lYJY2
+!s100 17fnb:E7lndl[EE?eR@^m0
+R14
+32
+R200
+!i10b 1
+R206
+!s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/tb.vhd|
+!s107 /home/rjlawson/Downloads/project-2/src/tb.vhd|
+!i113 0
+R19
+R20
+Etb_pipeline
+R178
+R8
+R9
+!i122 570
+R10
+Z209 8/home/rjlawson/Downloads/project-2/src/tb_datapath.vhd
+Z210 F/home/rjlawson/Downloads/project-2/src/tb_datapath.vhd
+l0
+L4 1
+VKKJ[T:ikPbnC9FnPBCldC0
+!s100 3kbCh`z[L=UkckEW99[l61
+R14
+32
+R200
+!i10b 1
+R206
+Z211 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/tb_datapath.vhd|
+Z212 !s107 /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd|
+!i113 0
+R19
+R20
+Amixed
+R8
+R9
+DEx4 work 11 tb_pipeline 0 22 KKJ[T:ikPbnC9FnPBCldC0
+!i122 570
+l203
+L9 442
+VRL[4UUNoJ?ME;^C446iEW1
+!s100 XM@fd[gSSI[_PYLhg>jbR3
+R14
+32
+R200
+!i10b 1
+R206
+R211
+R212
+!i113 0
+R19
+R20
+Exor_32bit_data
+R35
+R8
+R9
+!i122 571
+R10
+Z213 8/home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd
+Z214 F/home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd
+l0
+R24
+VOg<NWjS6E0Z:SO[zQdzcD2
+!s100 H<m@[zS4`4[aT^4ShDJTj2
+R14
+32
+R200
+!i10b 1
+R206
+Z215 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd|
+Z216 !s107 /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 14 xor_32bit_data 0 22 Og<NWjS6E0Z:SO[zQdzcD2
+!i122 571
+l27
+R34
+VUoEO50L^aONm2E362DS5n2
+!s100 zM>O;CkbaYAJ4[m6T9S4D3
+R14
+32
+R200
+!i10b 1
+R206
+R215
+R216
+!i113 0
+R19
+R20
+Exorg2
+R35
+R8
+R9
+!i122 572
+R10
+Z217 8/home/rjlawson/Downloads/project-2/src/xorg2.vhd
+Z218 F/home/rjlawson/Downloads/project-2/src/xorg2.vhd
+l0
+R38
+V;hb`C0MKik;h36`3`SzM60
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R14
+32
+R200
+!i10b 1
+R206
+Z219 !s90 -reportprogress|300|-work|work|/home/rjlawson/Downloads/project-2/src/xorg2.vhd|
+Z220 !s107 /home/rjlawson/Downloads/project-2/src/xorg2.vhd|
+!i113 0
+R19
+R20
+Adataflow
+R8
+R9
+DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
+!i122 572
+l32
+R41
+VbmLohbkYjJQ`?EHUY>LoL1
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R14
+32
+R200
+!i10b 1
+R206
+R219
+R220
+!i113 0
+R19
+R20

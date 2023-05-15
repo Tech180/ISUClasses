@@ -1,0 +1,124 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+R0
+R0
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/longz/Desktop/Cpre381/project-1/BarrelShifter
+T_opt
+!s110 1636349331
+VeP6NWFXg7z<kGV_dgPkag0
+Z2 04 17 9 work tb_barrel_shifter structure 1
+=1-0050569bef0b-6188b593-aa8e-66b6
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+T_opt1
+!s110 1636349134
+VFB3=:V<5MQBHY1:[aVi>T0
+R2
+=1-0050569bef0b-6188b4ce-79fd4-6538
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+Ebarrel_shifter
+Z6 w1636349317
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R1
+Z10 8/home/longz/Desktop/Cpre381/project-1/BarrelShifter/BarrelShifter.vhd
+Z11 F/home/longz/Desktop/Cpre381/project-1/BarrelShifter/BarrelShifter.vhd
+l0
+L5 1
+VPko3F1f][QJM]n]A64U1j3
+!s100 m[49kc:5<=H`lNLN^VK^<0
+Z12 OL;C;2021.2;73
+32
+Z13 !s110 1636349327
+!i10b 1
+Z14 !s108 1636349327.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/longz/Desktop/Cpre381/project-1/BarrelShifter/BarrelShifter.vhd|
+Z16 !s107 /home/longz/Desktop/Cpre381/project-1/BarrelShifter/BarrelShifter.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Absh
+R7
+R8
+R9
+DEx4 work 14 barrel_shifter 0 22 Pko3F1f][QJM]n]A64U1j3
+!i122 3
+l16
+L14 22
+Vb]TW_`aB=DaImYlPInZ9^0
+!s100 ff7n`R76cIbQ4PAE0Lm<`3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Etb_barrel_shifter
+Z19 w1636234607
+R7
+R8
+R9
+!i122 4
+R1
+Z20 8/home/longz/Desktop/Cpre381/project-1/BarrelShifter/tb_BarrelShifter.vhd
+Z21 F/home/longz/Desktop/Cpre381/project-1/BarrelShifter/tb_BarrelShifter.vhd
+l0
+L6 1
+VkEOJ?V9D0RnzjRClk89`_2
+!s100 gcFjn2`Fj[lelBNZaWBb30
+R12
+32
+Z22 !s110 1636349329
+!i10b 1
+Z23 !s108 1636349329.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/longz/Desktop/Cpre381/project-1/BarrelShifter/tb_BarrelShifter.vhd|
+Z25 !s107 /home/longz/Desktop/Cpre381/project-1/BarrelShifter/tb_BarrelShifter.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+R9
+DEx4 work 17 tb_barrel_shifter 0 22 kEOJ?V9D0RnzjRClk89`_2
+!i122 4
+l31
+L10 86
+V8;]X`RHHmdMKBA=]lVf^K3
+!s100 O<;aJmAnJz9cMbO0PcHU20
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18

@@ -1,0 +1,182 @@
+/home/rjlawson/Downloads/project-1/src/nand_32bit_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/nand_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_32bit_data
+-- Compiling architecture dataflow of nand_32bit_data
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/BarrelShifter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/BarrelShifter.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity barrel_shifter
+-- Compiling architecture bsh of barrel_shifter
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/tb.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/tb.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package ENV
+** Warning: /home/rjlawson/Downloads/project-1/src/tb.vhd(22): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(100): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(101): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(102): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(104): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(105): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(106): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(108): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(109): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(116): (vcom-1136) Unknown identifier "regWr".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(121): (vcom-1136) Unknown identifier "regWrAddr".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(123): (vcom-1136) Unknown identifier "regWrData".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(126): (vcom-1136) Unknown identifier "memWr".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(131): (vcom-1136) Unknown identifier "memAddr".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(133): (vcom-1136) Unknown identifier "memData".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(136): (vcom-1136) Unknown identifier "ovfl".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(136): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(143): (vcom-1136) Unknown identifier "halt".
+** Error: /home/rjlawson/Downloads/project-1/src/tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Note: /home/rjlawson/Downloads/project-1/src/tb.vhd(152): VHDL Compiler exiting
+
+} {11.0 29.0} {}} /home/rjlawson/Downloads/project-1/src/controlUnit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/controlUnit.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controlUnit
+-- Compiling architecture behavioral of controlUnit
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/xorg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/xorg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/org2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/mux8to1_32bit_data.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/mux8to1_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux8to1_32bit_data
+-- Compiling architecture dataflow of mux8to1_32bit
+** Error: (vcom-11) Could not find work.mux8to1_32bit.
+** Note: /home/rjlawson/Downloads/project-1/src/mux8to1_32bit_data.vhd(33): VHDL Compiler exiting
+
+} {8.0 9.0} {}} /home/rjlawson/Downloads/project-1/src/fullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/fullAdder.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture structural of fullAdder
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/andg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/andg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/xor_32bit_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/xor_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_32bit_data
+-- Compiling architecture dataflow of xor_32bit_data
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/or_32bit_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/or_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_32bit_data
+-- Compiling architecture dataflow of or_32bit_data
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder_32bit
+-- Compiling architecture structural of fullAdder_32bit
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/controlUnit_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/controlUnit_tb.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controlUnit_tb
+-- Compiling architecture behavior of controlUnit_tb
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/mem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/mem.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/and_32bit_data.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/and_32bit_data.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_32bit_data
+-- Compiling architecture dataflow of and_32bit_data
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/MIPS_Processor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/MIPS_Processor.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/fullAdderMap.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/fullAdderMap.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdderMap
+-- Compiling architecture structural of fullAdderMap
+
+} {} {}} /home/rjlawson/Downloads/project-1/src/fetch.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/fetch.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fetch
+-- Compiling architecture structural of fetch
+** Error: /home/rjlawson/Downloads/project-1/src/fetch.vhd(28): near ":": (vcom-1576) expecting ';' or ')'.
+** Note: /home/rjlawson/Downloads/project-1/src/fetch.vhd(30): VHDL Compiler exiting
+
+} {8.0 9.0} {}} /home/rjlawson/Downloads/project-1/src/tb_ALU_32bit.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/project-1/src/tb_ALU_32bit.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_32bit_tb
+** Error: /home/rjlawson/Downloads/project-1/src/tb_ALU_32bit.vhd(5): near ":": (vcom-1576) expecting ';' or ')'.
+** Note: /home/rjlawson/Downloads/project-1/src/tb_ALU_32bit.vhd(5): VHDL Compiler exiting
+
+} {7.0 8.0} {}}

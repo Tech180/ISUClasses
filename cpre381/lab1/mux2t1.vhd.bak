@@ -1,0 +1,61 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mux2t1 is
+
+  port(i_D0          : in integer;
+       i_D1          : in integer;
+       i_S	     : in std_logic;
+       o_O           : out integer);
+
+end mux2t1;
+
+architecture structural of mux2t1 is
+  
+  component mux2t1 is
+      port(i_S               : in std_logic;
+           i_D0              : in integer;
+           i_D1              : in integer;
+           o_O               : out integer);
+end component;
+
+  component andg2 is
+      port(i_D0              : in integer;
+	   i_D1              : in integer;
+	   o_O               : out integer);
+end component;
+
+  component invg is
+      port(i_D0              : in integer;
+	   o_O               : out integer);
+end component; 
+
+  component xorg2 is
+      port(i_D0              : in integer;
+	   i_D1              : in integer;
+           o_O               : out integer);  
+  end component;
+
+	--signal a : integer;
+	--signal b : integer;
+	--signal c : integer;
+	--signal d : integer;
+	
+begin 
+        M1: andg2
+           port MAP(i_D0             => i_D0,
+             	    a                => a,
+                    b                => b);
+	M2: invg
+           port MAP(i_S             => i_S,
+             	    i_D1            => i_D1,
+                    c               => c);
+        M3: invg
+           port MAP(i_S             => i_S,
+             	    i_D1            => i_D1,
+                    c               => c);
+	M4: xorg2
+           port MAP(i_S             => i_S,
+                    a               => a);
+
+end structural;

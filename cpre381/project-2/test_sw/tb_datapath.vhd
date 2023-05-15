@@ -1,0 +1,451 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity tb_pipeline is
+  generic(helper        : time := 10 ns;
+          N             : integer := 32);
+end tb_pipeline;
+
+architecture mixed of tb_pipeline is
+
+component register_IFID is
+   port(clock                   : in std_logic;
+        i_rst                   : in std_logic;
+        i_we                    : in std_logic;
+        PC	                : in std_logic_vector(N-1 downto 0);
+        inst	                : in std_logic_vector(N-1 downto 0);
+        o_pc                    : out std_logic_vector(N-1 downto 0);
+        o_inst	                : out std_logic_vector(N-1 downto 0));
+end component;
+
+component register_IDEX is
+   generic(N: integer := 32);
+   port(clock       			: in std_logic;
+        i_rst        			: in std_logic;
+        i_we         			: in std_logic;
+        upperImmediate          : in std_logic;
+        regdst                  : in std_logic;
+        sltu                  : in std_logic;
+        jal                   : in std_logic;
+        memtoreg                : in std_logic;
+        regWrite                : in std_logic;
+        memWrite                : in std_logic;
+        ALUSrc                  : in std_logic;
+        sl                    : in std_logic; --shift left
+        sr                    : in std_logic; --shift right
+        ALUControl              : in std_logic;
+        sv                      : in std_logic; --shift variable
+        branch                  : in std_logic;
+        jr                      : in std_logic;
+        op				        : in std_logic_vector(2 downto 0);
+        writeaddr            	: in std_logic_vector(4 downto 0);
+        rd                    	: in std_logic_vector(4 downto 0);
+        rt                      : in std_logic_vector(4 downto 0);
+        shamt	                : in std_logic_vector(4 downto 0);
+        rt1           			: in std_logic_vector(N-1 downto 0);
+        rd1  			        : in std_logic_vector(N-1 downto 0);
+        immediateExtend        : in std_logic_vector(N-1 downto 0);
+        PC			        : in std_logic_vector(N-1 downto 0);
+        D0			        : in std_logic_vector(N-1 downto 0);
+        inst			        : in std_logic_vector(N-1 downto 0);
+
+        o_upperImmediate        : out std_logic;
+        o_RegDst                : out std_logic;
+        o_sltu                  : out std_logic;
+        o_jal                   : out std_logic;
+        o_MemtoReg              : out std_logic;
+        o_RegWrite              : out std_logic;
+        o_MemWrite              : out std_logic;
+        o_ALUSrc                : out std_logic;
+        o_sl                    : out std_logic;
+        o_sr                    : out std_logic;
+        o_ALUControl            : out std_logic;
+        o_sv                    : out std_logic;
+        o_branch                : out std_logic;
+        o_jr                    : out std_logic;
+        o_op				    : out std_logic_vector(2 downto 0);
+        o_writeaddr	            : out std_logic_vector(4 downto 0);
+        o_rd	                : out std_logic_vector(4 downto 0);
+        o_rt	                : out std_logic_vector(4 downto 0);
+        o_shamt	                : out std_logic_vector(4 downto 0);
+        o_rt1			        : out std_logic_vector(N-1 downto 0);
+        o_rd1			        : out std_logic_vector(N-1 downto 0);
+        o_immediateExtend			    : out std_logic_vector(N-1 downto 0);
+        o_PC		            : out std_logic_vector(N-1 downto 0);
+        o_D0			        : out std_logic_vector(N-1 downto 0);
+        o_inst			        : out std_logic_vector(N-1 downto 0));
+end component;
+
+component register_EXMEM is
+   generic(N: integer := 32);
+   port(clock       			: in std_logic;
+        i_rst        			: in std_logic;
+        i_we         			: in std_logic;
+        upperImmediate          : in std_logic;
+        sltu                    : in std_logic;
+        jal                     : in std_logic;
+        memToReg                : in std_logic;
+        regWrite                : in std_logic;
+        memWrite                : in std_logic;
+        ALUout			        : in std_logic_vector(N-1 downto 0);
+        ALU	     			    : in std_logic_vector(N-1 downto 0);
+        i_writeaddr			    : in std_logic_vector(4 downto 0);
+        sltu1	                : in std_logic_vector(N-1 downto 0);
+        upperImmediate1	        : in std_logic_vector(N-1 downto 0);
+        PC	                : in std_logic_vector(N-1 downto 0);
+        D0	                    : in std_logic_vector(N-1 downto 0);
+        inst	                : in std_logic_vector(N-1 downto 0);
+
+        o_upperImmediate             : out std_logic;
+        o_sltu                  : out std_logic;
+        o_jal                   : out std_logic;
+        o_memToReg              : out std_logic;
+        o_RegWrite              : out std_logic;
+        o_MemWrite              : out std_logic;
+        o_ALUout        		: out std_logic_vector(N-1 downto 0);
+        o_ALU	     			: out std_logic_vector(N-1 downto 0);
+        o_writeaddr			    : out std_logic_vector(4 downto 0);
+        o_sltu1	                : out std_logic_vector(N-1 downto 0);
+        o_upperImmediate1	    : out std_logic_vector(N-1 downto 0);
+        o_PC	                : out std_logic_vector(N-1 downto 0);
+        o_D0	                : out std_logic_vector(N-1 downto 0);
+        o_inst	                : out std_logic_vector(N-1 downto 0));
+end component;
+
+component register_MEMWB is
+   port(clock					: in std_logic;
+        i_rst					: in std_logic;
+        i_we					: in std_logic;
+        upperImmediate	        : in std_logic;
+        sltu	                : in std_logic;
+        jal	                    : in std_logic;
+        memToReg	            : in std_logic;
+        regWrite	            : in std_logic;
+        Dmem			        : in std_logic_vector(31 downto 0);
+        ALU			            : in std_logic_vector(31 downto 0);
+        upperImmediate1			: in std_logic_vector(31 downto 0);
+        sltu1			        : in std_logic_vector(31 downto 0);
+        PC			            : in std_logic_vector(31 downto 0);
+        D0			            : in std_logic_vector(31 downto 0);
+        inst			        : in std_logic_vector(31 downto 0);
+        writeaddr				: in std_logic_vector(4 downto 0);
+        o_upperImmediate	    : out std_logic;
+        o_sltu	                : out std_logic;
+        o_jal	                : out std_logic;
+        o_memToReg	            : out std_logic;
+        o_RegWrite	            : out std_logic;
+        o_Dmem			        : out std_logic_vector(31 downto 0);
+        o_ALU			        : out std_logic_vector(31 downto 0);
+        o_upperImmediate1		: out std_logic_vector(31 downto 0);
+        o_sltu1			        : out std_logic_vector(31 downto 0);
+        o_PC			        : out std_logic_vector(31 downto 0);
+        o_D0			        : out std_logic_vector(31 downto 0);
+        o_inst			        : out std_logic_vector(31 downto 0);
+        o_writeaddr				: out std_logic_vector(4 downto 0));
+end component;
+
+signal clock	                    : std_logic := '0';
+signal flush_IFID	            : std_logic := '0';
+signal flush_IDEX	            : std_logic := '0';
+signal flush_EXMEM	            : std_logic := '0';
+signal flush_MEMWB	            : std_logic := '0';
+signal stall_IFID		        : std_logic := '1';
+signal stall_IDEX		        : std_logic := '1';
+signal stall_EXMEM		        : std_logic := '1';
+signal stall_MEMWB		        : std_logic := '1';
+
+
+signal s_PC                     : std_logic_vector(31 downto 0);
+signal s_inst 		            : std_logic_vector(31 downto 0);
+signal s_rt1 		            : std_logic_vector(31 downto 0);
+signal s_rd1 		            : std_logic_vector(31 downto 0);
+signal s_immediateExtend 		        : std_logic_vector(31 downto 0);
+signal s_ALUOut_MEM 		    : std_logic_vector(31 downto 0);
+signal s_ALUb		            : std_logic_vector(31 downto 0);
+signal s_sltu1_MEM 		        : std_logic_vector(31 downto 0);
+signal s_upperImmediateD_MEM 		: std_logic_vector(31 downto 0);
+signal s_DMEM 		            : std_logic_vector(31 downto 0);
+signal s_ALU_WB 		        : std_logic_vector(31 downto 0);
+signal s_upperImmediateD_WB 		    : std_logic_vector(31 downto 0);
+signal s_sltu1_WB 		        : std_logic_vector(31 downto 0);
+
+signal s_writeaddr_EX				: std_logic_vector(4 downto 0);
+signal s_writeaddr_MEM				: std_logic_vector(4 downto 0);
+signal s_rd						: std_logic_vector(4 downto 0);
+signal s_rt						: std_logic_vector(4 downto 0);
+signal s_shamt					: std_logic_vector(4 downto 0);
+signal s_writeaddr_WB				: std_logic_vector(4 downto 0);
+signal s_Op						: std_logic_vector(2 downto 0);
+
+signal s_upperImmediate_EX	        : std_logic;
+signal s_upperImmediate_MEM	        : std_logic;
+signal s_sltu_EX	            : std_logic;
+signal s_sltu_MEM	            : std_logic;
+signal s_jal_EX	                : std_logic;
+signal s_jal_MEM	            : std_logic;
+signal s_memToReg_EX	        : std_logic;
+signal s_memToReg_MEM	        : std_logic;
+signal s_regWrite_EX	        : std_logic;
+signal s_regWrite_MEM	        : std_logic;
+signal s_memWrite_EX	        : std_logic;
+signal s_memWrite_MEM	        : std_logic;
+signal s_ALUSrc	                : std_logic;
+signal s_sl	                : std_logic;
+signal s_sr	                : std_logic;
+signal s_ALUControl	        : std_logic;
+signal s_ShiftVariable	        : std_logic;
+signal s_upperImmediate_WB	        : std_logic;
+signal s_sltu_WB	            : std_logic;
+signal s_jal_WB	                : std_logic;
+signal s_memToReg_WB	        : std_logic;
+signal s_regWrite_WB	        : std_logic;
+
+begin
+
+  P_clock: process
+  begin
+    clock <= '1';
+    wait for helper;
+    clock <= '0';
+    wait for helper;
+  end process;
+
+generic_register_IFID : register_IFID
+  port map(clock => clock,
+	   i_rst => flush_IFID,
+	   i_we => stall_IFID,
+	   PC => x"00400000",
+	   inst => x"CFF02312",
+	   o_PC => s_PC,
+	   o_inst => s_inst);
+
+generic_register_IDEX : register_IDEX
+  port map(clock => clock,
+	   i_rst => flush_IDEX,
+	   i_we => stall_IDEX,
+	   upperImmediate => '1',
+	   sltu => '1',
+	   jal => '1',
+	   memToReg => '1',
+	   regWrite => '1',
+	   memWrite => '1',
+	   ALUSrc => '0',
+	   sl => '0',
+	   sr => '0',
+	   ALUControl => '0',
+	   sv => '0',
+	   regdst => '0',
+	   branch => '0',
+ 	   jr => '0',
+	   PC => x"00400004",
+	   D0 => x"0000FFFF",
+	   inst => s_inst,
+	   op => "000",
+	   writeAddr => s_inst(15 downto 11),
+	   rd => s_inst(20 downto 16),
+	   rt => s_inst(25 downto 21),
+	   shamt => s_inst(10 downto 6),
+	   rt1 => x"FFF000FF",
+	   rd1 => x"00FF00FF",
+	   immediateExtend => x"00001111",
+	   o_upperImmediate => s_upperImmediate_EX,
+	   o_sltu => s_sltu_EX,
+	   o_jal => s_jal_EX,
+	   o_memToReg => s_memToReg_EX,
+	   o_RegWrite => s_regWrite_EX,
+	   o_MemWrite => s_memWrite_EX,
+	   o_ALUSrc => s_ALUSrc,
+	   o_sl => s_sl,
+	   o_sr => s_sr,
+	   o_ALUControl => s_ALUControl,
+	   o_sv => s_ShiftVariable,
+	   o_regdst => open,
+	   o_branch => open,
+	   o_jr => open,
+	   o_PC => open,
+	   o_D0 => open,
+	   o_inst => open,
+	   o_op => s_Op,
+	   o_writeaddr => s_writeaddr_EX,
+	   o_rd => s_rd,
+	   o_rt => s_rt,
+	   o_shamt => s_shamt,
+	   o_rt1 => s_rt1,
+	   o_rd1 => s_rd1,
+	   o_immediateExtend => s_immediateExtend);
+
+generic_register_EXMEM : register_EXMEM
+  port map(clock => clock,
+           i_rst => flush_EXMEM,
+           i_we => stall_EXMEM,
+           upperImmediate => s_upperImmediate_EX,
+           sltu => s_sltu_EX,
+           jal => s_jal_EX,
+           memToReg => s_memToReg_EX,
+           regWrite => s_regWrite_EX,
+           memWrite => s_memWrite_EX,
+           PC => x"00400008",
+           D0 => x"00DD00DD",
+           inst => s_inst,
+           ALUOut => x"11111111",
+           ALU => x"00001111",
+           i_writeAddr => s_writeaddr_EX,
+           sltu1 => x"00000001",
+           upperImmediate1 => x"10101010",
+           o_upperImmediate => s_upperImmediate_MEM,
+           o_sltu => s_sltu_MEM,
+           o_jal => s_jal_MEM,
+           o_memToReg => s_memToReg_MEM,
+           o_RegWrite => s_regWrite_MEM,
+           o_MemWrite => s_memWrite_MEM,
+           o_PC => open,
+           o_D0 => open,
+           o_inst => open,
+           o_ALUOut => s_ALUOut_MEM,
+           o_ALU => s_ALUb,
+           o_writeaddr => s_writeaddr_MEM,
+           o_sltu1 => s_sltu1_MEM,
+           o_upperImmediate1 => s_upperImmediateD_MEM);
+
+generic_register_MEMWB : register_MEMWB
+  port map(clock => clock,
+	   i_rst => flush_MEMWB,
+	   i_we => stall_MEMWB,
+           upperImmediate => s_upperImmediate_MEM,
+           sltu => s_sltu_MEM,
+           jal => s_jal_MEM,
+           memToReg => s_memToReg_MEM,
+           regWrite => s_regWrite_MEM,
+           PC => x"0040000C",
+           D0 => x"00010000",
+           inst => s_inst,
+           Dmem => x"22222222",
+           ALU => s_ALUOut_MEM,
+           upperImmediate1 => s_upperImmediateD_MEM,
+           sltu1 => s_sltu1_MEM,
+           writeAddr => s_writeaddr_MEM,
+           o_upperImmediate => s_upperImmediate_WB,
+           o_sltu => s_sltu_WB,
+           o_jal => s_jal_WB,
+           o_memToReg => s_memToReg_WB,
+           o_RegWrite => s_regWrite_WB,
+           o_PC => open,
+           o_D0 => open,
+           o_inst => open,
+           o_Dmem => s_DMEM,
+           o_ALU => s_ALU_WB,
+           o_upperImmediate1 => s_upperImmediateD_WB,
+           o_sltu1 => s_sltu1_WB,
+           o_writeaddr => s_writeaddr_WB);
+
+
+   generic_datapath_test : process
+   begin
+        flush_IFID <= '1';
+        flush_IDEX <= '1';
+        flush_EXMEM <= '1';
+        flush_MEMWB <= '1';
+        wait for helper;
+
+        flush_IFID <= '0';
+        flush_IDEX <= '0';
+        flush_EXMEM <= '0';
+        flush_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        wait for helper;
+        wait for helper;
+        stall_IFID <= '0';
+        stall_IDEX <= '0';
+        stall_EXMEM <= '0';
+        stall_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        stall_IFID <= '1';
+        stall_IDEX <= '1';
+        stall_EXMEM <= '1';
+        stall_MEMWB <= '1';
+        wait for helper;
+        wait for helper;
+        wait for helper;
+        wait for helper;
+
+        flush_IFID <= '1';
+        flush_IDEX <= '1';
+        flush_EXMEM <= '1';
+        flush_MEMWB <= '1';
+        wait for helper;
+
+        flush_IFID <= '0';
+        flush_IDEX <= '0';
+        flush_EXMEM <= '0';
+        flush_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        
+        flush_IFID <= '1';
+        flush_IDEX <= '0';
+        flush_EXMEM <= '0';
+        flush_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        flush_IFID <= '1';
+        flush_IDEX <= '1';
+        flush_EXMEM <= '0';
+        flush_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        flush_IFID <= '1';
+        flush_IDEX <= '1';
+        flush_EXMEM <= '1';
+        flush_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        flush_IFID <= '1';
+        flush_IDEX <= '1';
+        flush_EXMEM <= '1';
+        flush_MEMWB <= '1';
+        wait for helper;
+        wait for helper;
+        flush_IFID <= '0';
+        flush_IDEX <= '0';
+        flush_EXMEM <= '0';
+        flush_MEMWB <= '0';
+        stall_IFID <= '0';
+        stall_IDEX <= '0';
+        stall_EXMEM <= '0';
+        stall_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        
+        stall_IFID <= '1';
+        stall_IDEX <= '0';
+        stall_EXMEM <= '0';
+        stall_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        stall_IFID <= '1';
+        stall_IDEX <= '1';
+        stall_EXMEM <= '0';
+        stall_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        stall_IFID <= '1';
+        stall_IDEX <= '1';
+        stall_EXMEM <= '1';
+        stall_MEMWB <= '0';
+        wait for helper;
+        wait for helper;
+        stall_IFID <= '1';
+        stall_IDEX <= '1';
+        stall_EXMEM <= '1';
+        stall_MEMWB <= '1';
+        wait for helper;
+        wait for helper;
+
+        
+
+   end process;
+
+end mixed;
+

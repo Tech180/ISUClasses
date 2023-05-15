@@ -1,0 +1,99 @@
+
+Exception caught at 2021-11-06 16:42:40.052064:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-06 16:42:46.630841:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-11 19:16:21.910759:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1705, in __call__
+    return self.func(*args)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/run_gui.py", line 197, in chooseSelectedFiles
+    test_framework.queueSimulation(asm_files_to_run, options)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/test_framework.py", line 65, in queueSimulation
+    runSimulation(x,simOptions)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/test_framework.py", line 72, in runSimulation
+    options['asm-path'] = mars.run_sim(asm_file=asm_Path)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/mars.py", line 72, in run_sim
+    return run_sim()
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/mars.py", line 45, in run_sim
+    path = input('>').strip()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 55, in main
+    run_gui.guiMain()
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/run_gui.py", line 156, in guiMain
+    window.mainloop()
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1283, in mainloop
+    self.tk.mainloop(n)
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1709, in __call__
+    self.widget._report_exception()
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1452, in _report_exception
+    root.report_callback_exception(exc, val, tb)
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 2094, in report_callback_exception
+    print("Exception in Tkinter callback", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+Exception caught at 2021-11-14 14:19:54.008865:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 17:19:23.198139:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 20:46:52.228745:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 20:46:52.242975:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 20:46:52.243390:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 20:46:52.243564:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError

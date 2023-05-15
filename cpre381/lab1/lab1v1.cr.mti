@@ -1,0 +1,175 @@
+/home/rjlawson/Downloads/lab1/mux2t1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/mux2t1.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1
+-- Compiling architecture structural of mux2t1
+
+} {} {}} /home/rjlawson/Downloads/lab1/xorg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/xorg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+
+} {} {}} /home/rjlawson/Downloads/lab1/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/org2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}} /home/rjlawson/Downloads/lab1/fullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/fullAdder.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture structural of fullAdder
+
+} {} {}} /home/rjlawson/Downloads/lab1/andg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/andg2.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}} /home/rjlawson/Downloads/lab1/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/invg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/rjlawson/Downloads/lab1/RegLd.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/RegLd.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+
+} {} {}} /home/rjlawson/Downloads/lab1/Reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/Reg.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+
+} {} {}} /home/rjlawson/Downloads/lab1/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/mux2t1_N.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+
+} {} {}} /home/rjlawson/Downloads/lab1/Multiplier.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/Multiplier.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+
+} {} {}} /home/rjlawson/Downloads/lab1/mux2t1_N_dataflow.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/mux2t1_N_dataflow.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N_dataflow
+-- Compiling architecture dataflow of mux2t1_N_dataflow
+
+} {} {}} /home/rjlawson/Downloads/lab1/Adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/Adder.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder
+-- Compiling architecture behavior of Adder
+
+} {} {}} /home/rjlawson/Downloads/lab1/fullAdderMap.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/fullAdderMap.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdderMap
+-- Compiling architecture structural of fullAdderMap
+
+} {} {}} /home/rjlawson/Downloads/lab1/tb_TPU_MV_Element.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/tb_TPU_MV_Element.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package ENV
+** Warning: /home/rjlawson/Downloads/lab1/tb_TPU_MV_Element.vhd(17): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity tb_TPU_MV_Element
+-- Compiling architecture mixed of tb_TPU_MV_Element
+
+} {} {}} /home/rjlawson/Downloads/lab1/tb_OnesComp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/tb_OnesComp.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench_Ones
+-- Compiling architecture behavioral of testbench_Ones
+
+} {} {}} /home/rjlawson/Downloads/lab1/AdderSubtractor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/AdderSubtractor.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity fullAdder
+-- Compiling entity AdderSubtracter
+-- Compiling architecture structural of AdderSubtracter
+
+} {} {}} /home/rjlawson/Downloads/lab1/mux2t1_dataflow.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/mux2t1_dataflow.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_dataflow
+-- Compiling architecture dataflow of mux2t1_dataflow
+
+} {} {}} /home/rjlawson/Downloads/lab1/TPU_MV_Element.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/TPU_MV_Element.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TPU_MV_Element
+-- Compiling architecture structure of TPU_MV_Element
+
+} {} {}} /home/rjlawson/Downloads/lab1/OnesComp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/OnesComp.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OnesComp
+-- Compiling architecture structural of OnesComp
+
+} {} {}} /home/rjlawson/Downloads/lab1/testbench_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/testbench_N.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench
+-- Compiling architecture structural of testbench
+
+} {} {}} /home/rjlawson/Downloads/lab1/tb_AdderSubtractor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/rjlawson/Downloads/lab1/tb_AdderSubtractor.vhd
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity fullAdder
+-- Loading entity AdderSubtracter
+-- Compiling entity tb_AS
+-- Compiling architecture structure of tb_AS
+
+} {} {}}

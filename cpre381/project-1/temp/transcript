@@ -1,0 +1,1331 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd /home/longz/Desktop/Cpre381/project-1/src
+vsim work.register_file(structural)
+# vsim work.register_file(structural) 
+# Start time: 20:02:21 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.reg_array_type
+# Loading work.register_file(structural)#1
+# Loading work.reg_n(abc)#1
+quit -sim
+# End time: 20:02:30 on Nov 14,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:18 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 20:03:18 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:18 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 20:03:18 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:18 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit_data
+# -- Compiling architecture dataflow of and_32bit_data
+# End time: 20:03:18 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:18 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:03:19 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:19 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 20:03:19 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:22 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 20:03:22 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:22 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 20:03:22 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:22 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 20:03:22 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:22 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 20:03:22 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:22 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 20:03:23 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:23 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 20:03:23 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:23 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# End time: 20:03:23 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:26 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 20:03:26 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:26 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 20:03:26 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:26 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:03:26 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:26 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 20:03:27 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:27 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.reg_array_type.
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd(21): (vcom-1195) Cannot find expanded name "work.reg_array_type".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd(21): Unknown expanded name.
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd(23): VHDL Compiler exiting
+# End time: 20:03:27 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:27 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 20:03:27 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:27 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 20:03:27 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:32 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 20:03:32 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:32 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 20:03:32 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:32 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:03:32 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:32 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 20:03:33 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:33 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 20:03:33 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:33 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 20:03:33 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:33 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 20:03:33 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:37 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(22): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb
+# -- Compiling architecture mixed of tb
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(100): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(101): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(102): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(104): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(105): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(106): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(108): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(109): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(116): (vcom-1136) Unknown identifier "regWr".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(121): (vcom-1136) Unknown identifier "regWrAddr".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(123): (vcom-1136) Unknown identifier "regWrData".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(126): (vcom-1136) Unknown identifier "memWr".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(131): (vcom-1136) Unknown identifier "memAddr".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(133): (vcom-1136) Unknown identifier "memData".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(136): (vcom-1136) Unknown identifier "ovfl".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(136): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(143): (vcom-1136) Unknown identifier "halt".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/tb.vhd(152): VHDL Compiler exiting
+# End time: 20:03:37 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 1
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:37 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 20:03:37 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:37 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:03:37 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:46 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 20:03:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:47 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:03:47 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:50 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 20:03:50 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:50 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 20:03:50 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:50 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:03:50 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 20:03:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 20:03:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 20:03:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 20:03:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:55 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 20:03:55 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:55 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 20:03:55 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:55 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:03:56 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:56 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 20:03:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:56 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 20:03:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:56 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 20:03:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:03:56 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 20:03:57 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:00 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 20:04:01 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:01 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 20:04:01 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:01 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 20:04:01 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:01 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 20:04:01 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:01 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 20:04:02 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 20:04:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# End time: 20:04:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 20:04:05 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 20:04:05 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit_data
+# -- Compiling architecture dataflow of and_32bit_data
+# End time: 20:04:05 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:04:05 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:04:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 20:04:06 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:04:14 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=7.
+# Error loading design
+# End time: 20:04:14 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 7
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:38 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:06:38 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:06:42 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=7.
+# Error loading design
+# End time: 20:06:42 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 7
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 20:06:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 20:06:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/and_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit_data
+# -- Compiling architecture dataflow of and_32bit_data
+# End time: 20:06:51 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:51 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:06:52 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:52 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 20:06:52 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:53 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 20:06:53 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:53 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 20:06:54 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:54 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 20:06:54 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:54 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 20:06:54 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:54 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 20:06:54 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:54 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 20:06:54 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:54 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# End time: 20:06:55 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:56 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 20:06:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:56 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 20:06:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:56 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:06:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:57 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture dataflow of mux2t1
+# End time: 20:06:57 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:57 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:06:57 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:57 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 20:06:57 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:06:57 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 20:06:57 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:01 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 20:07:01 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:01 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 20:07:01 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:01 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:07:02 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture dataflow of mux2t1
+# End time: 20:07:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:07:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 20:07:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 20:07:02 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:02 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 20:07:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:03 on Nov 14,2021
+# vcom -reportprogress 30 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 20:07:04 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:05 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 20:07:05 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:06 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 20:07:06 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:07 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 20:07:08 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:07:09 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:07:09 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:07:12 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(315): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D0' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(316): (vopt-1549) At instance jaladdrmux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(324): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=5.
+# Error loading design
+# End time: 20:07:13 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 5
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:13:22 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:13:22 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:13:25 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(319): (vopt-1549) At instance generic_jaladdrmux the actual expression and the port 'o_O' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(319): (vopt-1549) At instance generic_jaladdrmux the actual expression and the port 'o_O' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(325): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(325): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=4.
+# Error loading design
+# End time: 20:13:25 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:15:03 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:15:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:15:06 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(252): (vopt-1549) At instance generic_jumpandregister_mux_32bit the actual expression and the port 'i_D0' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/generic_jumpandregister_mux_32bit
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(252): (vopt-1549) At instance generic_jumpandregister_mux_32bit the actual expression and the port 'i_D0' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/generic_jumpandregister_mux_32bit
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(298): (vopt-1549) At instance generic_branch_to_mux_32bit_dataflow the actual expression and the port 'o_O' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/generic_branch_to_mux_32bit_dataflow
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(298): (vopt-1549) At instance generic_branch_to_mux_32bit_dataflow the actual expression and the port 'o_O' of entity 'work.mux_32bit_dataflow' have different sizes:  ([5,32]).
+#         Region: /MIPS_Processor/generic_branch_to_mux_32bit_dataflow
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(319): (vopt-1549) At instance generic_jaladdrmux the actual expression and the port 'o_O' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_jaladdrmux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(319): (vopt-1549) At instance generic_jaladdrmux the actual expression and the port 'o_O' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_jaladdrmux
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(325): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of component 'work.MIPS_Processor(structure).mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd(325): (vopt-1549) At instance generic_register_32bit_mux the actual expression and the port 'i_D1' of entity 'work.mux_32bit_dataflow' have different sizes:  ([32,5]).
+#         Region: /MIPS_Processor/generic_register_32bit_mux
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=6.
+# Error loading design
+# End time: 20:15:07 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 6
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:17:41 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 20:17:41 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 20:17:43 on Nov 14,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_add
+# ** Warning: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_32bit_ALU/generic_sub
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_processor(structure)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mem(rtl)#1
+# Loading work.controlunit(behavioral)#1
+# Loading work.mux_32bit_dataflow(dataflow)#1
+# Loading work.programcounter(behavorial)#1
+# Loading work.fulladder_n(pizza_n)#1
+# Loading work.fulladder(pizza)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.extender_n(behavior)#1
+# Loading work.mux_32bit_dataflow(dataflow)#2
+# Loading work.reg_array_type
+# Loading work.register_file(structural)#1
+# Loading work.decoder5t32(dataflow)#1
+# Loading work.reg_n(abc)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1_array(dataflow)#1
+# Loading work.alu_32bit(structural)#1
+# Loading work.and_32bit_data(dataflow)#1
+# Loading work.xor_32bit_data(dataflow)#1
+# Loading work.nor_32bit_data(dataflow)#1
+# Loading work.addsub(behavior)#1
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_32bit_ALU/generic_add File: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(dataflow)#1
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_32bit_ALU/generic_sub File: /home/longz/Desktop/Cpre381/project-1/src/addsub.vhd
+# Loading work.barrel_shifter(bsh)#1
+# Loading work.barrel_shifter(bsh)#2
+# Loading work.barrel_shifter(bsh)#3
+# End time: 20:17:51 on Nov 14,2021, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 4

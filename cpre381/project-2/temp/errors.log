@@ -1,0 +1,278 @@
+
+Exception caught at 2021-11-06 16:42:40.052064:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-06 16:42:46.630841:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-11 19:16:21.910759:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1705, in __call__
+    return self.func(*args)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/run_gui.py", line 197, in chooseSelectedFiles
+    test_framework.queueSimulation(asm_files_to_run, options)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/test_framework.py", line 65, in queueSimulation
+    runSimulation(x,simOptions)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/test_framework.py", line 72, in runSimulation
+    options['asm-path'] = mars.run_sim(asm_file=asm_Path)
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/mars.py", line 72, in run_sim
+    return run_sim()
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/mars.py", line 45, in run_sim
+    path = input('>').strip()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 55, in main
+    run_gui.guiMain()
+  File "/home/longz/Desktop/Cpre381/project-1/internal/testpy/run_gui.py", line 156, in guiMain
+    window.mainloop()
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1283, in mainloop
+    self.tk.mainloop(n)
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1709, in __call__
+    self.widget._report_exception()
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 1452, in _report_exception
+    root.report_callback_exception(exc, val, tb)
+  File "/usr/lib64/python3.6/tkinter/__init__.py", line 2094, in report_callback_exception
+    print("Exception in Tkinter callback", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+Exception caught at 2021-11-14 14:19:54.008865:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-11-14 17:19:23.198139:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-09 01:31:21.561077:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-09 01:31:21.561428:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-09 01:41:05.188155:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-09 01:41:05.187111:
+Traceback (most recent call last):
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1702, in __call__
+    return self.func(*args)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/run_gui.py", line 197, in chooseSelectedFiles
+    test_framework.queueSimulation(asm_files_to_run, options)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/test_framework.py", line 65, in queueSimulation
+    runSimulation(x,simOptions)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/test_framework.py", line 72, in runSimulation
+    options['asm-path'] = mars.run_sim(asm_file=asm_Path)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/mars.py", line 72, in run_sim
+    return run_sim()
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/mars.py", line 45, in run_sim
+    path = input('>').strip()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 55, in main
+    run_gui.guiMain()
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/run_gui.py", line 156, in guiMain
+    window.mainloop()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1280, in mainloop
+    self.tk.mainloop(n)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1706, in __call__
+    self.widget._report_exception()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1449, in _report_exception
+    root.report_callback_exception(exc, val, tb)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 2091, in report_callback_exception
+    print("Exception in Tkinter callback", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+Exception caught at 2021-12-09 01:41:05.188207:
+Traceback (most recent call last):
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1702, in __call__
+    return self.func(*args)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/run_gui.py", line 197, in chooseSelectedFiles
+    test_framework.queueSimulation(asm_files_to_run, options)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/test_framework.py", line 65, in queueSimulation
+    runSimulation(x,simOptions)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/test_framework.py", line 72, in runSimulation
+    options['asm-path'] = mars.run_sim(asm_file=asm_Path)
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/mars.py", line 72, in run_sim
+    return run_sim()
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/mars.py", line 45, in run_sim
+    path = input('>').strip()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 55, in main
+    run_gui.guiMain()
+  File "/home/rjlawson/Downloads/project-2/internal/testpy/run_gui.py", line 156, in guiMain
+    window.mainloop()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1280, in mainloop
+    self.tk.mainloop(n)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1706, in __call__
+    self.widget._report_exception()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1449, in _report_exception
+    root.report_callback_exception(exc, val, tb)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 2091, in report_callback_exception
+    print("Exception in Tkinter callback", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+Exception caught at 2021-12-09 01:41:10.715006:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError: EOF when reading a line
+
+Exception caught at 2021-12-10 18:21:53.259571:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 21:28:50.738162:
+Traceback (most recent call last):
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1702, in __call__
+    return self.func(*args)
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/run_gui.py", line 197, in chooseSelectedFiles
+    test_framework.queueSimulation(asm_files_to_run, options)
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/test_framework.py", line 65, in queueSimulation
+    runSimulation(x,simOptions)
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/test_framework.py", line 92, in runSimulation
+    compare_dumps(options)
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/test_framework.py", line 215, in compare_dumps
+    dump_compare.compare(student_dump,mars_dump,max_mismatches=mismatches,outfunc=compare_out_function) # captures the output
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/dump_compare.py", line 412, in compare
+    student_firstline, student_secondline, student_thirdline = student_reader.read_next(skipnop=True)
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/dump_compare.py", line 63, in read_next
+    fline = self.f.readline().strip()
+OSError: [Errno 116] Stale file handle
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 55, in main
+    run_gui.guiMain()
+  File "/home/longz/Desktop/Cpre381/project-2/internal/testpy/run_gui.py", line 156, in guiMain
+    window.mainloop()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1280, in mainloop
+    self.tk.mainloop(n)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1706, in __call__
+    self.widget._report_exception()
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 1449, in _report_exception
+    root.report_callback_exception(exc, val, tb)
+  File "/usr/local/mentor/calibre/pkgs/icv_python/asp/lib/python3.6/tkinter/__init__.py", line 2091, in report_callback_exception
+    print("Exception in Tkinter callback", file=sys.stderr)
+OSError: [Errno 5] Input/output error
+
+Exception caught at 2021-12-10 21:29:38.530350:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:16:08.580676:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:16:12.372926:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:16:12.613698:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:20:58.394605:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:20:58.394465:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError
+
+Exception caught at 2021-12-10 23:20:59.004468:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError: EOF when reading a line
+
+Exception caught at 2021-12-10 23:35:58.177650:
+Traceback (most recent call last):
+  File "internal/testpy/test_framework.py", line 238, in <module>
+    main()
+  File "internal/testpy/test_framework.py", line 57, in main
+    input("Press Enter To Exit...")
+EOFError

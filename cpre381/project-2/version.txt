@@ -1,0 +1,11 @@
+
+Version fa2021.2
+
+Release Date: 8/6/2021
+
+Release Notes:
+* Ported to RHEL 7 lab install
+* Submoduled MARS
+
+Known Bugs:
+

@@ -1,0 +1,2022 @@
+[inst #1] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #2] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #3] lw $11,28($1)
+Register Write to Reg: 0x0B Val: 0x00000028
+[inst #4] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #5] addi $10,$0,0
+Register Write to Reg: 0x0A Val: 0x00000000
+[inst #6] ori $8,$1,0
+Register Write to Reg: 0x08 Val: 0x10010000
+[inst #7] NOP 
+[inst #8] j 4194364
+[inst #9] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #10] NOP 
+[inst #11] NOP 
+[inst #12] NOP 
+[inst #13] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #14] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x0000006F
+[inst #15] NOP 
+[inst #16] NOP 
+[inst #17] NOP 
+[inst #18] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #19] NOP 
+[inst #20] NOP 
+[inst #21] NOP 
+[inst #22] bne $13,$0,-19
+[inst #23] sw $16,4($12)
+Memory Write to Addr: 0x10010004 Val: 0x0000007B
+[inst #24] sw $17,0($12)
+Memory Write to Addr: 0x10010000 Val: 0x0000006F
+[inst #25] j 4194428
+[inst #26] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #27] NOP 
+[inst #28] NOP 
+[inst #29] NOP 
+[inst #30] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #31] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #32] NOP 
+[inst #33] NOP 
+[inst #34] NOP 
+[inst #35] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #36] NOP 
+[inst #37] NOP 
+[inst #38] NOP 
+[inst #39] bne $18,$0,-30
+[inst #40] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #41] NOP 
+[inst #42] NOP 
+[inst #43] NOP 
+[inst #44] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #45] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x0000002C
+[inst #46] NOP 
+[inst #47] NOP 
+[inst #48] NOP 
+[inst #49] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #50] NOP 
+[inst #51] NOP 
+[inst #52] NOP 
+[inst #53] bne $13,$0,-19
+[inst #54] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x0000007B
+[inst #55] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x0000002C
+[inst #56] j 4194428
+[inst #57] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #58] NOP 
+[inst #59] NOP 
+[inst #60] NOP 
+[inst #61] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #62] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #63] NOP 
+[inst #64] NOP 
+[inst #65] NOP 
+[inst #66] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #67] NOP 
+[inst #68] NOP 
+[inst #69] NOP 
+[inst #70] bne $18,$0,-30
+[inst #71] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #72] NOP 
+[inst #73] NOP 
+[inst #74] NOP 
+[inst #75] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #76] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000065
+[inst #77] NOP 
+[inst #78] NOP 
+[inst #79] NOP 
+[inst #80] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #81] NOP 
+[inst #82] NOP 
+[inst #83] NOP 
+[inst #84] bne $13,$0,-19
+[inst #85] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x0000007B
+[inst #86] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000065
+[inst #87] j 4194428
+[inst #88] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #89] NOP 
+[inst #90] NOP 
+[inst #91] NOP 
+[inst #92] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #93] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #94] NOP 
+[inst #95] NOP 
+[inst #96] NOP 
+[inst #97] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #98] NOP 
+[inst #99] NOP 
+[inst #100] NOP 
+[inst #101] bne $18,$0,-30
+[inst #102] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #103] NOP 
+[inst #104] NOP 
+[inst #105] NOP 
+[inst #106] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #107] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #108] NOP 
+[inst #109] NOP 
+[inst #110] NOP 
+[inst #111] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #112] NOP 
+[inst #113] NOP 
+[inst #114] NOP 
+[inst #115] bne $13,$0,-19
+[inst #116] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x0000007B
+[inst #117] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000002
+[inst #118] j 4194428
+[inst #119] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #120] NOP 
+[inst #121] NOP 
+[inst #122] NOP 
+[inst #123] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #124] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #125] NOP 
+[inst #126] NOP 
+[inst #127] NOP 
+[inst #128] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #129] NOP 
+[inst #130] NOP 
+[inst #131] NOP 
+[inst #132] bne $18,$0,-30
+[inst #133] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010010
+[inst #134] NOP 
+[inst #135] NOP 
+[inst #136] NOP 
+[inst #137] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #138] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #139] NOP 
+[inst #140] NOP 
+[inst #141] NOP 
+[inst #142] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #143] NOP 
+[inst #144] NOP 
+[inst #145] NOP 
+[inst #146] bne $13,$0,-19
+[inst #147] sw $16,4($12)
+Memory Write to Addr: 0x10010014 Val: 0x0000007B
+[inst #148] sw $17,0($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000001
+[inst #149] j 4194428
+[inst #150] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000014
+[inst #151] NOP 
+[inst #152] NOP 
+[inst #153] NOP 
+[inst #154] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000018
+[inst #155] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #156] NOP 
+[inst #157] NOP 
+[inst #158] NOP 
+[inst #159] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #160] NOP 
+[inst #161] NOP 
+[inst #162] NOP 
+[inst #163] bne $18,$0,-30
+[inst #164] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010014
+[inst #165] NOP 
+[inst #166] NOP 
+[inst #167] NOP 
+[inst #168] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #169] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000063
+[inst #170] NOP 
+[inst #171] NOP 
+[inst #172] NOP 
+[inst #173] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #174] NOP 
+[inst #175] NOP 
+[inst #176] NOP 
+[inst #177] bne $13,$0,-19
+[inst #178] sw $16,4($12)
+Memory Write to Addr: 0x10010018 Val: 0x0000007B
+[inst #179] sw $17,0($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000063
+[inst #180] j 4194428
+[inst #181] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000018
+[inst #182] NOP 
+[inst #183] NOP 
+[inst #184] NOP 
+[inst #185] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000001C
+[inst #186] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #187] NOP 
+[inst #188] NOP 
+[inst #189] NOP 
+[inst #190] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #191] NOP 
+[inst #192] NOP 
+[inst #193] NOP 
+[inst #194] bne $18,$0,-30
+[inst #195] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010018
+[inst #196] NOP 
+[inst #197] NOP 
+[inst #198] NOP 
+[inst #199] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #200] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #201] NOP 
+[inst #202] NOP 
+[inst #203] NOP 
+[inst #204] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #205] NOP 
+[inst #206] NOP 
+[inst #207] NOP 
+[inst #208] bne $13,$0,-19
+[inst #209] sw $16,4($12)
+Memory Write to Addr: 0x1001001C Val: 0x0000007B
+[inst #210] sw $17,0($12)
+Memory Write to Addr: 0x10010018 Val: 0x00000028
+[inst #211] j 4194428
+[inst #212] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000001C
+[inst #213] NOP 
+[inst #214] NOP 
+[inst #215] NOP 
+[inst #216] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000020
+[inst #217] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #218] NOP 
+[inst #219] NOP 
+[inst #220] NOP 
+[inst #221] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #222] NOP 
+[inst #223] NOP 
+[inst #224] NOP 
+[inst #225] bne $18,$0,-30
+[inst #226] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001001C
+[inst #227] NOP 
+[inst #228] NOP 
+[inst #229] NOP 
+[inst #230] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #231] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #232] NOP 
+[inst #233] NOP 
+[inst #234] NOP 
+[inst #235] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #236] NOP 
+[inst #237] NOP 
+[inst #238] NOP 
+[inst #239] bne $13,$0,-19
+[inst #240] sw $16,4($12)
+Memory Write to Addr: 0x10010020 Val: 0x0000007B
+[inst #241] sw $17,0($12)
+Memory Write to Addr: 0x1001001C Val: 0x00000000
+[inst #242] j 4194428
+[inst #243] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000020
+[inst #244] NOP 
+[inst #245] NOP 
+[inst #246] NOP 
+[inst #247] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000024
+[inst #248] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #249] NOP 
+[inst #250] NOP 
+[inst #251] NOP 
+[inst #252] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #253] NOP 
+[inst #254] NOP 
+[inst #255] NOP 
+[inst #256] bne $18,$0,-30
+[inst #257] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010020
+[inst #258] NOP 
+[inst #259] NOP 
+[inst #260] NOP 
+[inst #261] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000007B
+[inst #262] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #263] NOP 
+[inst #264] NOP 
+[inst #265] NOP 
+[inst #266] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #267] NOP 
+[inst #268] NOP 
+[inst #269] NOP 
+[inst #270] bne $13,$0,-19
+[inst #271] sw $16,4($12)
+Memory Write to Addr: 0x10010024 Val: 0x0000007B
+[inst #272] sw $17,0($12)
+Memory Write to Addr: 0x10010020 Val: 0x00000000
+[inst #273] j 4194428
+[inst #274] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000024
+[inst #275] NOP 
+[inst #276] NOP 
+[inst #277] NOP 
+[inst #278] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000028
+[inst #279] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000028
+[inst #280] NOP 
+[inst #281] NOP 
+[inst #282] NOP 
+[inst #283] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #284] NOP 
+[inst #285] NOP 
+[inst #286] NOP 
+[inst #287] bne $18,$0,-30
+[inst #288] NOP 
+[inst #289] NOP 
+[inst #290] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000004
+[inst #291] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #292] NOP 
+[inst #293] NOP 
+[inst #294] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #295] NOP 
+[inst #296] NOP 
+[inst #297] NOP 
+[inst #298] bne $19,$0,-41
+[inst #299] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #300] NOP 
+[inst #301] NOP 
+[inst #302] NOP 
+[inst #303] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #304] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x0000002C
+[inst #305] NOP 
+[inst #306] NOP 
+[inst #307] NOP 
+[inst #308] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #309] NOP 
+[inst #310] NOP 
+[inst #311] NOP 
+[inst #312] bne $13,$0,-19
+[inst #313] sw $16,4($12)
+Memory Write to Addr: 0x10010004 Val: 0x0000006F
+[inst #314] sw $17,0($12)
+Memory Write to Addr: 0x10010000 Val: 0x0000002C
+[inst #315] j 4194428
+[inst #316] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #317] NOP 
+[inst #318] NOP 
+[inst #319] NOP 
+[inst #320] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #321] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #322] NOP 
+[inst #323] NOP 
+[inst #324] NOP 
+[inst #325] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #326] NOP 
+[inst #327] NOP 
+[inst #328] NOP 
+[inst #329] bne $18,$0,-30
+[inst #330] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #331] NOP 
+[inst #332] NOP 
+[inst #333] NOP 
+[inst #334] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #335] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000065
+[inst #336] NOP 
+[inst #337] NOP 
+[inst #338] NOP 
+[inst #339] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #340] NOP 
+[inst #341] NOP 
+[inst #342] NOP 
+[inst #343] bne $13,$0,-19
+[inst #344] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x0000006F
+[inst #345] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000065
+[inst #346] j 4194428
+[inst #347] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #348] NOP 
+[inst #349] NOP 
+[inst #350] NOP 
+[inst #351] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #352] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #353] NOP 
+[inst #354] NOP 
+[inst #355] NOP 
+[inst #356] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #357] NOP 
+[inst #358] NOP 
+[inst #359] NOP 
+[inst #360] bne $18,$0,-30
+[inst #361] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #362] NOP 
+[inst #363] NOP 
+[inst #364] NOP 
+[inst #365] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #366] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #367] NOP 
+[inst #368] NOP 
+[inst #369] NOP 
+[inst #370] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #371] NOP 
+[inst #372] NOP 
+[inst #373] NOP 
+[inst #374] bne $13,$0,-19
+[inst #375] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x0000006F
+[inst #376] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000002
+[inst #377] j 4194428
+[inst #378] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #379] NOP 
+[inst #380] NOP 
+[inst #381] NOP 
+[inst #382] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #383] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #384] NOP 
+[inst #385] NOP 
+[inst #386] NOP 
+[inst #387] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #388] NOP 
+[inst #389] NOP 
+[inst #390] NOP 
+[inst #391] bne $18,$0,-30
+[inst #392] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #393] NOP 
+[inst #394] NOP 
+[inst #395] NOP 
+[inst #396] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #397] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #398] NOP 
+[inst #399] NOP 
+[inst #400] NOP 
+[inst #401] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #402] NOP 
+[inst #403] NOP 
+[inst #404] NOP 
+[inst #405] bne $13,$0,-19
+[inst #406] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x0000006F
+[inst #407] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000001
+[inst #408] j 4194428
+[inst #409] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #410] NOP 
+[inst #411] NOP 
+[inst #412] NOP 
+[inst #413] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #414] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #415] NOP 
+[inst #416] NOP 
+[inst #417] NOP 
+[inst #418] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #419] NOP 
+[inst #420] NOP 
+[inst #421] NOP 
+[inst #422] bne $18,$0,-30
+[inst #423] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010010
+[inst #424] NOP 
+[inst #425] NOP 
+[inst #426] NOP 
+[inst #427] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #428] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000063
+[inst #429] NOP 
+[inst #430] NOP 
+[inst #431] NOP 
+[inst #432] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #433] NOP 
+[inst #434] NOP 
+[inst #435] NOP 
+[inst #436] bne $13,$0,-19
+[inst #437] sw $16,4($12)
+Memory Write to Addr: 0x10010014 Val: 0x0000006F
+[inst #438] sw $17,0($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000063
+[inst #439] j 4194428
+[inst #440] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000014
+[inst #441] NOP 
+[inst #442] NOP 
+[inst #443] NOP 
+[inst #444] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000018
+[inst #445] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #446] NOP 
+[inst #447] NOP 
+[inst #448] NOP 
+[inst #449] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #450] NOP 
+[inst #451] NOP 
+[inst #452] NOP 
+[inst #453] bne $18,$0,-30
+[inst #454] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010014
+[inst #455] NOP 
+[inst #456] NOP 
+[inst #457] NOP 
+[inst #458] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #459] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #460] NOP 
+[inst #461] NOP 
+[inst #462] NOP 
+[inst #463] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #464] NOP 
+[inst #465] NOP 
+[inst #466] NOP 
+[inst #467] bne $13,$0,-19
+[inst #468] sw $16,4($12)
+Memory Write to Addr: 0x10010018 Val: 0x0000006F
+[inst #469] sw $17,0($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000028
+[inst #470] j 4194428
+[inst #471] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000018
+[inst #472] NOP 
+[inst #473] NOP 
+[inst #474] NOP 
+[inst #475] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000001C
+[inst #476] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #477] NOP 
+[inst #478] NOP 
+[inst #479] NOP 
+[inst #480] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #481] NOP 
+[inst #482] NOP 
+[inst #483] NOP 
+[inst #484] bne $18,$0,-30
+[inst #485] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010018
+[inst #486] NOP 
+[inst #487] NOP 
+[inst #488] NOP 
+[inst #489] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #490] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #491] NOP 
+[inst #492] NOP 
+[inst #493] NOP 
+[inst #494] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #495] NOP 
+[inst #496] NOP 
+[inst #497] NOP 
+[inst #498] bne $13,$0,-19
+[inst #499] sw $16,4($12)
+Memory Write to Addr: 0x1001001C Val: 0x0000006F
+[inst #500] sw $17,0($12)
+Memory Write to Addr: 0x10010018 Val: 0x00000000
+[inst #501] j 4194428
+[inst #502] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000001C
+[inst #503] NOP 
+[inst #504] NOP 
+[inst #505] NOP 
+[inst #506] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000020
+[inst #507] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #508] NOP 
+[inst #509] NOP 
+[inst #510] NOP 
+[inst #511] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #512] NOP 
+[inst #513] NOP 
+[inst #514] NOP 
+[inst #515] bne $18,$0,-30
+[inst #516] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001001C
+[inst #517] NOP 
+[inst #518] NOP 
+[inst #519] NOP 
+[inst #520] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000006F
+[inst #521] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #522] NOP 
+[inst #523] NOP 
+[inst #524] NOP 
+[inst #525] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #526] NOP 
+[inst #527] NOP 
+[inst #528] NOP 
+[inst #529] bne $13,$0,-19
+[inst #530] sw $16,4($12)
+Memory Write to Addr: 0x10010020 Val: 0x0000006F
+[inst #531] sw $17,0($12)
+Memory Write to Addr: 0x1001001C Val: 0x00000000
+[inst #532] j 4194428
+[inst #533] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000020
+[inst #534] NOP 
+[inst #535] NOP 
+[inst #536] NOP 
+[inst #537] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000024
+[inst #538] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000024
+[inst #539] NOP 
+[inst #540] NOP 
+[inst #541] NOP 
+[inst #542] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #543] NOP 
+[inst #544] NOP 
+[inst #545] NOP 
+[inst #546] bne $18,$0,-30
+[inst #547] NOP 
+[inst #548] NOP 
+[inst #549] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000008
+[inst #550] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #551] NOP 
+[inst #552] NOP 
+[inst #553] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #554] NOP 
+[inst #555] NOP 
+[inst #556] NOP 
+[inst #557] bne $19,$0,-41
+[inst #558] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #559] NOP 
+[inst #560] NOP 
+[inst #561] NOP 
+[inst #562] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #563] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000065
+[inst #564] NOP 
+[inst #565] NOP 
+[inst #566] NOP 
+[inst #567] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #568] NOP 
+[inst #569] NOP 
+[inst #570] NOP 
+[inst #571] bne $13,$0,-19
+[inst #572] NOP 
+[inst #573] NOP 
+[inst #574] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #575] NOP 
+[inst #576] NOP 
+[inst #577] NOP 
+[inst #578] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #579] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #580] NOP 
+[inst #581] NOP 
+[inst #582] NOP 
+[inst #583] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #584] NOP 
+[inst #585] NOP 
+[inst #586] NOP 
+[inst #587] bne $18,$0,-30
+[inst #588] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #589] NOP 
+[inst #590] NOP 
+[inst #591] NOP 
+[inst #592] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #593] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #594] NOP 
+[inst #595] NOP 
+[inst #596] NOP 
+[inst #597] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #598] NOP 
+[inst #599] NOP 
+[inst #600] NOP 
+[inst #601] bne $13,$0,-19
+[inst #602] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000065
+[inst #603] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000002
+[inst #604] j 4194428
+[inst #605] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #606] NOP 
+[inst #607] NOP 
+[inst #608] NOP 
+[inst #609] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #610] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #611] NOP 
+[inst #612] NOP 
+[inst #613] NOP 
+[inst #614] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #615] NOP 
+[inst #616] NOP 
+[inst #617] NOP 
+[inst #618] bne $18,$0,-30
+[inst #619] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #620] NOP 
+[inst #621] NOP 
+[inst #622] NOP 
+[inst #623] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #624] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #625] NOP 
+[inst #626] NOP 
+[inst #627] NOP 
+[inst #628] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #629] NOP 
+[inst #630] NOP 
+[inst #631] NOP 
+[inst #632] bne $13,$0,-19
+[inst #633] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000065
+[inst #634] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000001
+[inst #635] j 4194428
+[inst #636] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #637] NOP 
+[inst #638] NOP 
+[inst #639] NOP 
+[inst #640] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #641] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #642] NOP 
+[inst #643] NOP 
+[inst #644] NOP 
+[inst #645] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #646] NOP 
+[inst #647] NOP 
+[inst #648] NOP 
+[inst #649] bne $18,$0,-30
+[inst #650] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #651] NOP 
+[inst #652] NOP 
+[inst #653] NOP 
+[inst #654] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #655] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000063
+[inst #656] NOP 
+[inst #657] NOP 
+[inst #658] NOP 
+[inst #659] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #660] NOP 
+[inst #661] NOP 
+[inst #662] NOP 
+[inst #663] bne $13,$0,-19
+[inst #664] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000065
+[inst #665] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000063
+[inst #666] j 4194428
+[inst #667] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #668] NOP 
+[inst #669] NOP 
+[inst #670] NOP 
+[inst #671] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #672] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #673] NOP 
+[inst #674] NOP 
+[inst #675] NOP 
+[inst #676] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #677] NOP 
+[inst #678] NOP 
+[inst #679] NOP 
+[inst #680] bne $18,$0,-30
+[inst #681] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010010
+[inst #682] NOP 
+[inst #683] NOP 
+[inst #684] NOP 
+[inst #685] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #686] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #687] NOP 
+[inst #688] NOP 
+[inst #689] NOP 
+[inst #690] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #691] NOP 
+[inst #692] NOP 
+[inst #693] NOP 
+[inst #694] bne $13,$0,-19
+[inst #695] sw $16,4($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000065
+[inst #696] sw $17,0($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000028
+[inst #697] j 4194428
+[inst #698] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000014
+[inst #699] NOP 
+[inst #700] NOP 
+[inst #701] NOP 
+[inst #702] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000018
+[inst #703] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #704] NOP 
+[inst #705] NOP 
+[inst #706] NOP 
+[inst #707] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #708] NOP 
+[inst #709] NOP 
+[inst #710] NOP 
+[inst #711] bne $18,$0,-30
+[inst #712] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010014
+[inst #713] NOP 
+[inst #714] NOP 
+[inst #715] NOP 
+[inst #716] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #717] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #718] NOP 
+[inst #719] NOP 
+[inst #720] NOP 
+[inst #721] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #722] NOP 
+[inst #723] NOP 
+[inst #724] NOP 
+[inst #725] bne $13,$0,-19
+[inst #726] sw $16,4($12)
+Memory Write to Addr: 0x10010018 Val: 0x00000065
+[inst #727] sw $17,0($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000000
+[inst #728] j 4194428
+[inst #729] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000018
+[inst #730] NOP 
+[inst #731] NOP 
+[inst #732] NOP 
+[inst #733] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000001C
+[inst #734] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #735] NOP 
+[inst #736] NOP 
+[inst #737] NOP 
+[inst #738] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #739] NOP 
+[inst #740] NOP 
+[inst #741] NOP 
+[inst #742] bne $18,$0,-30
+[inst #743] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010018
+[inst #744] NOP 
+[inst #745] NOP 
+[inst #746] NOP 
+[inst #747] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000065
+[inst #748] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #749] NOP 
+[inst #750] NOP 
+[inst #751] NOP 
+[inst #752] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #753] NOP 
+[inst #754] NOP 
+[inst #755] NOP 
+[inst #756] bne $13,$0,-19
+[inst #757] sw $16,4($12)
+Memory Write to Addr: 0x1001001C Val: 0x00000065
+[inst #758] sw $17,0($12)
+Memory Write to Addr: 0x10010018 Val: 0x00000000
+[inst #759] j 4194428
+[inst #760] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000001C
+[inst #761] NOP 
+[inst #762] NOP 
+[inst #763] NOP 
+[inst #764] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000020
+[inst #765] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #766] NOP 
+[inst #767] NOP 
+[inst #768] NOP 
+[inst #769] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #770] NOP 
+[inst #771] NOP 
+[inst #772] NOP 
+[inst #773] bne $18,$0,-30
+[inst #774] NOP 
+[inst #775] NOP 
+[inst #776] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x0000000C
+[inst #777] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #778] NOP 
+[inst #779] NOP 
+[inst #780] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #781] NOP 
+[inst #782] NOP 
+[inst #783] NOP 
+[inst #784] bne $19,$0,-41
+[inst #785] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #786] NOP 
+[inst #787] NOP 
+[inst #788] NOP 
+[inst #789] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #790] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #791] NOP 
+[inst #792] NOP 
+[inst #793] NOP 
+[inst #794] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #795] NOP 
+[inst #796] NOP 
+[inst #797] NOP 
+[inst #798] bne $13,$0,-19
+[inst #799] sw $16,4($12)
+Memory Write to Addr: 0x10010004 Val: 0x0000002C
+[inst #800] sw $17,0($12)
+Memory Write to Addr: 0x10010000 Val: 0x00000002
+[inst #801] j 4194428
+[inst #802] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #803] NOP 
+[inst #804] NOP 
+[inst #805] NOP 
+[inst #806] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #807] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #808] NOP 
+[inst #809] NOP 
+[inst #810] NOP 
+[inst #811] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #812] NOP 
+[inst #813] NOP 
+[inst #814] NOP 
+[inst #815] bne $18,$0,-30
+[inst #816] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #817] NOP 
+[inst #818] NOP 
+[inst #819] NOP 
+[inst #820] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #821] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #822] NOP 
+[inst #823] NOP 
+[inst #824] NOP 
+[inst #825] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #826] NOP 
+[inst #827] NOP 
+[inst #828] NOP 
+[inst #829] bne $13,$0,-19
+[inst #830] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x0000002C
+[inst #831] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000001
+[inst #832] j 4194428
+[inst #833] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #834] NOP 
+[inst #835] NOP 
+[inst #836] NOP 
+[inst #837] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #838] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #839] NOP 
+[inst #840] NOP 
+[inst #841] NOP 
+[inst #842] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #843] NOP 
+[inst #844] NOP 
+[inst #845] NOP 
+[inst #846] bne $18,$0,-30
+[inst #847] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #848] NOP 
+[inst #849] NOP 
+[inst #850] NOP 
+[inst #851] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #852] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000063
+[inst #853] NOP 
+[inst #854] NOP 
+[inst #855] NOP 
+[inst #856] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #857] NOP 
+[inst #858] NOP 
+[inst #859] NOP 
+[inst #860] bne $13,$0,-19
+[inst #861] NOP 
+[inst #862] NOP 
+[inst #863] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #864] NOP 
+[inst #865] NOP 
+[inst #866] NOP 
+[inst #867] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #868] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #869] NOP 
+[inst #870] NOP 
+[inst #871] NOP 
+[inst #872] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #873] NOP 
+[inst #874] NOP 
+[inst #875] NOP 
+[inst #876] bne $18,$0,-30
+[inst #877] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #878] NOP 
+[inst #879] NOP 
+[inst #880] NOP 
+[inst #881] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000063
+[inst #882] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #883] NOP 
+[inst #884] NOP 
+[inst #885] NOP 
+[inst #886] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #887] NOP 
+[inst #888] NOP 
+[inst #889] NOP 
+[inst #890] bne $13,$0,-19
+[inst #891] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000063
+[inst #892] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000028
+[inst #893] j 4194428
+[inst #894] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #895] NOP 
+[inst #896] NOP 
+[inst #897] NOP 
+[inst #898] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #899] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #900] NOP 
+[inst #901] NOP 
+[inst #902] NOP 
+[inst #903] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #904] NOP 
+[inst #905] NOP 
+[inst #906] NOP 
+[inst #907] bne $18,$0,-30
+[inst #908] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010010
+[inst #909] NOP 
+[inst #910] NOP 
+[inst #911] NOP 
+[inst #912] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000063
+[inst #913] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #914] NOP 
+[inst #915] NOP 
+[inst #916] NOP 
+[inst #917] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #918] NOP 
+[inst #919] NOP 
+[inst #920] NOP 
+[inst #921] bne $13,$0,-19
+[inst #922] sw $16,4($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000063
+[inst #923] sw $17,0($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000000
+[inst #924] j 4194428
+[inst #925] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000014
+[inst #926] NOP 
+[inst #927] NOP 
+[inst #928] NOP 
+[inst #929] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000018
+[inst #930] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #931] NOP 
+[inst #932] NOP 
+[inst #933] NOP 
+[inst #934] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #935] NOP 
+[inst #936] NOP 
+[inst #937] NOP 
+[inst #938] bne $18,$0,-30
+[inst #939] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010014
+[inst #940] NOP 
+[inst #941] NOP 
+[inst #942] NOP 
+[inst #943] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000063
+[inst #944] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #945] NOP 
+[inst #946] NOP 
+[inst #947] NOP 
+[inst #948] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #949] NOP 
+[inst #950] NOP 
+[inst #951] NOP 
+[inst #952] bne $13,$0,-19
+[inst #953] sw $16,4($12)
+Memory Write to Addr: 0x10010018 Val: 0x00000063
+[inst #954] sw $17,0($12)
+Memory Write to Addr: 0x10010014 Val: 0x00000000
+[inst #955] j 4194428
+[inst #956] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000018
+[inst #957] NOP 
+[inst #958] NOP 
+[inst #959] NOP 
+[inst #960] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000001C
+[inst #961] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000001C
+[inst #962] NOP 
+[inst #963] NOP 
+[inst #964] NOP 
+[inst #965] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #966] NOP 
+[inst #967] NOP 
+[inst #968] NOP 
+[inst #969] bne $18,$0,-30
+[inst #970] NOP 
+[inst #971] NOP 
+[inst #972] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000010
+[inst #973] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #974] NOP 
+[inst #975] NOP 
+[inst #976] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #977] NOP 
+[inst #978] NOP 
+[inst #979] NOP 
+[inst #980] bne $19,$0,-41
+[inst #981] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #982] NOP 
+[inst #983] NOP 
+[inst #984] NOP 
+[inst #985] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000002
+[inst #986] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #987] NOP 
+[inst #988] NOP 
+[inst #989] NOP 
+[inst #990] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #991] NOP 
+[inst #992] NOP 
+[inst #993] NOP 
+[inst #994] bne $13,$0,-19
+[inst #995] sw $16,4($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000002
+[inst #996] sw $17,0($12)
+Memory Write to Addr: 0x10010000 Val: 0x00000001
+[inst #997] j 4194428
+[inst #998] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #999] NOP 
+[inst #1000] NOP 
+[inst #1001] NOP 
+[inst #1002] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1003] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000018
+[inst #1004] NOP 
+[inst #1005] NOP 
+[inst #1006] NOP 
+[inst #1007] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1008] NOP 
+[inst #1009] NOP 
+[inst #1010] NOP 
+[inst #1011] bne $18,$0,-30
+[inst #1012] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #1013] NOP 
+[inst #1014] NOP 
+[inst #1015] NOP 
+[inst #1016] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000002
+[inst #1017] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x0000002C
+[inst #1018] NOP 
+[inst #1019] NOP 
+[inst #1020] NOP 
+[inst #1021] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1022] NOP 
+[inst #1023] NOP 
+[inst #1024] NOP 
+[inst #1025] bne $13,$0,-19
+[inst #1026] NOP 
+[inst #1027] NOP 
+[inst #1028] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #1029] NOP 
+[inst #1030] NOP 
+[inst #1031] NOP 
+[inst #1032] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #1033] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000018
+[inst #1034] NOP 
+[inst #1035] NOP 
+[inst #1036] NOP 
+[inst #1037] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1038] NOP 
+[inst #1039] NOP 
+[inst #1040] NOP 
+[inst #1041] bne $18,$0,-30
+[inst #1042] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #1043] NOP 
+[inst #1044] NOP 
+[inst #1045] NOP 
+[inst #1046] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #1047] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #1048] NOP 
+[inst #1049] NOP 
+[inst #1050] NOP 
+[inst #1051] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1052] NOP 
+[inst #1053] NOP 
+[inst #1054] NOP 
+[inst #1055] bne $13,$0,-19
+[inst #1056] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x0000002C
+[inst #1057] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000028
+[inst #1058] j 4194428
+[inst #1059] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #1060] NOP 
+[inst #1061] NOP 
+[inst #1062] NOP 
+[inst #1063] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #1064] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000018
+[inst #1065] NOP 
+[inst #1066] NOP 
+[inst #1067] NOP 
+[inst #1068] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1069] NOP 
+[inst #1070] NOP 
+[inst #1071] NOP 
+[inst #1072] bne $18,$0,-30
+[inst #1073] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #1074] NOP 
+[inst #1075] NOP 
+[inst #1076] NOP 
+[inst #1077] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #1078] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1079] NOP 
+[inst #1080] NOP 
+[inst #1081] NOP 
+[inst #1082] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1083] NOP 
+[inst #1084] NOP 
+[inst #1085] NOP 
+[inst #1086] bne $13,$0,-19
+[inst #1087] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x0000002C
+[inst #1088] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000000
+[inst #1089] j 4194428
+[inst #1090] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #1091] NOP 
+[inst #1092] NOP 
+[inst #1093] NOP 
+[inst #1094] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #1095] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000018
+[inst #1096] NOP 
+[inst #1097] NOP 
+[inst #1098] NOP 
+[inst #1099] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1100] NOP 
+[inst #1101] NOP 
+[inst #1102] NOP 
+[inst #1103] bne $18,$0,-30
+[inst #1104] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010010
+[inst #1105] NOP 
+[inst #1106] NOP 
+[inst #1107] NOP 
+[inst #1108] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x0000002C
+[inst #1109] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1110] NOP 
+[inst #1111] NOP 
+[inst #1112] NOP 
+[inst #1113] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1114] NOP 
+[inst #1115] NOP 
+[inst #1116] NOP 
+[inst #1117] bne $13,$0,-19
+[inst #1118] sw $16,4($12)
+Memory Write to Addr: 0x10010014 Val: 0x0000002C
+[inst #1119] sw $17,0($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000000
+[inst #1120] j 4194428
+[inst #1121] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000014
+[inst #1122] NOP 
+[inst #1123] NOP 
+[inst #1124] NOP 
+[inst #1125] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000018
+[inst #1126] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000018
+[inst #1127] NOP 
+[inst #1128] NOP 
+[inst #1129] NOP 
+[inst #1130] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1131] NOP 
+[inst #1132] NOP 
+[inst #1133] NOP 
+[inst #1134] bne $18,$0,-30
+[inst #1135] NOP 
+[inst #1136] NOP 
+[inst #1137] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000014
+[inst #1138] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1139] NOP 
+[inst #1140] NOP 
+[inst #1141] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #1142] NOP 
+[inst #1143] NOP 
+[inst #1144] NOP 
+[inst #1145] bne $19,$0,-41
+[inst #1146] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #1147] NOP 
+[inst #1148] NOP 
+[inst #1149] NOP 
+[inst #1150] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000001
+[inst #1151] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #1152] NOP 
+[inst #1153] NOP 
+[inst #1154] NOP 
+[inst #1155] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1156] NOP 
+[inst #1157] NOP 
+[inst #1158] NOP 
+[inst #1159] bne $13,$0,-19
+[inst #1160] NOP 
+[inst #1161] NOP 
+[inst #1162] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #1163] NOP 
+[inst #1164] NOP 
+[inst #1165] NOP 
+[inst #1166] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1167] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000014
+[inst #1168] NOP 
+[inst #1169] NOP 
+[inst #1170] NOP 
+[inst #1171] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1172] NOP 
+[inst #1173] NOP 
+[inst #1174] NOP 
+[inst #1175] bne $18,$0,-30
+[inst #1176] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #1177] NOP 
+[inst #1178] NOP 
+[inst #1179] NOP 
+[inst #1180] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000002
+[inst #1181] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000028
+[inst #1182] NOP 
+[inst #1183] NOP 
+[inst #1184] NOP 
+[inst #1185] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1186] NOP 
+[inst #1187] NOP 
+[inst #1188] NOP 
+[inst #1189] bne $13,$0,-19
+[inst #1190] NOP 
+[inst #1191] NOP 
+[inst #1192] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #1193] NOP 
+[inst #1194] NOP 
+[inst #1195] NOP 
+[inst #1196] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #1197] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000014
+[inst #1198] NOP 
+[inst #1199] NOP 
+[inst #1200] NOP 
+[inst #1201] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1202] NOP 
+[inst #1203] NOP 
+[inst #1204] NOP 
+[inst #1205] bne $18,$0,-30
+[inst #1206] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #1207] NOP 
+[inst #1208] NOP 
+[inst #1209] NOP 
+[inst #1210] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000028
+[inst #1211] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1212] NOP 
+[inst #1213] NOP 
+[inst #1214] NOP 
+[inst #1215] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1216] NOP 
+[inst #1217] NOP 
+[inst #1218] NOP 
+[inst #1219] bne $13,$0,-19
+[inst #1220] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000028
+[inst #1221] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000000
+[inst #1222] j 4194428
+[inst #1223] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #1224] NOP 
+[inst #1225] NOP 
+[inst #1226] NOP 
+[inst #1227] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #1228] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000014
+[inst #1229] NOP 
+[inst #1230] NOP 
+[inst #1231] NOP 
+[inst #1232] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1233] NOP 
+[inst #1234] NOP 
+[inst #1235] NOP 
+[inst #1236] bne $18,$0,-30
+[inst #1237] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x1001000C
+[inst #1238] NOP 
+[inst #1239] NOP 
+[inst #1240] NOP 
+[inst #1241] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000028
+[inst #1242] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1243] NOP 
+[inst #1244] NOP 
+[inst #1245] NOP 
+[inst #1246] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1247] NOP 
+[inst #1248] NOP 
+[inst #1249] NOP 
+[inst #1250] bne $13,$0,-19
+[inst #1251] sw $16,4($12)
+Memory Write to Addr: 0x10010010 Val: 0x00000028
+[inst #1252] sw $17,0($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000000
+[inst #1253] j 4194428
+[inst #1254] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000010
+[inst #1255] NOP 
+[inst #1256] NOP 
+[inst #1257] NOP 
+[inst #1258] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000014
+[inst #1259] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000014
+[inst #1260] NOP 
+[inst #1261] NOP 
+[inst #1262] NOP 
+[inst #1263] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1264] NOP 
+[inst #1265] NOP 
+[inst #1266] NOP 
+[inst #1267] bne $18,$0,-30
+[inst #1268] NOP 
+[inst #1269] NOP 
+[inst #1270] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000018
+[inst #1271] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1272] NOP 
+[inst #1273] NOP 
+[inst #1274] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #1275] NOP 
+[inst #1276] NOP 
+[inst #1277] NOP 
+[inst #1278] bne $19,$0,-41
+[inst #1279] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #1280] NOP 
+[inst #1281] NOP 
+[inst #1282] NOP 
+[inst #1283] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000001
+[inst #1284] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #1285] NOP 
+[inst #1286] NOP 
+[inst #1287] NOP 
+[inst #1288] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1289] NOP 
+[inst #1290] NOP 
+[inst #1291] NOP 
+[inst #1292] bne $13,$0,-19
+[inst #1293] NOP 
+[inst #1294] NOP 
+[inst #1295] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #1296] NOP 
+[inst #1297] NOP 
+[inst #1298] NOP 
+[inst #1299] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1300] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000010
+[inst #1301] NOP 
+[inst #1302] NOP 
+[inst #1303] NOP 
+[inst #1304] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1305] NOP 
+[inst #1306] NOP 
+[inst #1307] NOP 
+[inst #1308] bne $18,$0,-30
+[inst #1309] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #1310] NOP 
+[inst #1311] NOP 
+[inst #1312] NOP 
+[inst #1313] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000002
+[inst #1314] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1315] NOP 
+[inst #1316] NOP 
+[inst #1317] NOP 
+[inst #1318] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1319] NOP 
+[inst #1320] NOP 
+[inst #1321] NOP 
+[inst #1322] bne $13,$0,-19
+[inst #1323] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000002
+[inst #1324] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000000
+[inst #1325] j 4194428
+[inst #1326] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #1327] NOP 
+[inst #1328] NOP 
+[inst #1329] NOP 
+[inst #1330] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #1331] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000010
+[inst #1332] NOP 
+[inst #1333] NOP 
+[inst #1334] NOP 
+[inst #1335] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1336] NOP 
+[inst #1337] NOP 
+[inst #1338] NOP 
+[inst #1339] bne $18,$0,-30
+[inst #1340] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010008
+[inst #1341] NOP 
+[inst #1342] NOP 
+[inst #1343] NOP 
+[inst #1344] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000002
+[inst #1345] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1346] NOP 
+[inst #1347] NOP 
+[inst #1348] NOP 
+[inst #1349] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1350] NOP 
+[inst #1351] NOP 
+[inst #1352] NOP 
+[inst #1353] bne $13,$0,-19
+[inst #1354] sw $16,4($12)
+Memory Write to Addr: 0x1001000C Val: 0x00000002
+[inst #1355] sw $17,0($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000000
+[inst #1356] j 4194428
+[inst #1357] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x0000000C
+[inst #1358] NOP 
+[inst #1359] NOP 
+[inst #1360] NOP 
+[inst #1361] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #1362] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000010
+[inst #1363] NOP 
+[inst #1364] NOP 
+[inst #1365] NOP 
+[inst #1366] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1367] NOP 
+[inst #1368] NOP 
+[inst #1369] NOP 
+[inst #1370] bne $18,$0,-30
+[inst #1371] NOP 
+[inst #1372] NOP 
+[inst #1373] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x0000001C
+[inst #1374] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1375] NOP 
+[inst #1376] NOP 
+[inst #1377] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #1378] NOP 
+[inst #1379] NOP 
+[inst #1380] NOP 
+[inst #1381] bne $19,$0,-41
+[inst #1382] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #1383] NOP 
+[inst #1384] NOP 
+[inst #1385] NOP 
+[inst #1386] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000001
+[inst #1387] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1388] NOP 
+[inst #1389] NOP 
+[inst #1390] NOP 
+[inst #1391] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1392] NOP 
+[inst #1393] NOP 
+[inst #1394] NOP 
+[inst #1395] bne $13,$0,-19
+[inst #1396] sw $16,4($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000001
+[inst #1397] sw $17,0($12)
+Memory Write to Addr: 0x10010000 Val: 0x00000000
+[inst #1398] j 4194428
+[inst #1399] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #1400] NOP 
+[inst #1401] NOP 
+[inst #1402] NOP 
+[inst #1403] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1404] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000000C
+[inst #1405] NOP 
+[inst #1406] NOP 
+[inst #1407] NOP 
+[inst #1408] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000001
+[inst #1409] NOP 
+[inst #1410] NOP 
+[inst #1411] NOP 
+[inst #1412] bne $18,$0,-30
+[inst #1413] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010004
+[inst #1414] NOP 
+[inst #1415] NOP 
+[inst #1416] NOP 
+[inst #1417] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000001
+[inst #1418] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1419] NOP 
+[inst #1420] NOP 
+[inst #1421] NOP 
+[inst #1422] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #1423] NOP 
+[inst #1424] NOP 
+[inst #1425] NOP 
+[inst #1426] bne $13,$0,-19
+[inst #1427] sw $16,4($12)
+Memory Write to Addr: 0x10010008 Val: 0x00000001
+[inst #1428] sw $17,0($12)
+Memory Write to Addr: 0x10010004 Val: 0x00000000
+[inst #1429] j 4194428
+[inst #1430] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000008
+[inst #1431] NOP 
+[inst #1432] NOP 
+[inst #1433] NOP 
+[inst #1434] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x0000000C
+[inst #1435] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x0000000C
+[inst #1436] NOP 
+[inst #1437] NOP 
+[inst #1438] NOP 
+[inst #1439] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1440] NOP 
+[inst #1441] NOP 
+[inst #1442] NOP 
+[inst #1443] bne $18,$0,-30
+[inst #1444] NOP 
+[inst #1445] NOP 
+[inst #1446] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000020
+[inst #1447] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1448] NOP 
+[inst #1449] NOP 
+[inst #1450] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #1451] NOP 
+[inst #1452] NOP 
+[inst #1453] NOP 
+[inst #1454] bne $19,$0,-41
+[inst #1455] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #1456] NOP 
+[inst #1457] NOP 
+[inst #1458] NOP 
+[inst #1459] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000000
+[inst #1460] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1461] NOP 
+[inst #1462] NOP 
+[inst #1463] NOP 
+[inst #1464] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1465] NOP 
+[inst #1466] NOP 
+[inst #1467] NOP 
+[inst #1468] bne $13,$0,-19
+[inst #1469] NOP 
+[inst #1470] NOP 
+[inst #1471] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #1472] NOP 
+[inst #1473] NOP 
+[inst #1474] NOP 
+[inst #1475] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1476] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000008
+[inst #1477] NOP 
+[inst #1478] NOP 
+[inst #1479] NOP 
+[inst #1480] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1481] NOP 
+[inst #1482] NOP 
+[inst #1483] NOP 
+[inst #1484] bne $18,$0,-30
+[inst #1485] NOP 
+[inst #1486] NOP 
+[inst #1487] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000024
+[inst #1488] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1489] NOP 
+[inst #1490] NOP 
+[inst #1491] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000001
+[inst #1492] NOP 
+[inst #1493] NOP 
+[inst #1494] NOP 
+[inst #1495] bne $19,$0,-41
+[inst #1496] add $12,$8,$9
+Register Write to Reg: 0x0C Val: 0x10010000
+[inst #1497] NOP 
+[inst #1498] NOP 
+[inst #1499] NOP 
+[inst #1500] lw $16,0($12)
+Register Write to Reg: 0x10 Val: 0x00000000
+[inst #1501] lw $17,4($12)
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #1502] NOP 
+[inst #1503] NOP 
+[inst #1504] NOP 
+[inst #1505] slt $13,$17,$16
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #1506] NOP 
+[inst #1507] NOP 
+[inst #1508] NOP 
+[inst #1509] bne $13,$0,-19
+[inst #1510] NOP 
+[inst #1511] NOP 
+[inst #1512] addi $9,$9,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #1513] NOP 
+[inst #1514] NOP 
+[inst #1515] NOP 
+[inst #1516] addi $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000008
+[inst #1517] sub $15,$11,$10
+Register Write to Reg: 0x0F Val: 0x00000004
+[inst #1518] NOP 
+[inst #1519] NOP 
+[inst #1520] NOP 
+[inst #1521] slt $18,$14,$15
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #1522] NOP 
+[inst #1523] NOP 
+[inst #1524] NOP 
+[inst #1525] bne $18,$0,-30
+[inst #1526] NOP 
+[inst #1527] NOP 
+[inst #1528] addi $10,$10,4
+Register Write to Reg: 0x0A Val: 0x00000028
+[inst #1529] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #1530] NOP 
+[inst #1531] NOP 
+[inst #1532] slt $19,$10,$11
+Register Write to Reg: 0x13 Val: 0x00000000
+[inst #1533] NOP 
+[inst #1534] NOP 
+[inst #1535] NOP 
+[inst #1536] bne $19,$0,-41
+[inst #1537] NOP 
+[inst #1538] NOP 
+[inst #1539] addi $2,$0,10
+Register Write to Reg: 0x02 Val: 0x0000000A
+[inst #1540] syscall 
+

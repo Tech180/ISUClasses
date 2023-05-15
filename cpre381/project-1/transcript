@@ -1,0 +1,163 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd /home/longz/Desktop/Cpre381/project-1/src
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:09 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): near "type": syntax error
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): VHDL Compiler exiting
+# End time: 13:39:09 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:41:17 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.reg_array_type.
+# ** Error (suppressible): /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(20): (vcom-1195) Cannot find expanded name "work.reg_array_type".
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(20): Unknown expanded name.
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(22): VHDL Compiler exiting
+# End time: 13:41:17 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:41:35 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 13:41:35 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:41:39 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity register_file
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): near "type": syntax error
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): VHDL Compiler exiting
+# End time: 13:41:39 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:42:43 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity register_file
+# ** Error: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): near "signal": syntax error
+# ** Note: /home/longz/Desktop/Cpre381/project-1/src/register_file.vhd(35): VHDL Compiler exiting
+# End time: 13:42:43 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:45:56 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 13:45:56 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:45:57 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 13:45:57 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:46:03 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 13:46:03 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:46:07 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 13:46:08 on Nov 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:46:12 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 13:46:12 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:46:16 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 13:46:16 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:50:25 on Nov 14,2021
+# vcom -reportprogress 300 -work work /home/longz/Desktop/Cpre381/project-1/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 13:50:25 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

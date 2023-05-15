@@ -1,0 +1,227 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Fri Dec 10 21:36:42 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Info (125068): Revision "toolflow" was previously opened in Quartus II software version 18.0.0 Standard Edition. Created Quartus Prime Default Settings File /home/longz/Desktop/Cpre381/project-2/internal/QuartusWork/toolflow_assignment_defaults.qdf, which contains the default assignment setting information from Quartus II software version 18.0.0 Standard Edition.
+Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file /usr/local/usr/local/quartus/20.1/quartus/linux64/assignment_defaults.qdf
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/ALU_32bit.vhd
+    Info (12022): Found design unit 1: ALU_32bit-structural File: /home/longz/Desktop/Cpre381/project-2/src/ALU_32bit.vhd Line: 31
+    Info (12023): Found entity 1: ALU_32bit File: /home/longz/Desktop/Cpre381/project-2/src/ALU_32bit.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd
+    Info (12022): Found design unit 1: barrel_shifter-bsh File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 14
+    Info (12023): Found entity 1: barrel_shifter File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd
+    Info (12022): Found design unit 1: Fulladder-pizza File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd Line: 30
+    Info (12023): Found entity 1: Fulladder File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/Fulladder_N.vhd
+    Info (12022): Found design unit 1: Fulladder_N-pizza_N File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder_N.vhd Line: 31
+    Info (12023): Found entity 1: Fulladder_N File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder_N.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd
+    Info (12022): Found design unit 1: MIPS_Processor-structure File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 32
+    Info (12023): Found entity 1: MIPS_Processor File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/MemForwardingUnit.vhd
+    Info (12022): Found design unit 1: MemForwardingUnit-behavorial File: /home/longz/Desktop/Cpre381/project-2/src/MemForwardingUnit.vhd Line: 30
+    Info (12023): Found entity 1: MemForwardingUnit File: /home/longz/Desktop/Cpre381/project-2/src/MemForwardingUnit.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/Reg_N.vhd
+    Info (12022): Found design unit 1: Reg_N-abc File: /home/longz/Desktop/Cpre381/project-2/src/Reg_N.vhd Line: 28
+    Info (12023): Found entity 1: Reg_N File: /home/longz/Desktop/Cpre381/project-2/src/Reg_N.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd
+    Info (12022): Found design unit 1: Register_File-structural File: /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd Line: 33
+    Info (12023): Found entity 1: Register_File File: /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/addsub.vhd
+    Info (12022): Found design unit 1: addsub-behavior File: /home/longz/Desktop/Cpre381/project-2/src/addsub.vhd Line: 31
+    Info (12023): Found entity 1: addsub File: /home/longz/Desktop/Cpre381/project-2/src/addsub.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/andg2.vhd
+    Info (12022): Found design unit 1: andg2-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/andg2.vhd Line: 31
+    Info (12023): Found entity 1: andg2 File: /home/longz/Desktop/Cpre381/project-2/src/andg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/bitxtend.vhd
+    Info (12022): Found design unit 1: extender_N-behavior File: /home/longz/Desktop/Cpre381/project-2/src/bitxtend.vhd Line: 16
+    Info (12023): Found entity 1: extender_N File: /home/longz/Desktop/Cpre381/project-2/src/bitxtend.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd
+    Info (12022): Found design unit 1: controlUnit-behavioral File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 42
+    Info (12023): Found entity 1: controlUnit File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/controlUnit_tb.vhd
+    Info (12022): Found design unit 1: controlUnit_tb-behavior File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit_tb.vhd Line: 23
+    Info (12023): Found entity 1: controlUnit_tb File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit_tb.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/control_hazard_dataflow.vhd
+    Info (12022): Found design unit 1: control_hazard_dataflow-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/control_hazard_dataflow.vhd Line: 32
+    Info (12023): Found entity 1: control_hazard_dataflow File: /home/longz/Desktop/Cpre381/project-2/src/control_hazard_dataflow.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/decoder5t32.vhd
+    Info (12022): Found design unit 1: decoder5t32-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/decoder5t32.vhd Line: 29
+    Info (12023): Found entity 1: decoder5t32 File: /home/longz/Desktop/Cpre381/project-2/src/decoder5t32.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/dffg.vhd
+    Info (12022): Found design unit 1: dffg-mixed File: /home/longz/Desktop/Cpre381/project-2/src/dffg.vhd Line: 33
+    Info (12023): Found entity 1: dffg File: /home/longz/Desktop/Cpre381/project-2/src/dffg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/fetch.vhd
+    Info (12022): Found design unit 1: fetch-behavorial File: /home/longz/Desktop/Cpre381/project-2/src/fetch.vhd Line: 26
+    Info (12023): Found entity 1: fetch File: /home/longz/Desktop/Cpre381/project-2/src/fetch.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/forwarding_dataflow.vhd
+    Info (12022): Found design unit 1: forwarding_dataflow-behavioral File: /home/longz/Desktop/Cpre381/project-2/src/forwarding_dataflow.vhd Line: 28
+    Info (12023): Found entity 1: forwarding_dataflow File: /home/longz/Desktop/Cpre381/project-2/src/forwarding_dataflow.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/mem.vhd
+    Info (12022): Found design unit 1: mem-rtl File: /home/longz/Desktop/Cpre381/project-2/src/mem.vhd Line: 27
+    Info (12023): Found entity 1: mem File: /home/longz/Desktop/Cpre381/project-2/src/mem.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/mux32t1_array.vhd
+    Info (12022): Found design unit 1: mux32t1_array-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/mux32t1_array.vhd Line: 30
+    Info (12023): Found entity 1: mux32t1_array File: /home/longz/Desktop/Cpre381/project-2/src/mux32t1_array.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/mux4to1.vhd
+    Info (12022): Found design unit 1: mux4to1-structural File: /home/longz/Desktop/Cpre381/project-2/src/mux4to1.vhd Line: 14
+    Info (12023): Found entity 1: mux4to1 File: /home/longz/Desktop/Cpre381/project-2/src/mux4to1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/mux8to1_32bit_data.vhd
+    Info (12022): Found design unit 1: mux8to1_32bit_data-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/mux8to1_32bit_data.vhd Line: 33
+    Info (12023): Found entity 1: mux8to1_32bit_data File: /home/longz/Desktop/Cpre381/project-2/src/mux8to1_32bit_data.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/mux_32bit_dataflow.vhd
+    Info (12022): Found design unit 1: mux_32bit_dataflow-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/mux_32bit_dataflow.vhd Line: 30
+    Info (12023): Found entity 1: mux_32bit_dataflow File: /home/longz/Desktop/Cpre381/project-2/src/mux_32bit_dataflow.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/nand_32bit_data.vhd
+    Info (12022): Found design unit 1: nand_32bit_data-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/nand_32bit_data.vhd Line: 26
+    Info (12023): Found entity 1: nand_32bit_data File: /home/longz/Desktop/Cpre381/project-2/src/nand_32bit_data.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/nor_32bit_data.vhd
+    Info (12022): Found design unit 1: nor_32bit_data-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/nor_32bit_data.vhd Line: 26
+    Info (12023): Found entity 1: nor_32bit_data File: /home/longz/Desktop/Cpre381/project-2/src/nor_32bit_data.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/or_32bit_data.vhd
+    Info (12022): Found design unit 1: or_32bit_data-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/or_32bit_data.vhd Line: 26
+    Info (12023): Found entity 1: or_32bit_data File: /home/longz/Desktop/Cpre381/project-2/src/or_32bit_data.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/org2.vhd
+    Info (12022): Found design unit 1: org2-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/org2.vhd Line: 31
+    Info (12023): Found entity 1: org2 File: /home/longz/Desktop/Cpre381/project-2/src/org2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/programCounter.vhd
+    Info (12022): Found design unit 1: programCounter-behavorial File: /home/longz/Desktop/Cpre381/project-2/src/programCounter.vhd Line: 12
+    Info (12023): Found entity 1: programCounter File: /home/longz/Desktop/Cpre381/project-2/src/programCounter.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/reg_array_type.vhd
+    Info (12022): Found design unit 1: reg_array_type File: /home/longz/Desktop/Cpre381/project-2/src/reg_array_type.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/register32bit.vhd
+    Info (12022): Found design unit 1: Register32bit-bigboy File: /home/longz/Desktop/Cpre381/project-2/src/register32bit.vhd Line: 32
+    Info (12023): Found entity 1: Register32bit File: /home/longz/Desktop/Cpre381/project-2/src/register32bit.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/register_EXMEM.vhd
+    Info (12022): Found design unit 1: register_EXMEM-structural File: /home/longz/Desktop/Cpre381/project-2/src/register_EXMEM.vhd Line: 41
+    Info (12023): Found entity 1: register_EXMEM File: /home/longz/Desktop/Cpre381/project-2/src/register_EXMEM.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/register_IDEX.vhd
+    Info (12022): Found design unit 1: register_IDEX-structural File: /home/longz/Desktop/Cpre381/project-2/src/register_IDEX.vhd Line: 62
+    Info (12023): Found entity 1: register_IDEX File: /home/longz/Desktop/Cpre381/project-2/src/register_IDEX.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd
+    Info (12022): Found design unit 1: register_IFID-structural File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 17
+    Info (12023): Found entity 1: register_IFID File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/register_MEMWB.vhd
+    Info (12022): Found design unit 1: register_MEMWB-structural File: /home/longz/Desktop/Cpre381/project-2/src/register_MEMWB.vhd Line: 36
+    Info (12023): Found entity 1: register_MEMWB File: /home/longz/Desktop/Cpre381/project-2/src/register_MEMWB.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/tb_datapath.vhd
+    Info (12022): Found design unit 1: tb_pipeline-mixed File: /home/longz/Desktop/Cpre381/project-2/src/tb_datapath.vhd Line: 9
+    Info (12023): Found entity 1: tb_pipeline File: /home/longz/Desktop/Cpre381/project-2/src/tb_datapath.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/xor_32bit_data.vhd
+    Info (12022): Found design unit 1: xor_32bit_data-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/xor_32bit_data.vhd Line: 26
+    Info (12023): Found entity 1: xor_32bit_data File: /home/longz/Desktop/Cpre381/project-2/src/xor_32bit_data.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/longz/Desktop/Cpre381/project-2/src/xorg2.vhd
+    Info (12022): Found design unit 1: xorg2-dataflow File: /home/longz/Desktop/Cpre381/project-2/src/xorg2.vhd Line: 31
+    Info (12023): Found entity 1: xorg2 File: /home/longz/Desktop/Cpre381/project-2/src/xorg2.vhd Line: 23
+Info (12127): Elaborating entity "MIPS_Processor" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(51): object "s_Halt" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 51
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(70): used implicit default value for signal "s_D0" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 70
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(72): used implicit default value for signal "s_regDst" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 72
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(79): object "op_Code" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 79
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(80): object "funct" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 80
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(83): used implicit default value for signal "s_Signed" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 83
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(84): used implicit default value for signal "sl" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 84
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(85): used implicit default value for signal "sr" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 85
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(93): used implicit default value for signal "s_ALUControl" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 93
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(97): used implicit default value for signal "s_Zero" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 97
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(110): used implicit default value for signal "s_O_PC" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 110
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(142): used implicit default value for signal "s_D0_IFID" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 142
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(145): object "s_PC_mux1" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 145
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(148): used implicit default value for signal "s_inst1" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 148
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(169): object "s_ALUOP_IDEX" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 169
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(175): object "s_stall_PC" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 175
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(192): object "s_ALUControl_IDEX" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 192
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(212): object "s_forwarding_mux" assigned a value but never read File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 212
+Warning (10873): Using initial value X (don't care) for net "s_j_temp[31..28]" at MIPS_Processor.vhd(152) File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 152
+Info (12128): Elaborating entity "mem" for hierarchy "mem:IMem" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 527
+Info (12128): Elaborating entity "Fulladder_N" for hierarchy "Fulladder_N:PC_increment" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 548
+Info (12128): Elaborating entity "Fulladder" for hierarchy "Fulladder_N:PC_increment|Fulladder:ADDER0" File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder_N.vhd Line: 46
+Info (12128): Elaborating entity "xorg2" for hierarchy "Fulladder_N:PC_increment|Fulladder:ADDER0|xorg2:g_xor0" File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd Line: 62
+Info (12128): Elaborating entity "andg2" for hierarchy "Fulladder_N:PC_increment|Fulladder:ADDER0|andg2:g_and0" File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd Line: 72
+Info (12128): Elaborating entity "org2" for hierarchy "Fulladder_N:PC_increment|Fulladder:ADDER0|org2:g_or0" File: /home/longz/Desktop/Cpre381/project-2/src/Fulladder.vhd Line: 82
+Info (12128): Elaborating entity "mux_32bit_dataflow" for hierarchy "mux_32bit_dataflow:PC_mux" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 558
+Info (12128): Elaborating entity "register_IFID" for hierarchy "register_IFID:generic_IFID" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 567
+Info (12128): Elaborating entity "Register32bit" for hierarchy "register_IFID:generic_IFID|Register32bit:generic_32bitregister" File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 32
+Info (12128): Elaborating entity "Register_File" for hierarchy "Register_File:reg" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 589
+Info (12128): Elaborating entity "decoder5t32" for hierarchy "Register_File:reg|decoder5t32:write_decoder" File: /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd Line: 66
+Info (12128): Elaborating entity "Reg_N" for hierarchy "Register_File:reg|Reg_N:reg_0" File: /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd Line: 78
+Info (12128): Elaborating entity "dffg" for hierarchy "Register_File:reg|Reg_N:reg_0|dffg:\G_NBit_REG:0:g_dffg0" File: /home/longz/Desktop/Cpre381/project-2/src/Reg_N.vhd Line: 41
+Info (12128): Elaborating entity "mux32t1_array" for hierarchy "Register_File:reg|mux32t1_array:read_mux_t" File: /home/longz/Desktop/Cpre381/project-2/src/Register_File.vhd Line: 94
+Info (12128): Elaborating entity "mux4to1" for hierarchy "mux4to1:generic_forwarding_mux3" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 601
+Info (12128): Elaborating entity "mux_32bit_dataflow" for hierarchy "mux_32bit_dataflow:jal_read_mux" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 619
+Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:generic_controlUnit" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 626
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "RegDst", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "ALUSrc", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "MemtoReg", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "RegWrite", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "MemWrite", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "ALUControl", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "beq", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "bne", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "j", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "jr", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "sltu", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "shiftVariable", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "upper_immediate", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Warning (10631): VHDL Process Statement warning at controlUnit.vhd(57): inferring latch(es) for signal or variable "s_halt", which holds its previous value in one or more paths through the process File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "s_halt" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "upper_immediate" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "shiftVariable" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "sltu" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "jr" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "j" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "bne" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "beq" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "ALUControl[0]" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "ALUControl[1]" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "ALUControl[2]" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "ALUControl[3]" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "MemWrite" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "RegWrite" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "MemtoReg" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "ALUSrc" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (10041): Inferred latch for "RegDst" at controlUnit.vhd(57) File: /home/longz/Desktop/Cpre381/project-2/src/controlUnit.vhd Line: 57
+Info (12128): Elaborating entity "extender_N" for hierarchy "extender_N:generic_immediate_extend" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 646
+Info (12128): Elaborating entity "barrel_shifter" for hierarchy "barrel_shifter:generic_barrel_shifter" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 659
+Info (12128): Elaborating entity "control_hazard_dataflow" for hierarchy "control_hazard_dataflow:hazard" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 706
+Info (12128): Elaborating entity "forwarding_dataflow" for hierarchy "forwarding_dataflow:generic_forwarding" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 732
+Info (12128): Elaborating entity "register_IDEX" for hierarchy "register_IDEX:generic_register_IDEX" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 780
+Info (12128): Elaborating entity "Register32bit" for hierarchy "register_IDEX:generic_register_IDEX|Register32bit:generic_wrAddr" File: /home/longz/Desktop/Cpre381/project-2/src/register_IDEX.vhd Line: 83
+Info (12128): Elaborating entity "Register32bit" for hierarchy "register_IDEX:generic_register_IDEX|Register32bit:generic_op" File: /home/longz/Desktop/Cpre381/project-2/src/register_IDEX.vhd Line: 155
+Info (12128): Elaborating entity "register_EXMEM" for hierarchy "register_EXMEM:generic_register_EXMEM" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 943
+Info (12128): Elaborating entity "register_MEMWB" for hierarchy "register_MEMWB:generic_register_MEMWB" File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 999
+Error (12014): Net "s_PC_IFID[31]", which fans out to "register_IDEX:generic_register_IDEX|PC[31]", cannot be assigned more than one value File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 124
+    Error (12015): Net is fed by "register_IFID:generic_IFID|o_PC[31]" File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 12
+    Error (12015): Net is fed by "barrel_shifter:generic_barrel_shifter|o_O[31]" File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 19
+Error (12014): Net "s_PC_IFID[30]", which fans out to "register_IDEX:generic_register_IDEX|PC[30]", cannot be assigned more than one value File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 124
+    Error (12015): Net is fed by "register_IFID:generic_IFID|o_PC[30]" File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 12
+    Error (12015): Net is fed by "barrel_shifter:generic_barrel_shifter|o_O[30]" File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 19
+Error (12014): Net "s_PC_IFID[29]", which fans out to "register_IDEX:generic_register_IDEX|PC[29]", cannot be assigned more than one value File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 124
+    Error (12015): Net is fed by "register_IFID:generic_IFID|o_PC[29]" File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 12
+    Error (12015): Net is fed by "barrel_shifter:generic_barrel_shifter|o_O[29]" File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 19
+Error (12014): Net "s_PC_IFID[28]", which fans out to "register_IDEX:generic_register_IDEX|PC[28]", cannot be assigned more than one value File: /home/longz/Desktop/Cpre381/project-2/src/MIPS_Processor.vhd Line: 124
+    Error (12015): Net is fed by "register_IFID:generic_IFID|o_PC[28]" File: /home/longz/Desktop/Cpre381/project-2/src/register_IFID.vhd Line: 12
+    Error (12015): Net is fed by "barrel_shifter:generic_barrel_shifter|o_O[28]" File: /home/longz/Desktop/Cpre381/project-2/src/BarrelShifter.vhd Line: 19
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 12 errors, 34 warnings
+    Error: Peak virtual memory: 579 megabytes
+    Error: Processing ended: Fri Dec 10 21:36:52 2021
+    Error: Elapsed time: 00:00:10
+    Error: Total CPU time (on all processors): 00:00:18

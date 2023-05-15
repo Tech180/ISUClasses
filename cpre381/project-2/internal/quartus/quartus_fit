@@ -1,0 +1,5 @@
+#!/bin/bash
+export QUARTUS_64BIT=1
+export PATH=$PATH:/usr/local/quartus/20.1/quartus/bin
+export LM_LICENSE_FILE=$LM_LICENSE_FILE:27008@io.ece.iastate.edu:1717@io.ece.iastate.edu
+/usr/local/quartus/20.1/quartus/bin/quartus_fit $@

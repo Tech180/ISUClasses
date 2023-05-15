@@ -1,0 +1,567 @@
+-------------------------------------------------------------------------
+-- Riley Lawson
+-- Department of Electrical and Computer Engineering
+-- Iowa State University
+-------------------------------------------------------------------------
+
+
+-- ControlUnit.vhd
+-------------------------------------------------------------------------
+-- DESCRIPTION: This file contain a Control  
+-- implementation.
+
+-- 10/28/2021 by RL:: Created control unit
+-------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity controlUnit is
+  port(op_Code	    		: in std_logic_vector(5 downto 0);
+	Funct		    	: in std_logic_vector(5 downto 0);
+	RegDst		    	: out std_logic;
+	MemtoReg 	   	: out std_logic;
+	MemWrite 	    	: out std_logic;
+	ALUSrc 		   	: out std_logic;
+	RegWrite 	   	: out std_logic;
+	ALUControl	    	: out std_logic_vector(3 downto 0);
+	beq 		    	: out std_logic;
+ 	bne 		    	: out std_logic;
+	j  		        : out std_logic;
+	jr 		        : out std_logic;
+	sltu            	: out std_logic;
+	shiftVariable   	: out std_logic;
+	upper_immediate 	: out std_logic);
+
+
+
+end controlUnit;
+
+architecture behavioral of controlUnit is
+
+begin
+	process
+		begin
+			--recognizing op code then basing what instruction it goes off of the function code
+			if (op_Code = "000000") then
+				
+				--Instruction -> "add"
+				if (Funct = "100000") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0010";
+					--These apply to all
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+
+				--Instruction -> "addu"
+				elsif (Funct = "100001") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0010";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+				
+				--Instruction -> "and"
+				elsif (Funct = "100100") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0010";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "nor"
+				elsif (Funct = "100111") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "xor"
+				elsif (Funct = "100110") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0001";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "or"
+				elsif (Funct = "100101") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0001";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+	
+				--Instruction -> "slt"
+				elsif (Funct = "101010") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0111";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "sltu"
+				elsif (Funct = "101011") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0111";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '1';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "sll"
+				elsif (Funct = "000000") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "srl"
+				elsif (Funct = "000010") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "sra"
+				elsif (Funct = "000011") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "sllv"
+				elsif (Funct = "000100") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '1';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "srlv"
+				elsif (Funct = "000110") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '1';
+                    			upper_immediate <= '0';
+				
+				--Instruction -> "srav"
+				elsif (Funct = "000111") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '1';
+                    			upper_immediate <= '0';
+		
+				--Instruction -> "sub"	
+				elsif (Funct = "100010") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0110";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+				
+				--Instruction -> "subu"
+				elsif (Funct = "100011") then
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '1';
+					MemWrite        <= '0';
+					ALUControl      <= "0110";
+					beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '0';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+				--Instruction -> "jr" //jump and register
+				else
+					RegDst          <= '1';
+					ALUSrc          <= '0';
+					MemtoReg        <= '0';
+					RegWrite        <= '0';
+					MemWrite        <= '0';
+                    			beq             <= '0';
+					bne             <= '0';
+					j               <= '0';
+					jr              <= '1';
+					sltu            <= '0';
+                    			shiftVariable   <= '0';
+                    			upper_immediate <= '0';
+
+			end if;
+
+			--Immediate instructions
+			--Instruction -> "addi"
+			elsif (op_Code = "001000") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0010";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+			--Instruction -> "addiu"
+			elsif (op_Code = "001001") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0010";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "andi"
+			elsif (op_Code = "001100") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0000";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "lui"
+			elsif (op_Code = "001111") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '1';
+
+
+			--Instruction -> "xori"
+			elsif (op_Code = "001110") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0001";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "ori"
+			elsif (op_Code = "001101") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0001";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+			
+			--Instruction -> "slti"
+		 	elsif (op_Code = "001010") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0111";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "sltiu"
+			elsif (op_Code = "001011") then
+				RegDst          <= '1';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0111";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '1';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Load and Store Instructions
+			--Instruction -> "lw"
+			elsif (op_Code = "100011") then
+				RegDst          <= '0';
+				ALUSrc          <= '1';
+				MemtoReg        <= '1';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0010";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "sw"
+			elsif (op_Code = "101011") then
+				RegDst          <= '0';
+				ALUSrc          <= '1';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				ALUControl      <= "0010";
+				beq             <= '0';
+                		bne             <= '0';
+                		j               <= '0';
+                		jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Branch Instructions
+			--Instruction -> "beq"
+			elsif (op_Code = "000100") then
+				RegDst          <= '0';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '0';
+				MemWrite        <= '0';
+				ALUControl      <= "0110";
+				beq             <= '1';
+				bne             <= '0';
+				j               <= '0';
+				jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+
+			--Instruction -> "bne"
+			elsif (op_Code = "000101") then
+				RegDst          <= '0';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '0';
+				MemWrite        <= '0';
+				ALUControl      <= "0110";
+				beq             <= '0';
+                		bne             <= '1';
+				j               <= '0';
+				jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+			--Instruction -> "j"
+			elsif (op_Code = "000010") then
+				RegDst          <= '0';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '0';
+				MemWrite        <= '0';
+				beq             <= '0';
+				bne             <= '0';
+				j               <= '1';
+				jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+			
+			--Instruction -> "jal"
+			elsif (op_Code = "000011") then
+				RegDst          <= '0';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '1';
+				MemWrite        <= '0';
+				beq             <= '0';
+				bne             <= '0';
+				j               <= '1';
+				jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+			else
+				RegDst          <= '0';
+				ALUSrc          <= '0';
+				MemtoReg        <= '0';
+				RegWrite        <= '0';
+				MemWrite        <= '0';
+				beq             <= '0';
+                		bne             <= '0';
+				j               <= '0';
+				jr              <= '0';
+                		sltu            <= '0';
+                		shiftVariable   <= '0';
+                		upper_immediate <= '0';
+
+		end if;
+	end process;
+end behavioral;
+

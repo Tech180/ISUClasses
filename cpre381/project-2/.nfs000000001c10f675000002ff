@@ -1,0 +1,2277 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:51:20 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 21:51:20 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 21:51:22 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_processor(structure)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mem(rtl)#1
+# Loading work.fulladder_n(pizza_n)#1
+# Loading work.fulladder(pizza)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mux_32bit_dataflow(dataflow)#1
+# Loading work.register_ifid(structural)#1
+# Loading work.reg_array_type
+# Loading work.register32bit(bigboy)#1
+# Loading work.register_file(structural)#1
+# Loading work.decoder5t32(dataflow)#1
+# Loading work.reg_n(abc)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1_array(dataflow)#1
+# Loading work.mux4to1(structural)#1
+# Loading work.mux_32bit_dataflow(dataflow)#2
+# Loading work.controlunit(behavioral)#1
+# Loading work.extender_n(behavior)#1
+# Loading work.barrel_shifter(bsh)#1
+# Loading work.control_hazard_dataflow(dataflow)#1
+# Loading work.forwarding_dataflow(behavioral)#1
+# Loading work.register_idex(structural)#1
+# Loading work.register32bit(bigboy)#2
+# Loading work.register32bit(bigboy)#3
+# Loading work.barrel_shifter(bsh)#2
+# Loading work.register_exmem(structural)#1
+# Loading work.register_memwb(structural)#1
+quit -sim
+# End time: 21:52:12 on Dec 10,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-1/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/and_32bit_data.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/and_32bit_data.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_hazard_dataflow
+# -- Compiling architecture dataflow of control_hazard_dataflow
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 22:43:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:11 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity forwarding_dataflow
+# -- Compiling architecture behavioral of forwarding_dataflow
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd /home/rjlawson/Downloads/project-1/src/fullAdder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd /home/rjlawson/Downloads/project-1/src/fullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/fullAdder.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-1/src/fullAdderMap.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/fullAdderMap.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/fullAdderMap.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:43:12 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:12 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity MemForwardingUnit
+# -- Compiling architecture behavorial of MemForwardingUnit
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4to1
+# -- Compiling architecture structural of mux4to1
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 22:43:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register32bit
+# -- Compiling architecture bigboy of Register32bit
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_EXMEM
+# -- Compiling architecture structural of register_EXMEM
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 22:43:14 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:14 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IDEX
+# -- Compiling architecture structural of register_IDEX
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IFID
+# -- Compiling architecture structural of register_IFID
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_MEMWB
+# -- Compiling architecture structural of register_MEMWB
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-1/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/rjlawson/Downloads/project-2/src/tb.vhd(22): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb
+# -- Compiling architecture mixed of tb
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(100): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(101): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(102): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(104): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(105): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(106): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(108): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(109): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(116): (vcom-1136) Unknown identifier "regWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(121): (vcom-1136) Unknown identifier "regWrAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(123): (vcom-1136) Unknown identifier "regWrData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(126): (vcom-1136) Unknown identifier "memWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(131): (vcom-1136) Unknown identifier "memAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(133): (vcom-1136) Unknown identifier "memData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): (vcom-1136) Unknown identifier "ovfl".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): (vcom-1136) Unknown identifier "halt".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/rjlawson/Downloads/project-2/src/tb.vhd(152): VHDL Compiler exiting
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 1
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_pipeline
+# -- Compiling architecture mixed of tb_pipeline
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-1/src/tb_BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/tb_BarrelShifter.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/tb_BarrelShifter.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:43:15 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 22:43:15 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+cd /home/rjlawson/Downloads/project-2
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:44:59 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 22:44:59 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:44:59 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 22:44:59 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:44:59 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 22:44:59 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:44:59 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 22:44:59 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:44:59 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_hazard_dataflow
+# -- Compiling architecture dataflow of control_hazard_dataflow
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5to32
+# -- Compiling architecture dataflow of decoder5to32
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity forwarding_dataflow
+# -- Compiling architecture behavioral of forwarding_dataflow
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 22:45:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity MemForwardingUnit
+# -- Compiling architecture behavorial of MemForwardingUnit
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4to1
+# -- Compiling architecture structural of mux4to1
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 22:45:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:01 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register32bit
+# -- Compiling architecture bigboy of Register32bit
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_EXMEM
+# -- Compiling architecture structural of register_EXMEM
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IDEX
+# -- Compiling architecture structural of register_IDEX
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IFID
+# -- Compiling architecture structural of register_IFID
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 22:45:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:02 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_pipeline
+# -- Compiling architecture mixed of tb_pipeline
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/rjlawson/Downloads/project-2/src/tb.vhd(22): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb
+# -- Compiling architecture mixed of tb
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(100): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(101): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(102): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(104): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(105): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(106): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(108): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(109): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(116): (vcom-1136) Unknown identifier "regWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(121): (vcom-1136) Unknown identifier "regWrAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(123): (vcom-1136) Unknown identifier "regWrData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(126): (vcom-1136) Unknown identifier "memWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(131): (vcom-1136) Unknown identifier "memAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(133): (vcom-1136) Unknown identifier "memData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): (vcom-1136) Unknown identifier "ovfl".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): (vcom-1136) Unknown identifier "halt".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/rjlawson/Downloads/project-2/src/tb.vhd(152): VHDL Compiler exiting
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 1
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_MEMWB
+# -- Compiling architecture structural of register_MEMWB
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:45:03 on Dec 10,2021
+# vcom -reportprogress 30 -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 22:45:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 22:47:06 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(59): (vopt-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub
+# ** Warning: /home/rjlawson/Downloads/project-2/src/addsub.vhd(63): (vopt-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=10.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_processor(structure)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mem(rtl)#1
+# Loading work.fulladder_n(pizza_n)#1
+# Loading work.fulladder(pizza)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mux_32bit_dataflow(dataflow)#1
+# Loading work.register_ifid(structural)#1
+# Loading work.register32bit(bigboy)#1
+# Loading work.reg_array_type
+# Loading work.register_file(structural)#1
+# Loading work.decoder5t32(dataflow)#1
+# Loading work.reg_n(abc)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1_array(dataflow)#1
+# Loading work.mux4to1(structural)#1
+# Loading work.mux_32bit_dataflow(dataflow)#2
+# Loading work.controlunit(behavioral)#1
+# Loading work.extender_n(behavior)#1
+# Loading work.barrel_shifter(bsh)#1
+# Loading work.control_hazard_dataflow(dataflow)#1
+# Loading work.forwarding_dataflow(behavioral)#1
+# Loading work.alu_32bit(structural)#1
+# ** Warning: (vsim-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU File: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# Loading work.xor_32bit_data(dataflow)#1
+# Loading work.nor_32bit_data(dataflow)#1
+# Loading work.addsub(behavior)#1
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU/generic_add File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU/generic_add File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU/generic_sub File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU/generic_sub File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# Loading work.barrel_shifter(bsh)#2
+# Loading work.barrel_shifter(bsh)#3
+# Loading work.register_idex(structural)#1
+# Loading work.register32bit(bigboy)#2
+# Loading work.register32bit(bigboy)#3
+# ** Warning: (vsim-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU2 File: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU2/generic_add File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU2/generic_add File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "onescomp0 : OnesComp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU2/generic_sub File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux0 : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /mips_processor/generic_ALU2/generic_sub File: /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# Loading work.register_exmem(structural)#1
+# Loading work.register_memwb(structural)#1
+quit -sim
+# End time: 22:58:45 on Dec 10,2021, Elapsed time: 0:11:39
+# Errors: 0, Warnings: 20
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:58:51 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): near "(": (vcom-1576) expecting ';'.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 22:58:51 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:59:10 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): near "(": (vcom-1576) expecting ';'.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 22:59:10 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:59:44 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): (vcom-1436) Actual expression (indexed name) of formal "i_A" is not globally static.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 22:59:44 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:00:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 23:00:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:00:19 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): near ",": (vcom-1576) expecting ';'.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 23:00:19 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:00:44 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# ** Error: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(27): near "(": (vcom-1576) expecting ';'.
+# ** Note: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(31): VHDL Compiler exiting
+# End time: 23:00:44 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:02:17 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# End time: 23:02:17 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:02:37 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(59): (vcom-1141) Identifier "OnesComp_N" does not identify a component declaration.
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(63): (vcom-1141) Identifier "mux2t1_N" does not identify a component declaration.
+# ** Note: /home/rjlawson/Downloads/project-2/src/addsub.vhd(78): VHDL Compiler exiting
+# End time: 23:02:37 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:03:13 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 23:03:13 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:03:31 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 23:03:31 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:03:38 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 23:03:38 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 23:03:40 on Dec 10,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(15)
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=66.
+# Error loading design
+# End time: 23:03:40 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 66
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:06:29 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# End time: 23:06:29 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:06:35 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 23:06:35 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 23:06:36 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0/G1(15)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(0)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(1)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(2)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(3)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(4)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(5)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(6)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(7)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(8)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(9)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(10)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(11)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(12)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(13)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(14)
+# ** Warning: /home/rjlawson/Downloads/project-2/src/OnesComp.vhd(25): (vopt-3473) Component instance "inverse : invg" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0/G1(15)
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=66.
+# Error loading design
+# End time: 23:06:37 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 66
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:07:18 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 23:07:18 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/invg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:07:33 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:07:33 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:07:40 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 23:07:40 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:07:44 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# End time: 23:07:44 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 23:07:49 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU
+# ** Warning: /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd(104): (vopt-3473) Component instance "generic_32bit_and : and_32bit_data" is not bound.
+#         Region: /MIPS_Processor/generic_ALU2
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=2.
+# Error loading design
+# End time: 23:07:49 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 2
+vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:09:46 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit_data
+# -- Compiling architecture dataflow of and_32bit_data
+# End time: 23:09:46 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture behavior of addsub
+# End time: 23:10:00 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:00 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/ALU_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit
+# -- Compiling architecture structural of ALU_32bit
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/and_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_32bit_data
+# -- Compiling architecture dataflow of and_32bit_data
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture bsh of barrel_shifter
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/control_hazard_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_hazard_dataflow
+# -- Compiling architecture dataflow of control_hazard_dataflow
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture behavioral of controlUnit
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/controlUnit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit_tb
+# -- Compiling architecture behavior of controlUnit_tb
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/decoder5to32_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder5to32
+# -- Compiling architecture dataflow of decoder5to32
+# End time: 23:10:01 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:01 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/bitxtend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_N
+# -- Compiling architecture behavior of extender_N
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture behavorial of fetch
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/forwarding_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity forwarding_dataflow
+# -- Compiling architecture behavioral of forwarding_dataflow
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd /home/rjlawson/Downloads/project-1/src/fullAdder.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder.vhd /home/rjlawson/Downloads/project-1/src/fullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder
+# -- Compiling architecture pizza of Fulladder
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/fullAdder.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/home/rjlawson/Downloads/project-1/src/fullAdder_32bit.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Fulladder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fulladder_N
+# -- Compiling architecture pizza_N of Fulladder_N
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/invg.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mem.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 23:10:02 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:02 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MemForwardingUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity MemForwardingUnit
+# -- Compiling architecture behavorial of MemForwardingUnit
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux32t1_array.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity mux32t1_array
+# -- Compiling architecture dataflow of mux32t1_array
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux4to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4to1
+# -- Compiling architecture structural of mux4to1
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux8to1_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8to1_32bit_data
+# -- Compiling architecture dataflow of mux8to1_32bit_data
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/mux_32bit_dataflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32bit_dataflow
+# -- Compiling architecture dataflow of mux_32bit_dataflow
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/nand_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nand_32bit_data
+# -- Compiling architecture dataflow of nand_32bit_data
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/nor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor_32bit_data
+# -- Compiling architecture dataflow of nor_32bit_data
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# End time: 23:10:03 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:03 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/or_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_32bit_data
+# -- Compiling architecture dataflow of or_32bit_data
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/org2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/programCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity programCounter
+# -- Compiling architecture behavorial of programCounter
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/reg_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_array_type
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Reg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg_N
+# -- Compiling architecture abc of Reg_N
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register32bit
+# -- Compiling architecture bigboy of Register32bit
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_EXMEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_EXMEM
+# -- Compiling architecture structural of register_EXMEM
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package reg_array_type
+# -- Compiling entity Register_File
+# -- Compiling architecture structural of Register_File
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_IDEX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IDEX
+# -- Compiling architecture structural of register_IDEX
+# End time: 23:10:04 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:04 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_IFID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_IFID
+# -- Compiling architecture structural of register_IFID
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:05 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/register_MEMWB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_MEMWB
+# -- Compiling architecture structural of register_MEMWB
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/tb.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:05 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/rjlawson/Downloads/project-2/src/tb.vhd(22): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb
+# -- Compiling architecture mixed of tb
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(100): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(101): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(102): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(104): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(105): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(106): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(108): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(109): near "<": (vcom-1576) expecting CHARACTER or STRING or IDENTIFIER or <<.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(116): (vcom-1136) Unknown identifier "regWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(121): (vcom-1136) Unknown identifier "regWrAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(123): (vcom-1136) Unknown identifier "regWrData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(126): (vcom-1136) Unknown identifier "memWr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(131): (vcom-1136) Unknown identifier "memAddr".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(133): (vcom-1136) Unknown identifier "memData".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): (vcom-1136) Unknown identifier "ovfl".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(136): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): (vcom-1136) Unknown identifier "halt".
+# ** Error: /home/rjlawson/Downloads/project-2/src/tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/rjlawson/Downloads/project-2/src/tb.vhd(152): VHDL Compiler exiting
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 1
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:05 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/tb_datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_pipeline
+# -- Compiling architecture mixed of tb_pipeline
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:05 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/xor_32bit_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32bit_data
+# -- Compiling architecture dataflow of xor_32bit_data
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:10:05 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:10:05 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 23:10:11 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_add/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(60): (vopt-1550) Port 'i_D0' of component 'work.addsub(behavior).OnesComp' and port 'i_D0' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# ** Error (suppressible): /home/rjlawson/Downloads/project-2/src/addsub.vhd(61): (vopt-1550) Port 'o_O' of component 'work.addsub(behavior).OnesComp' and port 'o_O' of entity 'work.OnesComp' have different sizes:  ([32,16]).
+#         Region: /MIPS_Processor/generic_ALU2/generic_sub/onescomp0
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=0.
+# Error loading design
+# End time: 23:10:11 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:11:19 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/OnesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnesComp
+# -- Compiling architecture structural of OnesComp
+# End time: 23:11:19 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:11:25 on Dec 10,2021
+# vcom -reportprogress 300 -work work /home/rjlawson/Downloads/project-2/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 23:11:25 on Dec 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mips_processor
+# vsim -voptargs="+acc" work.mips_processor 
+# Start time: 23:11:26 on Dec 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_processor(structure)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mem(rtl)#1
+# Loading work.fulladder_n(pizza_n)#1
+# Loading work.fulladder(pizza)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.mux_32bit_dataflow(dataflow)#1
+# Loading work.register_ifid(structural)#1
+# Loading work.register32bit(bigboy)#1
+# Loading work.reg_array_type
+# Loading work.register_file(structural)#1
+# Loading work.decoder5t32(dataflow)#1
+# Loading work.reg_n(abc)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1_array(dataflow)#1
+# Loading work.mux4to1(structural)#1
+# Loading work.mux_32bit_dataflow(dataflow)#2
+# Loading work.controlunit(behavioral)#1
+# Loading work.extender_n(behavior)#1
+# Loading work.barrel_shifter(bsh)#1
+# Loading work.control_hazard_dataflow(dataflow)#1
+# Loading work.forwarding_dataflow(behavioral)#1
+# Loading work.alu_32bit(structural)#1
+# Loading work.and_32bit_data(dataflow)#1
+# Loading work.xor_32bit_data(dataflow)#1
+# Loading work.nor_32bit_data(dataflow)#1
+# Loading work.addsub(behavior)#1
+# Loading work.onescomp(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.barrel_shifter(bsh)#2
+# Loading work.barrel_shifter(bsh)#3
+# Loading work.register_idex(structural)#1
+# Loading work.register32bit(bigboy)#2
+# Loading work.register32bit(bigboy)#3
+# Loading work.register_exmem(structural)#1
+# Loading work.register_memwb(structural)#1
+# Break key hit
