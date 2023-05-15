@@ -1,0 +1,105 @@
+package lab6;
+
+import java.util.Scanner;
+
+public class whatever {
+	public static void main(String[] args)
+	  {
+        randomName("Char sally"); 
+        System.out.println();
+        blank("Riley");
+	  }
+	  
+	  public static int sumThree(String text)
+	  {
+	    Scanner in = new Scanner(text);
+	    int total = 0;
+	    int num = in.nextInt();
+	    total = total + num;
+	    num = in.nextInt();
+	    total = total + num;
+	    num = in.nextInt();
+	    total = total + num;
+	    return total;
+	  }
+	  
+	  public static int countPs(String s)
+	  {
+	    int total = 0;
+	    for (int i = 0; i < s.length(); i += 1)
+	    {
+	      // if the character is a 'p', add 1 to the total
+	      char c = s.charAt(i);
+	      if (c == 'p')
+	      {
+	        total += 1;
+	      }
+	    }
+	    return total;
+	  }
+	  
+	  public static String reverse(String s)
+	  {
+	    String result = "";  // start with empty string
+	    for (int i = s.length() - 1; i >= 0; i = i - 1)
+	    {
+	      result += s.charAt(i); // add on characters one at a time
+	    }
+	    return result;
+	  }
+	  
+	  public static int sumMany(String text)
+	  {
+	    Scanner in = new Scanner(text);
+	    int total = 0;
+	    while (in.hasNextInt())
+	    {
+	      int num = in.nextInt();
+	      total = total + num;     
+	    }
+	    return total;
+	  }
+	  
+	  public static int sumFromConsole()
+	  {
+	    Scanner in = new Scanner(System.in);
+	    int total = 0;
+	    while (in.hasNextInt())
+	    {
+	      System.out.print("Enter a number: ");
+	      int num = in.nextInt();
+	      total = total + num;     
+	    }
+	    return total;
+	  }
+	  
+	  public static void randomName(String name) { 
+		        
+		  if (name.length() == 0){
+		         return; 
+		  }
+		        
+		  System.out.print(Character.toUpperCase(name.charAt(0)));  
+		  for (int i = 1; i < name.length() - 1; i++) 
+		     if (name.charAt(i) == ' ') 
+		        System.out.print(Character.toUpperCase(name.charAt(i + 1))); 
+	  } 
+		    
+
+	  
+	  
+	  public static int blank(String word){
+		  for(int i = 0; i < word.length(); i++){
+			  if("aeiouAEIOU".indexOf(word.charAt(i)) >= 0){
+				  System.out.println("first vowel at " + i);
+				  return i;
+			  }
+		  }
+		  
+		  System.out.println("none");
+		  
+		  return -1;
+		  
+	  }
+	  
+}

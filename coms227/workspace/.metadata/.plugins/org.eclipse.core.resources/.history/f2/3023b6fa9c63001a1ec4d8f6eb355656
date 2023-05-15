@@ -1,0 +1,28 @@
+package lab7;
+
+import java.util.Arrays;
+
+public class ArrayList {
+	public static void main(String [] args){
+		
+		int[] arr;
+		
+		arr = new int[4];
+		
+		arr[0] = 17;
+	    arr[1] = 42;
+	    arr[2] = arr[1] - arr[0];
+	    arr[3] = arr[0]- arr[1];
+	    
+	    System.out.println(getPositiveNumbers(arr));
+	}
+	
+	
+	
+	public static int[] getPositiveNumbers(int[] numbers){
+		
+		int[] arr = new int[4];
+	    
+		
+	}
+}
