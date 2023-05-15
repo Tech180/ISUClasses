@@ -3,9 +3,9 @@ Here is a repository full of classes that have been taken over the years from re
 
 ## Classes Taken
 
-# Freshman Year
+## Freshman Year
 
-# Fall 2019
+### Fall 2019
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | SE 101 | Software Engineering Orientation |
