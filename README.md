@@ -14,7 +14,7 @@ Here is a repository full of classes that have been taken over the years from re
 | CHEM 165 | Chemistry |
 | ECON 101 | Basics of Economics |
 
-# Spring 2020
+### Spring 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | LIB 160 | Library Instruction |
@@ -22,12 +22,14 @@ Here is a repository full of classes that have been taken over the years from re
 | COMS 227 | Introductions to Object-Oriented Programming |
 | ENV 220 | An Introduction to Understanding the Key Global Issues |
 
-# Summer 2020
+### Summer 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | PHYS 221 | Introduction to Classical Physics 1 |
 
-# Fall 2020
+## Sophomore Year
+
+### Fall 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | MATH 166 | Calculus II |
@@ -36,14 +38,16 @@ Here is a repository full of classes that have been taken over the years from re
 | COM S 228 | Introduction to Data Structures |
 | HIST 201 | Introduction to Western Civilization I |
 
-# Spring 2021
+### Spring 2021
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | MATH 267 | Elementary Differential Equations & Laplace Transforms |
 | CPRE 288 | Embedded Systems I |
 | SE 319 | Software Construction and User Interfaces |
 
-# Fall 2021
+## Junior Year
+
+### Fall 2021
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | SE 309 | Software Development Practices |
@@ -51,7 +55,7 @@ Here is a repository full of classes that have been taken over the years from re
 | CPRE 381 | Computer Organization and Assembly Level Programming |
 | MATH 207 | Matrices and Linear Algebra |
 
-# Spring 2022
+### Spring 2022
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | CPRE 308 | Operating System Concepts |
@@ -60,7 +64,9 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 339 | Software Architecturea and Design |
 | ENGL 314 | Technical Communications |
 
-# Fall 2022
+## Senior Year
+
+### Fall 2022
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | COMS 311 | Introduction to the Design and Analysis of Algorithms |
@@ -68,7 +74,7 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 421 | Software Analysis and Verification for Safety and Security |
 | SE 491 | Senior Design Project I and Professionalism |
 
-# Spring 2023
+### Spring 2023
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | COM S 415 | Software System Safety |
@@ -78,7 +84,9 @@ Here is a repository full of classes that have been taken over the years from re
 
 *Note: For S E 491/492, see [this](https://sdmay24-10.sd.ece.iastate.edu/) link.
 
-# Fall 2023
+## 5th Year
+
+### Fall 2023
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | CPRE 331 | Application of Cryptographic Conceptes to Cyber Security |
