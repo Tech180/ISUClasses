@@ -95,7 +95,7 @@ Here is a repository full of classes that have been taken over the years from re
 | STAT 330 | Probablity and Statistics for Computer Science |
 
 # Classes Included
-
+<summary><b>LONG READ</b></summary>
 | Course Number | Course Title |
 | :------------- | :----------: | 
 | CPRE 281 | Digital Logic |
