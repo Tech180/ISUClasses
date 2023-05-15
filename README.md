@@ -8,7 +8,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Fall 2019
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | SE 101 | Software Engineering Orientation |
 | SE 185 | Problems Solving in Software Engineering |
 | MATH 165 | Calculus I |
@@ -18,7 +17,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Spring 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | LIB 160 | Library Instruction |
 | SE 166 | Careers in Software Engineering |
 | COMS 227 | Introductions to Object-Oriented Programming |
@@ -27,13 +25,11 @@ Here is a repository full of classes that have been taken over the years from re
 # Summer 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | PHYS 221 | Introduction to Classical Physics 1 |
 
 # Fall 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | MATH 166 | Calculus II |
 | SP CM 212 | Fundamentals of Public Speaking |
 | CPR E 281 | Digital Logic |
@@ -43,7 +39,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Spring 2021
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | MATH 267 | Elementary Differential Equations & Laplace Transforms |
 | CPRE 288 | Embedded Systems I |
 | SE 319 | Software Construction and User Interfaces |
@@ -51,7 +46,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Fall 2021
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | SE 309 | Software Development Practices |
 | COMS 363 | Introduction to Database Management Systems |
 | CPRE 381 | Computer Organization and Assembly Level Programming |
@@ -60,7 +54,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Spring 2022
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | CPRE 308 | Operating System Concepts |
 | CPRE 310 | Theoretical Foundations of Computer Engineering |
 | SE 317 | Introduction to Software Testing |
@@ -70,7 +63,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Fall 2022
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | COMS 311 | Introduction to the Design and Analysis of Algorithms |
 | CPRE 230 | Cyber Security Fundamentals |
 | SE 421 | Software Analysis and Verification for Safety and Security |
@@ -79,7 +71,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Spring 2023
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | COM S 415 | Software System Safety |
 | CPRE 231 | Cyber Security Concepts and Tools |
 | SE 422X | Cloud Computing - Software Development |
@@ -90,7 +81,6 @@ Here is a repository full of classes that have been taken over the years from re
 # Fall 2023
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | CPRE 331 | Application of Cryptographic Conceptes to Cyber Security |
 | CPRE 388 | Embedded Systems II: Mobile Platforms |
 | SE 492 | Senior Design Project II |
@@ -100,7 +90,6 @@ Here is a repository full of classes that have been taken over the years from re
 
 | Course Number | Course Title |
 | :------------- | :----------: | 
-
 | CPRE 281 | Digital Logic |
 | CPRE 288 | Embedded Systems I: Introduction |
 | CPRE 308 | Operating Systems: Principals and Practice |
