@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<style>
+    input {
+        margin-left: 5px;
+    }
+
+    #characters {
+        text-align: left;
+    }
+
+    .inner {
+        display: inline-block;
+    }
+</style>
+<html>
+<head>
+<title> Ascii Canvas </title>
+<meta name="description"content="Create Amazing Art using Ascii characters!">
+</head>
+
+
+<body>
+
+   
+	
+    <!--CANVAS-->
+	<p id="all">
+
+    <canvas id="canvas" width="1000" height="600"></canvas>
+	<canvas id="layer2" width="1000" height="600" style="position: absolute; left: 7px; top: 5000; z-index: 0; border:3px solid #000000"></canvas>
+	<div id = "canvasSizeMarker">canvas size: 0 x 0</div>
+	</br>
+	<div id = "currentChar">current character: </div>
+	</br>
+	<script src="ascii.js"></script>
+	
+	
+	  <!--BUTTONS-->
+    <form>
+		 <!--TOOLS-->
+        <div id="tools">
+            <div class="inner"><img id="number" src="images/DrawUp.png" title="Characters" onclick="characterSelect('characters')" /></div>
+			<div class="inner"><img id="erase" src = "images/EraseUp.png" title = "Erase" onclick="characterSelect('space')" /></div>
+			<div class="inner"><img id="eyeDrop" src="images/EyedropperUp.png" title="Eye Dropper" onclick="eyeDropper()" /></div>
+            <div class="inner"><img id="confirmClear" src = "images/ClearUp.png" title ="Clear Work" onclick="clearWarning()" /></div>
+			<div class="inner"><img id = "gridlines" src = "images/ShowGridUp.png" title="Show guidelines" onclick="toggleGrid()" /></div>
+			<div class="inner"><img id = "changeSize" src = "images/ResizeUp.png" title="resize canvas" onclick=  "changeCanvasSize()"/></div>
+			<div class="inner"><img id = "refresh" src = "images/RefreshUp.png" title="Refresh Grid" onclick = "refreshGrid()"/></div>
+			<div class="inner"><img id = "undoButton" src = "images/UndoUp.png" title="Undo" onclick = "undoText()"/></div>
+			<div class="inner"><img id = "darkModeToggle" src = "images/DarkModeUp.png" title="Toggle Dark Mode" onclick = "toggleDarkMode()"/></div>
+			<div class="inner"><img id = "copyGrid" src = "images/CopyToClipboardUp.png" title="Copy Grid to clipboard" onclick="copyArray()" /></div>
+			<div class="inner"><img id = "downloadGrid" src = "images/DownloadUp.png" title="Download Grid" onclick="saveAsTxt()" /></div>
+			<div class="inner"><img id = "info" src = "images/InfoUp.png" title="Information" onclick="showHelp()"/></div>
+			<a id="txt" href="" download=""></a>
+			    
+		</div>
+		<br>
+		<!--ADVANCED DIVISION-->
+		<!--Should be empty, is changed by code-->
+		<div id = "advanced">
+
+		</div>
+    </form>
+	</p>
+
+</body>
+</html>
+
