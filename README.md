@@ -96,7 +96,7 @@ Here is a repository full of classes that have been taken over the years from re
 
 # Classes Github
 <details>
-<summary><p>Included</p></summary>
+<summary><b>Included</b></summary>
 
 | Course Number | Course Title |
 | :------------- | :----------: | 
