@@ -94,9 +94,9 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 492 | Senior Design Project II |
 | STAT 330 | Probablity and Statistics for Computer Science |
 
-
+# Classes Github
 <details>
-<summary><p class="ex2">Classes Included</p></summary>
+<summary><p>Included</p></summary>
 
 | Course Number | Course Title |
 | :------------- | :----------: | 
