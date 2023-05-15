@@ -25,7 +25,7 @@ Here is a repository full of classes that have been taken over the years from re
 ### Summer 2020
 | Course Number | Course Title |
 | :------------- | :----------: | 
-| PHYS 221 | Introduction to Classical Physics 1 |
+| PHYS 221 | Introduction to Classical Physics I |
 
 </details>
 
