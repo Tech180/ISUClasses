@@ -89,9 +89,10 @@ Here is a repository full of classes that have been taken over the years from re
 | COM S 415 | Software System Safety |
 | CPRE 231 | Cyber Security Concepts and Tools |
 | SE 422X | Cloud Computing - Software Development |
+<details>
 | SE 492 | Senior Design Project II |
-
-*Note: For S E 491/492, see [this](https://sdmay24-10.sd.ece.iastate.edu/) link.
+</details>
+*Note: For S E 491/492, see [this](https://sdmay23-14.sd.ece.iastate.edu/) link.
 
 </details>
 
