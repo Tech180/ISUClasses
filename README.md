@@ -99,7 +99,7 @@ Here is a repository full of classes that have been taken over the years from re
 ### Fall 2023
 | Course Number | Course Title |
 | :------------- | :----------: | 
-| CPRE 331 | Application of Cryptographic Conceptes to Cyber Security |
+| CPRE 331 | Application of Cryptographic Concepts to Cyber Security |
 | CPRE 388 | Embedded Systems II: Mobile Platforms |
 | SE 492 | Senior Design Project II |
 | STAT 330 | Probablity and Statistics for Computer Science |
