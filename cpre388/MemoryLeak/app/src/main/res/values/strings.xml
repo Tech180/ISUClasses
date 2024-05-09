@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemoryLeak</string>
+    <string name="button_text">DO NOT PRESS</string>
+    <string name="cat_name">Munster</string>
+    <string name="cat_color">black and white</string>
+    <string name="cat_toast">%1$d cats created!</string>
+</resources>

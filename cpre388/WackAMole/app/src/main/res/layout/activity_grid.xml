@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="12">
+
+    <TextView
+        android:id="@+id/currentScoreNumber"
+        android:layout_width="49dp"
+        android:layout_height="40dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="@string/currentScoreNumber" />
+
+    <TextView
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="score: " />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="mole-scaped" />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="156dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="" />
+
+    <!-- Lumps -->
+
+    <!-- Dead Moles -->
+
+    <ImageView
+        android:id="@+id/lump1"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump2"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="5"
+        android:layout_column="1"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump3"
+        android:layout_width="126dp"
+        android:layout_height="101dp"
+        android:layout_row="5"
+        android:layout_column="2"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump4"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump5"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump6"
+        android:layout_width="127dp"
+        android:layout_height="101dp"
+        android:layout_row="6"
+        android:layout_column="2"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump7"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="7"
+        android:layout_column="0"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump8"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="7"
+        android:layout_column="1"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump9"
+        android:layout_width="129dp"
+        android:layout_height="101dp"
+        android:layout_row="7"
+        android:layout_column="2"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump10"
+        android:layout_width="142dp"
+        android:layout_height="91dp"
+        android:layout_row="8"
+        android:layout_column="0"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump11"
+        android:layout_width="142dp"
+        android:layout_height="91dp"
+        android:layout_row="8"
+        android:layout_column="1"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/lump12"
+        android:layout_width="142dp"
+        android:layout_height="91dp"
+        android:layout_row="8"
+        android:layout_column="2"
+        app:srcCompat="@drawable/lump" />
+
+    <ImageView
+        android:id="@+id/deadMole1"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@drawable/deadmole" />
+
+    <ImageView
+        android:id="@+id/deadMole2"
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        app:srcCompat="@drawable/deadmole" />
+
+    <ImageView
+        android:id="@+id/deadMole3"
+        android:layout_width="126dp"
+        android:layout_height="101dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        app:srcCompat="@drawable/deadmole" />
+
+
+    <!-- Moles -->
+    <ImageView
+        android:id="@+id/mole1"
+        android:layout_width="142dp"
+        android:layout_height="92dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole2"
+        android:layout_width="142dp"
+        android:layout_height="92dp"
+        android:layout_row="5"
+        android:layout_column="1"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole3"
+        android:layout_width="128dp"
+        android:layout_height="92dp"
+        android:layout_row="5"
+        android:layout_column="2"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole4"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole5"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole6"
+        android:layout_width="127dp"
+        android:layout_height="92dp"
+        android:layout_row="6"
+        android:layout_column="2"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole7"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_row="7"
+        android:layout_column="0"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole8"
+        android:layout_width="142dp"
+        android:layout_height="92dp"
+        android:layout_row="7"
+        android:layout_column="1"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole9"
+        android:layout_width="127dp"
+        android:layout_height="92dp"
+        android:layout_row="7"
+        android:layout_column="2"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole10"
+        android:layout_width="142dp"
+        android:layout_height="92dp"
+        android:layout_row="8"
+        android:layout_column="0"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole11"
+        android:layout_width="142dp"
+        android:layout_height="92dp"
+        android:layout_row="8"
+        android:layout_column="1"
+        app:srcCompat="@drawable/mole" />
+
+    <ImageView
+        android:id="@+id/mole12"
+        android:layout_width="127dp"
+        android:layout_height="92dp"
+        android:layout_row="8"
+        android:layout_column="2"
+        app:srcCompat="@drawable/mole" />
+
+
+
+</GridLayout>

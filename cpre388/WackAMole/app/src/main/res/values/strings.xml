@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wack-A-Mole</string>
+    <string name="currentScore">Score: </string>
+    <string name="currentScoreNumber">0</string>
+    <string name="highScore">High Score: </string>
+    <string name="highScoreNumber">0</string>
+    <string name="previousScore">Previous Score</string>
+    <string name="previousScoreNumber">0</string>
+    <string name="clickToPlay">Click To Play</string>
+</resources>
