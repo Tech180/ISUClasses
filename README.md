@@ -115,6 +115,7 @@ Here is a repository full of classes that have been taken over the years from re
 | CPRE 281 | Digital Logic |
 | CPRE 288 | Embedded Systems I: Introduction |
 | CPRE 308 | Operating Systems: Principals and Practice |
+| CPRE 331 | Application of Cryptographic Concepts to Cyber Security |
 | CPRE 381 | Computer Organization and Assembly Level Programming |
 | CPRE 388 | Embedded Systems II: Mobile Platforms |
 | COMS 227 | Object-Oriented Programming |
