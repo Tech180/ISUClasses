@@ -121,6 +121,7 @@ Here is a repository full of classes that have been taken over the years from re
 | SE 309 | Software Development Practices |
 | SE 317 | Introduction to Software Testing |
 | SE 319 | Construction of User Interfaces |
+| CPRE 388 | Embedded Systems II: Mobile Platforms |
 </details>
 
 
