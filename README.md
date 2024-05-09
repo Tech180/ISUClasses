@@ -115,13 +115,13 @@ Here is a repository full of classes that have been taken over the years from re
 | CPRE 281 | Digital Logic |
 | CPRE 288 | Embedded Systems I: Introduction |
 | CPRE 308 | Operating Systems: Principals and Practice |
+| CPRE 388 | Embedded Systems II: Mobile Platforms |
 | CPRE 381 | Computer Organization and Assembly Level Programming |
 | COMS 227 | Object-Oriented Programming |
 | SE 185 | Problem Solving in Software Engineering |
 | SE 309 | Software Development Practices |
 | SE 317 | Introduction to Software Testing |
 | SE 319 | Construction of User Interfaces |
-| CPRE 388 | Embedded Systems II: Mobile Platforms |
 </details>
 
 
